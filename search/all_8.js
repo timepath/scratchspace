@@ -178,6 +178,7 @@ var searchData=
   ['hitplot_2eqh',['hitplot.qh',['../dc/d8b/hitplot_8qh.html',1,'']]],
   ['hitplotfh',['hitplotfh',['../d1/d37/classClient.html#a90aeb156a3cfabccc0d276e33438fcfd',1,'Client::hitplotfh()'],['../dc/d8b/hitplot_8qh.html#a0dec3059937cd4f1b051bffe2632a6a6',1,'hitplotfh():&#160;hitplot.qh']]],
   ['hitsound',['HitSound',['../d6/dd3/view_8qc.html#a34d0140337320f3989dc15dc846c035d',1,'view.qc']]],
+  ['hitsound_5fdamage_5fdealt',['hitsound_damage_dealt',['../d4/d62/damage_8qh.html#a0544033bfa8221f42bacab86a1b0b178',1,'damage.qh']]],
   ['hittype_5farmorpierce',['HITTYPE_ARMORPIERCE',['../d9/d4f/deathtypes_2all_8qh.html#a4de07202894d6687c6df67891c6e2b0a',1,'all.qh']]],
   ['hittype_5fbounce',['HITTYPE_BOUNCE',['../d9/d4f/deathtypes_2all_8qh.html#a711c18b27d2eef6958316442f830587d',1,'all.qh']]],
   ['hittype_5fsecondary',['HITTYPE_SECONDARY',['../d9/d4f/deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb',1,'all.qh']]],

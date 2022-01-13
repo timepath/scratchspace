@@ -10,7 +10,6 @@ var searchData=
   ['damage_5fblurpostprocess',['damage_blurpostprocess',['../d6/dd3/view_8qc.html#a7e6d87a7998ec09b1647c49f62bc3a95',1,'view.qc']]],
   ['damage_5fdamageinfo',['Damage_DamageInfo',['../d4/d62/damage_8qh.html#af1915ea9d450669a5a0672749148448f',1,'damage.qh']]],
   ['damage_5fdamageinfo_5fsendentity',['Damage_DamageInfo_SendEntity',['../d4/d62/damage_8qh.html#a51f04829b917db9ab7e7d7cac5fddfdb',1,'damage.qh']]],
-  ['damage_5fdealt',['damage_dealt',['../d4/d62/damage_8qh.html#af559423f7d435c0c60ca2be3353db686',1,'damage.qh']]],
   ['damage_5fexplosion_5fcalcpush',['damage_explosion_calcpush',['../d8/d58/calculations_8qc.html#a4a34221f79cad0b72ecf3df3f930bda9',1,'damage_explosion_calcpush(vector explosion_f, vector target_v, float speedfactor):&#160;calculations.qc'],['../db/d81/calculations_8qh.html#a4a34221f79cad0b72ecf3df3f930bda9',1,'damage_explosion_calcpush(vector explosion_f, vector target_v, float speedfactor):&#160;calculations.qc']]],
   ['damage_5fflags',['damage_flags',['../d9/d67/turret_8qh.html#aba6e4da100ed92cc4a7a40c56871af49',1,'turret.qh']]],
   ['damage_5fno',['DAMAGE_NO',['../d6/d11/progsdefs_8qc.html#ab48a6b5f493fae9734e3eaf646ec2999',1,'progsdefs.qc']]],

@@ -310,7 +310,7 @@ var searchData=
   ['tvt_5ftadv',['tvt_tadv',['../df/d28/sv__turrets_8qh.html#a90b555cdf003b86e477a59efac8b4a14',1,'sv_turrets.qh']]],
   ['tvt_5fthadf',['tvt_thadf',['../df/d28/sv__turrets_8qh.html#a7da351a830557a1fb4b0908c9daf45f1',1,'sv_turrets.qh']]],
   ['tvt_5fthadv',['tvt_thadv',['../df/d28/sv__turrets_8qh.html#a332de5647b4049b0c0578521988f16fb',1,'sv_turrets.qh']]],
-  ['typehitsound',['typehitsound',['../d4/d62/damage_8qh.html#a2b2cad71d9088357051170c08fb286a9',1,'damage.qh']]],
+  ['typehitsound',['typehitsound',['../d4/d62/damage_8qh.html#ae504b3f778d08a462574be2456439ff5',1,'damage.qh']]],
   ['typeiconorigin',['typeIconOrigin',['../d4/d91/classXonoticCampaignList.html#a5593ee25ae08090d67e210699fb6eb4e',1,'XonoticCampaignList']]],
   ['typeiconsize',['typeIconSize',['../d4/d91/classXonoticCampaignList.html#a093efe8e6a0350a879cc57c922f3162e',1,'XonoticCampaignList']]],
   ['typelabels',['typeLabels',['../dc/da0/classXonoticMapInfoDialog.html#ac2beec303e5cec8d53f5c9fc7d0cad67',1,'XonoticMapInfoDialog']]],

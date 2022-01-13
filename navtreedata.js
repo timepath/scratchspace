@@ -73,7 +73,7 @@ var NAVTREEINDEX =
 "d4/d38/rainsnow_8qc_source.html",
 "d4/d3f/tracing_8qh.html#aa349f780b5d2d608e278935b6e4c60db",
 "d4/d55/classXonoticCreditsList.html#ab3cfe29e3f0b94f74cfa9a39cde7c92f",
-"d4/d62/damage_8qh.html#a2606d7979cdea514c3d8271956430a8d",
+"d4/d62/damage_8qh.html#a23d73461c891095705d9e88dcbf0b164",
 "d4/d85/classXonoticUid2NameDialog.html#a803d60fc98720f4af4fc027e7276c8e2",
 "d4/d90/skin-customizables_8inc.html#ab90fe2827f02c9810a8476451f293eae",
 "d4/d94/classXonoticHUDVoteDialog.html#a72c0e76156762fbda152032add5f1630",

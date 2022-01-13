@@ -161,6 +161,6 @@ var searchData=
   ['killed_5fmonsters',['killed_monsters',['../d6/d11/progsdefs_8qc.html#a36860577d5e193383858a6256d509ee1',1,'progsdefs.qc']]],
   ['killindicator',['killindicator',['../d2/d4d/clientkill_8qh.html#a59f3bedf42216e820a4817519548bd90',1,'clientkill.qh']]],
   ['killindicator_5fteamchange',['killindicator_teamchange',['../d2/d4d/clientkill_8qh.html#a33fa8ce82dd2df9d9af4e0e8c6814de2',1,'clientkill.qh']]],
-  ['killsound',['killsound',['../d4/d62/damage_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6',1,'damage.qh']]],
+  ['killsound',['killsound',['../d4/d62/damage_8qh.html#a06b801f9012ff5f17c9abd980d389085',1,'damage.qh']]],
   ['killtarget',['killtarget',['../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70',1,'subs.qh']]]
 ];
