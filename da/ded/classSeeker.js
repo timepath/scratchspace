@@ -25,7 +25,7 @@ var classSeeker =
     [ "Weapon ::wr_viewmodel", "da/ded/classSeeker.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "da/ded/classSeeker.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "da/ded/classSeeker.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "da/ded/classSeeker.html#af2401c8ad318d37b3f937d00928177f4", null ],
+    [ "ammo_type", "da/ded/classSeeker.html#ac5d88e15f17b5cb120ed8d0e36f4c130", null ],
     [ "bot_pickupbasevalue", "da/ded/classSeeker.html#aa2346884e39312c506a4dc501439286a", null ],
     [ "impulse", "da/ded/classSeeker.html#a17100988ab3f606059c96ecc44e8a3b0", null ],
     [ "m_canonical_spawnfunc", "da/ded/classSeeker.html#aaf4b82509872ff711147c61cd7e9a67b", null ],

@@ -2,6 +2,7 @@ var annotated_dup =
 [
     [ "Ammo", "dc/dda/classAmmo.html", "dc/dda/classAmmo" ],
     [ "AmmoBuff", "d6/d66/classAmmoBuff.html", "d6/d66/classAmmoBuff" ],
+    [ "AmmoResource", "d2/d14/classAmmoResource.html", "d2/d14/classAmmoResource" ],
     [ "Animation", "d0/d5d/classAnimation.html", "d0/d5d/classAnimation" ],
     [ "AnimHost", "d3/d78/classAnimHost.html", "d3/d78/classAnimHost" ],
     [ "Arc", "db/d3c/classArc.html", "db/d3c/classArc" ],
@@ -131,6 +132,7 @@ var annotated_dup =
     [ "RaptorCannon", "d6/d01/classRaptorCannon.html", "d6/d01/classRaptorCannon" ],
     [ "RaptorFlare", "dd/d90/classRaptorFlare.html", "dd/d90/classRaptorFlare" ],
     [ "ResistanceBuff", "d5/d6c/classResistanceBuff.html", "d5/d6c/classResistanceBuff" ],
+    [ "Resource", "da/dcd/classResource.html", "da/dcd/classResource" ],
     [ "Rifle", "d0/d81/classRifle.html", "d0/d81/classRifle" ],
     [ "Seeker", "da/ded/classSeeker.html", "da/ded/classSeeker" ],
     [ "SettingSource", "d1/dd1/classSettingSource.html", "d1/dd1/classSettingSource" ],

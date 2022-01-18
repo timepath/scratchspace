@@ -25,7 +25,7 @@ var classVaporizer =
     [ "Weapon ::wr_viewmodel", "d5/d99/classVaporizer.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d5/d99/classVaporizer.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d5/d99/classVaporizer.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d5/d99/classVaporizer.html#a69e6ed7b03831ed7050fb091196cd57b", null ],
+    [ "ammo_type", "d5/d99/classVaporizer.html#ade919e469017a420aa2da98803eed884", null ],
     [ "bot_pickupbasevalue", "d5/d99/classVaporizer.html#a1b01884770cf782e1003225a352033dd", null ],
     [ "impulse", "d5/d99/classVaporizer.html#a12b0ba95c9e30c47108c50ac2f2b3901", null ],
     [ "m_canonical_spawnfunc", "d5/d99/classVaporizer.html#a17b93a5b1c7d428d5bcd691b5484af56", null ],

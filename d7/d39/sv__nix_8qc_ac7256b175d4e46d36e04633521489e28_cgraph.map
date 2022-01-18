@@ -1,22 +1,26 @@
 <map id="MUTATOR_HOOKFUNCTION" name="MUTATOR_HOOKFUNCTION">
-<area shape="rect" id="node2" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1165,144,1225,171"/>
-<area shape="rect" id="node3" href="$d7/d39/sv__nix_8qc.html#a71c80b0c1234dc67733b6ae5b492b009" title="NIX_GiveCurrentWeapon" alt="" coords="252,267,435,294"/>
-<area shape="rect" id="node4" href="$d7/d39/sv__nix_8qc.html#a7855e69af6ee0d89fe8ad835500790b2" title="NIX_ChooseNextWeapon" alt="" coords="483,144,665,171"/>
-<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="551,292,597,319"/>
-<area shape="rect" id="node8" href="$d8/d06/client_2resources_8qc.html#a07f27dec0520a6bfdffc084639470886" title="Sets the current amount of resource the given entity will have. " alt="" coords="744,410,847,436"/>
-<area shape="rect" id="node9" href="$d4/d91/server_2resources_8qc.html#ab0a657f02ad46df5e2aa7f9f38428ff8" title="Gives an entity some resource. " alt="" coords="519,468,629,495"/>
-<area shape="rect" id="node12" href="$d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411" title="client_hasweapon" alt="" coords="726,347,865,374"/>
-<area shape="rect" id="node19" href="$d2/d62/selection_8qc.html#a040fef5835b1141797bcb28e880c7f5a" title="W_SwitchWeapon" alt="" coords="505,242,643,268"/>
-<area shape="rect" id="node5" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="713,144,877,171"/>
-<area shape="rect" id="node6" href="$d7/d39/sv__nix_8qc.html#a7bcb5b58de02894dfb32251eb9de36d3" title="NIX_CanChooseWeapon" alt="" coords="926,119,1103,146"/>
-<area shape="rect" id="node10" href="$d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" title="Returns the current amount of resource the given entity has. " alt="" coords="743,516,847,543"/>
-<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="770,466,821,492"/>
-<area shape="rect" id="node13" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="995,448,1034,475"/>
-<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="985,499,1044,526"/>
-<area shape="rect" id="node15" href="$d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5" title="weaponslot" alt="" coords="966,347,1063,374"/>
-<area shape="rect" id="node16" href="$d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837" title="Send_WeaponComplain" alt="" coords="927,398,1102,424"/>
-<area shape="rect" id="node18" href="$d2/d62/selection_8qc.html#a8ebba9ca88508abccc39d23b9c40defd" title="Weapon_whereis" alt="" coords="949,296,1081,323"/>
-<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="1152,398,1239,424"/>
-<area shape="rect" id="node20" href="$d2/d62/selection_8qc.html#a26a298ee4ff7a3e0706b8892030ecf1a" title="W_SwitchWeapon_Force" alt="" coords="925,246,1104,272"/>
-<area shape="rect" id="node21" href="$d5/de0/weaponsystem_8qc.html#ac7b6c8bdba2c394f8a3385c9bd992f9c" title="weaponLocked" alt="" coords="736,246,855,272"/>
+<area shape="rect" id="node2" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1208,416,1268,442"/>
+<area shape="rect" id="node3" href="$d7/d39/sv__nix_8qc.html#a71c80b0c1234dc67733b6ae5b492b009" title="NIX_GiveCurrentWeapon" alt="" coords="252,353,435,380"/>
+<area shape="rect" id="node4" href="$d7/d39/sv__nix_8qc.html#a7855e69af6ee0d89fe8ad835500790b2" title="NIX_ChooseNextWeapon" alt="" coords="483,468,665,494"/>
+<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="551,277,597,304"/>
+<area shape="rect" id="node8" href="$d5/de5/cl__resources_8qc.html#a0b29461a0363a14579b5e56773a8b7a8" title="Sets the current amount of resource the given entity will have. " alt="" coords="523,328,625,354"/>
+<area shape="rect" id="node9" href="$d2/d71/sv__resources_8qc.html#a82576a1118fa321a5d8bbfc7811358d5" title="Gives an entity some resource. " alt="" coords="747,593,858,620"/>
+<area shape="rect" id="node16" href="$d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411" title="client_hasweapon" alt="" coords="733,226,872,253"/>
+<area shape="rect" id="node23" href="$d2/d62/selection_8qc.html#a040fef5835b1141797bcb28e880c7f5a" title="W_SwitchWeapon" alt="" coords="505,378,643,405"/>
+<area shape="rect" id="node5" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="721,518,885,545"/>
+<area shape="rect" id="node6" href="$d7/d39/sv__nix_8qc.html#a7bcb5b58de02894dfb32251eb9de36d3" title="NIX_CanChooseWeapon" alt="" coords="714,468,891,494"/>
+<area shape="rect" id="node10" href="$d2/d71/sv__resources_8qc.html#a0b29461a0363a14579b5e56773a8b7a8" title="Sets the current amount of resource the given entity will have. " alt="" coords="976,694,1079,721"/>
+<area shape="rect" id="node14" href="$d2/d71/sv__resources_8qc.html#ac7f5a3a4063fea98d617623aeb7c28a0" title="Returns the current amount of resource the given entity has. " alt="" coords="975,542,1079,569"/>
+<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="1002,593,1053,620"/>
+<area shape="rect" id="node11" href="$d5/de5/cl__resources_8qc.html#ae624fc586120dd9bcd011c056c6b65c8" title="Sets the resource amount of an entity without calling any hooks. " alt="" coords="1163,720,1313,746"/>
+<area shape="rect" id="node12" href="$d2/d71/sv__resources_8qc.html#ad9589d1e84b521a9a7d94b0f4cdcd780" title="Returns the maximum amount of the given resource. " alt="" coords="1169,669,1307,696"/>
+<area shape="rect" id="node13" href="$d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2" title="error" alt="" coords="1361,669,1415,696"/>
+<area shape="rect" id="node17" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="1008,137,1047,164"/>
+<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="998,188,1057,214"/>
+<area shape="rect" id="node19" href="$d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5" title="weaponslot" alt="" coords="979,238,1076,265"/>
+<area shape="rect" id="node20" href="$d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837" title="Send_WeaponComplain" alt="" coords="940,86,1115,113"/>
+<area shape="rect" id="node22" href="$d2/d62/selection_8qc.html#a8ebba9ca88508abccc39d23b9c40defd" title="Weapon_whereis" alt="" coords="961,289,1093,316"/>
+<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="1195,86,1281,113"/>
+<area shape="rect" id="node24" href="$d2/d62/selection_8qc.html#a26a298ee4ff7a3e0706b8892030ecf1a" title="W_SwitchWeapon_Force" alt="" coords="713,366,892,393"/>
+<area shape="rect" id="node25" href="$d5/de0/weaponsystem_8qc.html#ac7b6c8bdba2c394f8a3385c9bd992f9c" title="weaponLocked" alt="" coords="743,417,862,444"/>
 </map>

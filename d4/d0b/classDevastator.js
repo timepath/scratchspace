@@ -25,7 +25,7 @@ var classDevastator =
     [ "Weapon ::wr_viewmodel", "d4/d0b/classDevastator.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d4/d0b/classDevastator.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d4/d0b/classDevastator.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d4/d0b/classDevastator.html#a6cedb4b8350c1f881fcd2edf314ac5a4", null ],
+    [ "ammo_type", "d4/d0b/classDevastator.html#a06c8080cca0245582d3a0f13b79c5f45", null ],
     [ "bot_pickupbasevalue", "d4/d0b/classDevastator.html#a0857557df1839208d8571e233839ce44", null ],
     [ "impulse", "d4/d0b/classDevastator.html#a19a210e233d5ac3c2563487f1b763bec", null ],
     [ "m_canonical_spawnfunc", "d4/d0b/classDevastator.html#a491bcd99f837e60ba77eb17feefeaa83", null ],

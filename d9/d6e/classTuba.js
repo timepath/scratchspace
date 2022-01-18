@@ -25,7 +25,7 @@ var classTuba =
     [ "Weapon ::wr_viewmodel", "d9/d6e/classTuba.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d9/d6e/classTuba.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d9/d6e/classTuba.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d9/d6e/classTuba.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
+    [ "ammo_type", "d9/d6e/classTuba.html#a352052b451ceeb7e306d41f4cf81bb51", null ],
     [ "bot_pickupbasevalue", "d9/d6e/classTuba.html#ac6f60d2aeb3466eb5209d3dfec04dba1", null ],
     [ "impulse", "d9/d6e/classTuba.html#a9dd907b43e440c55a9dab9417721931f", null ],
     [ "m_canonical_spawnfunc", "d9/d6e/classTuba.html#ac7e463940fd7c6fd2bbbf0b4ffa135e0", null ],

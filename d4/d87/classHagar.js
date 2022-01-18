@@ -25,7 +25,7 @@ var classHagar =
     [ "Weapon ::wr_viewmodel", "d4/d87/classHagar.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d4/d87/classHagar.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d4/d87/classHagar.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d4/d87/classHagar.html#af180c89aed712c19226e9bf4c91941b3", null ],
+    [ "ammo_type", "d4/d87/classHagar.html#ae96d19c7f2abd0dbb475f948d0736808", null ],
     [ "bot_pickupbasevalue", "d4/d87/classHagar.html#aa73cd57b3321d3f2fea34b4e62dbd7b6", null ],
     [ "impulse", "d4/d87/classHagar.html#a766b99c641b6edf45fc811b21747a8f5", null ],
     [ "m_canonical_spawnfunc", "d4/d87/classHagar.html#a97f5f020259986edd92d35c78dff617b", null ],

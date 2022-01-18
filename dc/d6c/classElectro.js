@@ -25,7 +25,7 @@ var classElectro =
     [ "Weapon ::wr_viewmodel", "dc/d6c/classElectro.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "dc/d6c/classElectro.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "dc/d6c/classElectro.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "dc/d6c/classElectro.html#accfc52c518a1695331aeeaf903aa40fa", null ],
+    [ "ammo_type", "dc/d6c/classElectro.html#ae9de1738bb0d66cd17ba8099ae8a95f0", null ],
     [ "bot_pickupbasevalue", "dc/d6c/classElectro.html#ab23bedb49b0c3c08b34346e22100aced", null ],
     [ "impulse", "dc/d6c/classElectro.html#ab3fe632d56cc6297d21df094350f77d9", null ],
     [ "m_canonical_spawnfunc", "dc/d6c/classElectro.html#addd58fc237b23f0d0e911e46d4024414", null ],

@@ -36,6 +36,7 @@ var searchData=
   ['register_5fplayersound',['REGISTER_PLAYERSOUND',['../df/d6e/globalsound_8qh.html#af82f9f032718fd74a2a63db1c527e921',1,'globalsound.qh']]],
   ['register_5fradaricon',['REGISTER_RADARICON',['../d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a40e1a92b8a983047077e3af97f14cd05',1,'all.qh']]],
   ['register_5fregistry',['REGISTER_REGISTRY',['../d2/d5e/registry_8qh.html#a8ef2d9f5ddb28630337d06495bec55e1',1,'registry.qh']]],
+  ['register_5fresource',['REGISTER_RESOURCE',['../d5/dc4/resources_8qh.html#a63d19c4df1a9c4c8c0305df4ba4aafb3',1,'resources.qh']]],
   ['register_5fsp',['REGISTER_SP',['../da/dc3/common_2scores_8qh.html#a62738bb8ca547d47c1dd44ee6b2feb41',1,'scores.qh']]],
   ['register_5fstat',['REGISTER_STAT',['../d0/ddd/lib_2stats_8qh.html#ab65391ba6c1b90dcad0eb1f846c0a054',1,'stats.qh']]],
   ['register_5fstat_5f2',['REGISTER_STAT_2',['../d0/ddd/lib_2stats_8qh.html#a0b0131c4067d628042068387ab92aae0',1,'stats.qh']]],

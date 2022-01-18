@@ -31,7 +31,7 @@ var sv__vehicles_8qc =
     [ "vehicles_projectile_explode_think", "da/d10/sv__vehicles_8qc.html#ab6d5900a2dde193aa46c678c04258373", null ],
     [ "vehicles_projectile_explode_use", "da/d10/sv__vehicles_8qc.html#ad8fab4bff1fd3bd8871f5141c39085ad", null ],
     [ "vehicles_regen", "da/d10/sv__vehicles_8qc.html#a4bd38526315a441269cae0d44943d01d", null ],
-    [ "vehicles_regen_resource", "da/d10/sv__vehicles_8qc.html#a328b81945826bb16b395c261fa24050e", null ],
+    [ "vehicles_regen_resource", "da/d10/sv__vehicles_8qc.html#a8c80183f974fe6781adac276a1300821", null ],
     [ "vehicles_reset", "da/d10/sv__vehicles_8qc.html#a4dafdad030ed16fd1dfd22d4e854fcda", null ],
     [ "vehicles_reset_colors", "da/d10/sv__vehicles_8qc.html#a0e7cc73407916ed713c2ffc498e5f7bd", null ],
     [ "vehicles_return", "da/d10/sv__vehicles_8qc.html#ab4b9ee5d4ac7f6ed106fea890dd76e5c", null ],

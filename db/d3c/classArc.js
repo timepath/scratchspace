@@ -25,7 +25,7 @@ var classArc =
     [ "Weapon ::wr_viewmodel", "db/d3c/classArc.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "db/d3c/classArc.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "db/d3c/classArc.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "db/d3c/classArc.html#a820b0eec1bd4c8f136677084e3cec65d", null ],
+    [ "ammo_type", "db/d3c/classArc.html#a0b1a96fd60f2c9334a12546264f1b2f1", null ],
     [ "bot_pickupbasevalue", "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e", null ],
     [ "impulse", "db/d3c/classArc.html#a3ed4692aa1b8bf1d283184288bc8a70a", null ],
     [ "m_canonical_spawnfunc", "db/d3c/classArc.html#aa62aabf3ce1e2e873112bf47b477a38c", null ],

@@ -26,7 +26,7 @@ var classHook =
     [ "Weapon ::wr_zoom", "db/d4a/classHook.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "db/d4a/classHook.html#ab41e06c129b088099719b53ff748a225", null ],
     [ "ammo_factor", "db/d4a/classHook.html#abf2fbef9b9e0a252ba8f0a2817b21872", null ],
-    [ "ammo_type", "db/d4a/classHook.html#ab71de1fab1a32f9ae18ac7132fc53632", null ],
+    [ "ammo_type", "db/d4a/classHook.html#afb872757c5d007e10e570881c97f559b", null ],
     [ "bot_pickupbasevalue", "db/d4a/classHook.html#a4db172fd5de18e582c2aefcd7124087b", null ],
     [ "impulse", "db/d4a/classHook.html#aa36489e999607ea0c02344e86f0349cc", null ],
     [ "m_canonical_spawnfunc", "db/d4a/classHook.html#a86d94cfb6a32970c632e4175836fab21", null ],

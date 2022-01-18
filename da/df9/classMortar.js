@@ -25,7 +25,7 @@ var classMortar =
     [ "Weapon ::wr_viewmodel", "da/df9/classMortar.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "da/df9/classMortar.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "da/df9/classMortar.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "da/df9/classMortar.html#aab4feeb68ee4bc69f5689fa9c27d174c", null ],
+    [ "ammo_type", "da/df9/classMortar.html#a994de38494609577db27acf91add8602", null ],
     [ "bot_pickupbasevalue", "da/df9/classMortar.html#ae3ee5674f8d5232b46d606bff0062696", null ],
     [ "impulse", "da/df9/classMortar.html#a5e3c7bacb56dd317d41889834992a504", null ],
     [ "m_canonical_spawnfunc", "da/df9/classMortar.html#ac8cc264904ced76dc80b4e28deaef3fc", null ],

@@ -10,5 +10,6 @@ var searchData=
   ['raptorcannon',['RaptorCannon',['../d6/d01/classRaptorCannon.html',1,'']]],
   ['raptorflare',['RaptorFlare',['../dd/d90/classRaptorFlare.html',1,'']]],
   ['resistancebuff',['ResistanceBuff',['../d5/d6c/classResistanceBuff.html',1,'']]],
+  ['resource',['Resource',['../da/dcd/classResource.html',1,'']]],
   ['rifle',['Rifle',['../d0/d81/classRifle.html',1,'']]]
 ];

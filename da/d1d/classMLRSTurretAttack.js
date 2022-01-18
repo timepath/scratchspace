@@ -25,7 +25,7 @@ var classMLRSTurretAttack =
     [ "Weapon ::wr_viewmodel", "da/d1d/classMLRSTurretAttack.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "da/d1d/classMLRSTurretAttack.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "da/d1d/classMLRSTurretAttack.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "da/d1d/classMLRSTurretAttack.html#aade624faa82ff26da9e51f1be39be298", null ],
+    [ "ammo_type", "da/d1d/classMLRSTurretAttack.html#ad8fd7802724aad0f3dc2e8f3cc2b8c03", null ],
     [ "bot_pickupbasevalue", "da/d1d/classMLRSTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "da/d1d/classMLRSTurretAttack.html#a6a45b8b8496e0827216ad10cc845245f", null ],
     [ "m_canonical_spawnfunc", "da/d1d/classMLRSTurretAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c", null ],

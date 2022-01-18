@@ -1,8 +1,8 @@
 var teamplay_8qc =
 [
-    [ "TEAM_BALANCE_UNINITIALIZED", "de/d4f/teamplay_8qc.html#aba01db17f4a2bfbc3db60dc172972a25af2caf2a6a14b7384b941b99ec7d58447", null ],
-    [ "TEAM_BALANCE_TEAMS_CHECKED", "de/d4f/teamplay_8qc.html#aba01db17f4a2bfbc3db60dc172972a25a9000d9cfb862d4f73cdc2d816ae31ce9", null ],
-    [ "TEAM_BALANCE_TEAM_COUNTS_FILLED", "de/d4f/teamplay_8qc.html#aba01db17f4a2bfbc3db60dc172972a25a0be46e8be9d9075ad4f81718bc0a8a3a", null ],
+    [ "TEAM_BALANCE_UNINITIALIZED", "de/d4f/teamplay_8qc.html#a16af7b253440dadd46a80a4b9fddba4daf2caf2a6a14b7384b941b99ec7d58447", null ],
+    [ "TEAM_BALANCE_TEAMS_CHECKED", "de/d4f/teamplay_8qc.html#a16af7b253440dadd46a80a4b9fddba4da9000d9cfb862d4f73cdc2d816ae31ce9", null ],
+    [ "TEAM_BALANCE_TEAM_COUNTS_FILLED", "de/d4f/teamplay_8qc.html#a16af7b253440dadd46a80a4b9fddba4da0be46e8be9d9075ad4f81718bc0a8a3a", null ],
     [ "Entity_GetTeam", "de/d4f/teamplay_8qc.html#a361810464bed269f4adfdde1177100bf", null ],
     [ "Entity_GetTeamIndex", "de/d4f/teamplay_8qc.html#a22c172b1bbd702efeb58f24a2cb5ac27", null ],
     [ "Entity_HasValidTeam", "de/d4f/teamplay_8qc.html#aad39064989d234d4d486a31899e4f137", null ],

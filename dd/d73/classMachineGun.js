@@ -25,7 +25,7 @@ var classMachineGun =
     [ "Weapon ::wr_viewmodel", "dd/d73/classMachineGun.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "dd/d73/classMachineGun.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "dd/d73/classMachineGun.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "dd/d73/classMachineGun.html#aefc8426bd1db08d18038fad0bdbde2de", null ],
+    [ "ammo_type", "dd/d73/classMachineGun.html#a233803ee3a05132b6b61b534118b204f", null ],
     [ "bot_pickupbasevalue", "dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56", null ],
     [ "impulse", "dd/d73/classMachineGun.html#af92e2de4a5160754eb3fba3193b01f36", null ],
     [ "m_canonical_spawnfunc", "dd/d73/classMachineGun.html#aae93ec4cdbab0e4962d71c8f7e81f911", null ],

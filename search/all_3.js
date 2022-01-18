@@ -324,6 +324,8 @@ var searchData=
   ['cl_5fpowerups_2eqh',['cl_powerups.qh',['../da/ddb/cl__powerups_8qh.html',1,'']]],
   ['cl_5frace_2eqc',['cl_race.qc',['../d6/dca/cl__race_8qc.html',1,'']]],
   ['cl_5frace_2eqh',['cl_race.qh',['../d0/d5b/cl__race_8qh.html',1,'']]],
+  ['cl_5fresources_2eqc',['cl_resources.qc',['../d5/de5/cl__resources_8qc.html',1,'']]],
+  ['cl_5fresources_2eqh',['cl_resources.qh',['../db/d6a/cl__resources_8qh.html',1,'']]],
   ['cl_5frotatemoves',['CL_RotateMoves',['../d0/d72/lib_2warpzone_2client_8qc.html#ac8ca9dc6a9031a9fc661e02bb4a4ceb5',1,'client.qc']]],
   ['cl_5fspawn_5fnear_5fteammate_2eqc',['cl_spawn_near_teammate.qc',['../d6/de5/cl__spawn__near__teammate_8qc.html',1,'']]],
   ['cl_5fspawn_5fnear_5fteammate_2eqh',['cl_spawn_near_teammate.qh',['../d4/dd5/cl__spawn__near__teammate_8qh.html',1,'']]],

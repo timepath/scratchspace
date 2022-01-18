@@ -25,7 +25,7 @@ var classShotgun =
     [ "Weapon ::wr_viewmodel", "d8/dd3/classShotgun.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d8/dd3/classShotgun.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d8/dd3/classShotgun.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d8/dd3/classShotgun.html#ae13bf476f2c3668c25ecfb5481ef9dd6", null ],
+    [ "ammo_type", "d8/dd3/classShotgun.html#af08e1b08684f1ff2be5d0864cc7c97ae", null ],
     [ "bot_pickupbasevalue", "d8/dd3/classShotgun.html#a2a2c18e6c0451d1fe15a8bb2b4715b11", null ],
     [ "impulse", "d8/dd3/classShotgun.html#ab24caf167edfb003ad2ca937ffab003b", null ],
     [ "m_canonical_spawnfunc", "d8/dd3/classShotgun.html#a753131a5dfb922a48ad185960d48e3d2", null ],

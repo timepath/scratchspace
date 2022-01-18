@@ -25,7 +25,7 @@ var classFireball =
     [ "Weapon ::wr_viewmodel", "d1/dd1/classFireball.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d1/dd1/classFireball.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d1/dd1/classFireball.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d1/dd1/classFireball.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
+    [ "ammo_type", "d1/dd1/classFireball.html#a352052b451ceeb7e306d41f4cf81bb51", null ],
     [ "bot_pickupbasevalue", "d1/dd1/classFireball.html#a6d2c84f0a32544542dfbb29f8a078ef6", null ],
     [ "impulse", "d1/dd1/classFireball.html#af6941bfadd7f32ced9be9b65094f2925", null ],
     [ "m_canonical_spawnfunc", "d1/dd1/classFireball.html#a9893a6b9a4b0677759703ebe59b9a3c4", null ],

@@ -25,7 +25,7 @@ var classHLAC =
     [ "Weapon ::wr_viewmodel", "d4/d41/classHLAC.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d4/d41/classHLAC.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d4/d41/classHLAC.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d4/d41/classHLAC.html#ae90301d90c90a20610cd462127a1b3e4", null ],
+    [ "ammo_type", "d4/d41/classHLAC.html#a45260c1b9b53af0bad98a56ff8ed9745", null ],
     [ "bot_pickupbasevalue", "d4/d41/classHLAC.html#a8d201e202dfd220a70d7f46ba13f8970", null ],
     [ "impulse", "d4/d41/classHLAC.html#a3193f6fcbcac6098952b55d1e09825d8", null ],
     [ "m_canonical_spawnfunc", "d4/d41/classHLAC.html#a479ab0457dc9fd5a8422cb56d15dd760", null ],

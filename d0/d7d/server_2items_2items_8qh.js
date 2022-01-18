@@ -27,7 +27,7 @@ var server_2items_2items_8qh =
     [ "have_pickup_item", "d0/d7d/server_2items_2items_8qh.html#aaaead482c18be1c887367949d73b67da", null ],
     [ "healtharmor_pickupevalfunc", "d0/d7d/server_2items_2items_8qh.html#aceeca5773f18b387b19d4e2b3db84324", null ],
     [ "Item_FindTeam", "d0/d7d/server_2items_2items_8qh.html#aa6d7d2f3cfa1aed8062a32164cc0a117", null ],
-    [ "Item_GiveAmmoTo", "d0/d7d/server_2items_2items_8qh.html#a3c8317075cdb7e788e033c797506fb49", null ],
+    [ "Item_GiveAmmoTo", "d0/d7d/server_2items_2items_8qh.html#a54b0d18a6719abd7368ad52cbe2bd181", null ],
     [ "Item_GiveTo", "d0/d7d/server_2items_2items_8qh.html#ae59f26cd5d9dbe49bac8a4e4280e3b6a", null ],
     [ "Item_Reset", "d0/d7d/server_2items_2items_8qh.html#aace7f81d17ab5c492a20f331a5a2372d", null ],
     [ "Item_Respawn", "d0/d7d/server_2items_2items_8qh.html#ae7aa337bae4b33760167d9748dbf41a5", null ],

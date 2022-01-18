@@ -25,7 +25,7 @@ var classOverkillShotgun =
     [ "Weapon ::wr_viewmodel", "db/d4e/classOverkillShotgun.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "db/d4e/classOverkillShotgun.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "db/d4e/classOverkillShotgun.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "db/d4e/classOverkillShotgun.html#aa745d0ef4624ddf6a242eb7b9aa5b9ea", null ],
+    [ "ammo_type", "db/d4e/classOverkillShotgun.html#a3070d1a245e5bb54bf9ccbabe8a43304", null ],
     [ "bot_pickupbasevalue", "db/d4e/classOverkillShotgun.html#aadac826fbbab9fcfabf42e2206e3a973", null ],
     [ "impulse", "db/d4e/classOverkillShotgun.html#a290b66b36a039f57d92c2dec91497ffb", null ],
     [ "m_canonical_spawnfunc", "db/d4e/classOverkillShotgun.html#a9167052aa669b69a9e80b63b2247faa4", null ],

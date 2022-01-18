@@ -25,7 +25,7 @@ var classVortex =
     [ "Weapon ::wr_viewmodel", "d4/d17/classVortex.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d4/d17/classVortex.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d4/d17/classVortex.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d4/d17/classVortex.html#a400bc5fd8aac9bc59ba6ef4c468353be", null ],
+    [ "ammo_type", "d4/d17/classVortex.html#a5da96b23bed70e0cc7e7448d06be8f48", null ],
     [ "bot_pickupbasevalue", "d4/d17/classVortex.html#add8cf89912c6ce63565d432a3bb26726", null ],
     [ "impulse", "d4/d17/classVortex.html#ad70d80ed739c82b4eecd022ec4fbcc25", null ],
     [ "m_canonical_spawnfunc", "d4/d17/classVortex.html#aca1729d438df836995923e2387415d78", null ],

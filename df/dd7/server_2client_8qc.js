@@ -51,7 +51,7 @@ var server_2client_8qc =
     [ "PutObserverInServer", "df/dd7/server_2client_8qc.html#a901bd55fa73044d74759b4417e730c48", null ],
     [ "PutPlayerInServer", "df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3", null ],
     [ "respawn", "df/dd7/server_2client_8qc.html#a9892fecc7414ccaabfbcd27e4cd56692", null ],
-    [ "RotRegen", "df/dd7/server_2client_8qc.html#a77abb2c5fcc00dc400f722976c42e660", null ],
+    [ "RotRegen", "df/dd7/server_2client_8qc.html#ae24bf837564ea4373d17da253867aa3d", null ],
     [ "send_CSQC_teamnagger", "df/dd7/server_2client_8qc.html#a62b8839530824d20596d155faefe0411", null ],
     [ "SetChangeParms", "df/dd7/server_2client_8qc.html#aa460e4cfe6422ab064012ebe689d7f79", null ],
     [ "SetNewParms", "df/dd7/server_2client_8qc.html#a59afde0701d7bebc1eed5a734da7637b", null ],

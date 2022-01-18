@@ -27,7 +27,7 @@ var server_2client_8qh =
     [ "PlayerInList", "d8/de2/server_2client_8qh.html#add10a2edc8021068c2d62f1117d51246", null ],
     [ "PlayerUseKey", "d8/de2/server_2client_8qh.html#a457d60bc0a50d32a90da5a3acb9e8db1", null ],
     [ "PutObserverInServer", "d8/de2/server_2client_8qh.html#a901bd55fa73044d74759b4417e730c48", null ],
-    [ "RotRegen", "d8/de2/server_2client_8qh.html#acba2e812f9309aafa3f3738e8f893cf2", null ],
+    [ "RotRegen", "d8/de2/server_2client_8qh.html#a61b5222e64b7bf5015a8d8995de0016b", null ],
     [ "SetSpectatee", "d8/de2/server_2client_8qh.html#aee20b07617d4d8b3cf12723424d93532", null ],
     [ "SetSpectatee_status", "d8/de2/server_2client_8qh.html#ac4f7e6fc7e9a311d90c6379198d0bd9c", null ],
     [ "Spectate", "d8/de2/server_2client_8qh.html#acd1560ca258ee21a90fd35530c8127b0", null ],

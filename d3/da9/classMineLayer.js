@@ -25,7 +25,7 @@ var classMineLayer =
     [ "Weapon ::wr_viewmodel", "d3/da9/classMineLayer.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d3/da9/classMineLayer.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d3/da9/classMineLayer.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d3/da9/classMineLayer.html#ab69c7a7956de2f9b43ba243a94285f6b", null ],
+    [ "ammo_type", "d3/da9/classMineLayer.html#a48f9b3457473d321dec6c688870fe9f6", null ],
     [ "bot_pickupbasevalue", "d3/da9/classMineLayer.html#a81f22076374063c0ac3a8bdb2e35ca3b", null ],
     [ "impulse", "d3/da9/classMineLayer.html#ac72896c0e96c0f0bf6c088cb153ca74e", null ],
     [ "m_canonical_spawnfunc", "d3/da9/classMineLayer.html#a33c740781961b1afbb1ff408949f59fd", null ],

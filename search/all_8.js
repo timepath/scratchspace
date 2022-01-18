@@ -138,7 +138,7 @@ var searchData=
   ['heal_2eqc',['heal.qc',['../d4/d14/heal_8qc.html',1,'']]],
   ['heal_2eqh',['heal.qh',['../d0/d9d/heal_8qh.html',1,'']]],
   ['heal_5fsound_5falways',['HEAL_SOUND_ALWAYS',['../d0/d9d/heal_8qh.html#a422d972f5888a0fb7fcaf5dd6376e2f0',1,'heal.qh']]],
-  ['health',['Health',['../d5/d64/classHealth.html',1,'Health'],['../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5',1,'health():&#160;resources.qh'],['../d6/d11/progsdefs_8qc.html#a735461fa6550997a7a0ad0cbc1802bd5',1,'health():&#160;progsdefs.qc']]],
+  ['health',['Health',['../d5/d64/classHealth.html',1,'Health'],['../d6/d11/progsdefs_8qc.html#a735461fa6550997a7a0ad0cbc1802bd5',1,'health():&#160;progsdefs.qc']]],
   ['health_2eqc',['health.qc',['../d0/d6a/health_8qc.html',1,'']]],
   ['health_2eqh',['health.qh',['../da/d6a/health_8qh.html',1,'']]],
   ['health_5fbeforedamage',['health_beforedamage',['../d3/d05/hud_8qh.html#a4033974b42602b7fbff1a4aa58f4416d',1,'hud.qh']]],

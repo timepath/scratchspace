@@ -25,7 +25,7 @@ var classBlaster =
     [ "Weapon ::wr_viewmodel", "d7/d32/classBlaster.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d7/d32/classBlaster.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d7/d32/classBlaster.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d7/d32/classBlaster.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
+    [ "ammo_type", "d7/d32/classBlaster.html#a352052b451ceeb7e306d41f4cf81bb51", null ],
     [ "bot_pickupbasevalue", "d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32", null ],
     [ "impulse", "d7/d32/classBlaster.html#a17f155a849bf1aad1fb6f97232996be9", null ],
     [ "m_canonical_spawnfunc", "d7/d32/classBlaster.html#a8eeebd3901a545c74a6720f9b23aedf1", null ],

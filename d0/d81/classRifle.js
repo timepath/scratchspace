@@ -25,7 +25,7 @@ var classRifle =
     [ "Weapon ::wr_viewmodel", "d0/d81/classRifle.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d0/d81/classRifle.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d0/d81/classRifle.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d0/d81/classRifle.html#a267ed876501f592766d2093314176d09", null ],
+    [ "ammo_type", "d0/d81/classRifle.html#aabe7f24eb4951e252468ed8fa6803cb6", null ],
     [ "bot_pickupbasevalue", "d0/d81/classRifle.html#a62733317377efccb19770f9b187ae35c", null ],
     [ "impulse", "d0/d81/classRifle.html#a410842e36facf9d2068da07c63b7f0c1", null ],
     [ "m_canonical_spawnfunc", "d0/d81/classRifle.html#a006af506069e1c594566b3194af6396d", null ],

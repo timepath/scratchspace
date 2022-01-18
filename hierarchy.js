@@ -241,6 +241,9 @@ var hierarchy =
         [ "OffhandHook", "da/dde/classOffhandHook.html", null ]
       ] ],
       [ "PlayerState", "d5/d7e/classPlayerState.html", null ],
+      [ "Resource", "da/dcd/classResource.html", [
+        [ "AmmoResource", "d2/d14/classAmmoResource.html", null ]
+      ] ],
       [ "Sound", "df/d49/classSound.html", null ],
       [ "StatusEffects", "d2/dd9/classStatusEffects.html", [
         [ "Buff", "de/d3c/classBuff.html", [

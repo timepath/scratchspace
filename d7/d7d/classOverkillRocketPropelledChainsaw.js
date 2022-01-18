@@ -25,7 +25,7 @@ var classOverkillRocketPropelledChainsaw =
     [ "Weapon ::wr_viewmodel", "d7/d7d/classOverkillRocketPropelledChainsaw.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d7/d7d/classOverkillRocketPropelledChainsaw.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d7/d7d/classOverkillRocketPropelledChainsaw.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d7/d7d/classOverkillRocketPropelledChainsaw.html#a42acee1bdb8ee28ad14bbd8c2c3f67a8", null ],
+    [ "ammo_type", "d7/d7d/classOverkillRocketPropelledChainsaw.html#ab64dfdec5de48c78d751363211b622e7", null ],
     [ "bot_pickupbasevalue", "d7/d7d/classOverkillRocketPropelledChainsaw.html#a6cbdffef393b624d016522075fa2057a", null ],
     [ "impulse", "d7/d7d/classOverkillRocketPropelledChainsaw.html#a28b9546db5ca61cfba4fcd8eefdf0df6", null ],
     [ "m_canonical_spawnfunc", "d7/d7d/classOverkillRocketPropelledChainsaw.html#a8f41e7d21ea6b2fdd526f5c91a343ed5", null ],

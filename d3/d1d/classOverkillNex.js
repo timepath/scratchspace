@@ -25,7 +25,7 @@ var classOverkillNex =
     [ "Weapon ::wr_viewmodel", "d3/d1d/classOverkillNex.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d3/d1d/classOverkillNex.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d3/d1d/classOverkillNex.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d3/d1d/classOverkillNex.html#a39d127eb076cdb44fc8e6780804f3ebb", null ],
+    [ "ammo_type", "d3/d1d/classOverkillNex.html#a697bc5e5924656ea20646cdbfbe0c08a", null ],
     [ "bot_pickupbasevalue", "d3/d1d/classOverkillNex.html#a720b0e34eaf3a18cf1bef7f2b89671e3", null ],
     [ "impulse", "d3/d1d/classOverkillNex.html#ac0b5c9cb431b82cea7f2f0e1aa2784be", null ],
     [ "m_canonical_spawnfunc", "d3/d1d/classOverkillNex.html#ae4d2c6f3c76991896464b4e03312f691", null ],

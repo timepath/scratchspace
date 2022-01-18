@@ -25,7 +25,7 @@ var classHellionAttack =
     [ "Weapon ::wr_viewmodel", "d3/de3/classHellionAttack.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d3/de3/classHellionAttack.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d3/de3/classHellionAttack.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d3/de3/classHellionAttack.html#aade624faa82ff26da9e51f1be39be298", null ],
+    [ "ammo_type", "d3/de3/classHellionAttack.html#ad8fd7802724aad0f3dc2e8f3cc2b8c03", null ],
     [ "bot_pickupbasevalue", "d3/de3/classHellionAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d3/de3/classHellionAttack.html#ae62f1cba1ccfea629e7c0869efa8e6bd", null ],
     [ "m_canonical_spawnfunc", "d3/de3/classHellionAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c", null ],

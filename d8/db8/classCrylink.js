@@ -25,7 +25,7 @@ var classCrylink =
     [ "Weapon ::wr_viewmodel", "d8/db8/classCrylink.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "d8/db8/classCrylink.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "d8/db8/classCrylink.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "d8/db8/classCrylink.html#a7dcdd6227920c56bb823fd3fe02210bf", null ],
+    [ "ammo_type", "d8/db8/classCrylink.html#a00b315779e4d310b6c0ffc9817454745", null ],
     [ "bot_pickupbasevalue", "d8/db8/classCrylink.html#a60dd8166f44e3fc48dbae45e8a90f874", null ],
     [ "impulse", "d8/db8/classCrylink.html#a357d71a93793fee25532c9c8eac42f23", null ],
     [ "m_canonical_spawnfunc", "d8/db8/classCrylink.html#a04802a60e75115ef3d2ace797d13b1fc", null ],

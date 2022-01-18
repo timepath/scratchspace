@@ -25,7 +25,7 @@ var classWeapon =
     [ "Weapon ::wr_viewmodel", "dc/de5/classWeapon.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "dc/de5/classWeapon.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "dc/de5/classWeapon.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "dc/de5/classWeapon.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
+    [ "ammo_type", "dc/de5/classWeapon.html#a352052b451ceeb7e306d41f4cf81bb51", null ],
     [ "bot_pickupbasevalue", "dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84", null ],
     [ "impulse", "dc/de5/classWeapon.html#a07bb940405dd6a1cc59526ddca74c1b7", null ],
     [ "m_id", "dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

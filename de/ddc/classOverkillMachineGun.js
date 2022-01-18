@@ -25,7 +25,7 @@ var classOverkillMachineGun =
     [ "Weapon ::wr_viewmodel", "de/ddc/classOverkillMachineGun.html#a2df1c962fab23afc8c3f7b534873c3eb", null ],
     [ "Weapon ::wr_zoom", "de/ddc/classOverkillMachineGun.html#a7806a7d558533700a40ccab8a2558232", null ],
     [ "Weapon ::wr_zoomdir", "de/ddc/classOverkillMachineGun.html#ab41e06c129b088099719b53ff748a225", null ],
-    [ "ammo_type", "de/ddc/classOverkillMachineGun.html#a0644838a9bc84474cc50d4ad649f6542", null ],
+    [ "ammo_type", "de/ddc/classOverkillMachineGun.html#a69c5ccbcb14fdb1bc5cb9141658dcda3", null ],
     [ "bot_pickupbasevalue", "de/ddc/classOverkillMachineGun.html#a254d23da7da48601db6df0697ee93183", null ],
     [ "impulse", "de/ddc/classOverkillMachineGun.html#a7265b47317502ffbb46dcb1ee1200277", null ],
     [ "m_canonical_spawnfunc", "de/ddc/classOverkillMachineGun.html#a87b1eda4a6eeb2ea1fe087d1a9b4cb0c", null ],
