@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"dd/d52/classWebbed.html#af62108e6bb6fd487fb448e9b78c21d9b":[1,0,171,4],
+"dd/d52/fourier_8qh.html":[2,0,1,6,0,17],
 "dd/d52/fourier_8qh_source.html":[2,0,1,6,0,17],
 "dd/d54/bool_8qh.html":[2,0,4,11],
 "dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc":[2,0,4,11,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "dd/d79/damagetext_8qh.html#a2e90c0f954d43e41087594ed13ea661f":[2,0,1,10,0,6,5,6],
 "dd/d79/damagetext_8qh.html#a42661999bf9556e7348184efca32d071":[2,0,1,10,0,6,5,2],
 "dd/d79/damagetext_8qh.html#a5cbdfa4026668db1c952c285071ee64d":[2,0,1,10,0,6,5,7],
-"dd/d79/damagetext_8qh.html#acd24d0449fc4677fac0addf4a0d5e9e3":[2,0,1,10,0,6,5,4],
-"dd/d79/damagetext_8qh.html#adb19c2866cdfa31be4c7fb190e28f921":[2,0,1,10,0,6,5,1],
-"dd/d79/damagetext_8qh.html#aec79b6285984eef22af18f273205c4b2":[2,0,1,10,0,6,5,0]
+"dd/d79/damagetext_8qh.html#acd24d0449fc4677fac0addf4a0d5e9e3":[2,0,1,10,0,6,5,4]
 };

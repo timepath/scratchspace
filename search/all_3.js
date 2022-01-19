@@ -28,6 +28,7 @@ var searchData=
   ['ca_5fcheckteams',['CA_CheckTeams',['../d7/db6/sv__clanarena_8qc.html#a4eb56906efb5c8da7820d434817d4a0e',1,'CA_CheckTeams():&#160;sv_clanarena.qc'],['../d1/dbf/sv__clanarena_8qh.html#a4eb56906efb5c8da7820d434817d4a0e',1,'CA_CheckTeams():&#160;sv_clanarena.qc']]],
   ['ca_5fcheckwinner',['CA_CheckWinner',['../d7/db6/sv__clanarena_8qc.html#aa6ddf48df388628329e00ba071a90dba',1,'CA_CheckWinner():&#160;sv_clanarena.qc'],['../d1/dbf/sv__clanarena_8qh.html#a5474d0511a224439e6329941c45f1bd2',1,'CA_CheckWinner():&#160;sv_clanarena.qc']]],
   ['ca_5fcount_5falive_5fplayers',['CA_count_alive_players',['../d7/db6/sv__clanarena_8qc.html#a7b44031b9b3e81ef13dad8a190d736ff',1,'sv_clanarena.qc']]],
+  ['ca_5fdamage_5fcounter',['ca_damage_counter',['../d7/db6/sv__clanarena_8qc.html#a1d40993c0ccd66743f9a6f8b769c3d3d',1,'sv_clanarena.qc']]],
   ['ca_5fiseliminated',['ca_isEliminated',['../d7/db6/sv__clanarena_8qc.html#aacbcf72df7630d29c5323a6668918b8d',1,'ca_isEliminated(entity e):&#160;sv_clanarena.qc'],['../d1/dbf/sv__clanarena_8qh.html#aacbcf72df7630d29c5323a6668918b8d',1,'ca_isEliminated(entity e):&#160;sv_clanarena.qc']]],
   ['ca_5flastplayerforteam',['ca_LastPlayerForTeam',['../d7/db6/sv__clanarena_8qc.html#aac9833bdaf8c42ee876679860b8976bf',1,'sv_clanarena.qc']]],
   ['ca_5flastplayerforteam_5fnotify',['ca_LastPlayerForTeam_Notify',['../d7/db6/sv__clanarena_8qc.html#a5e4b504c009a02034583fc4cb216afd2',1,'sv_clanarena.qc']]],

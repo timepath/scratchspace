@@ -425,7 +425,7 @@ var searchData=
   ['restoregame',['RestoreGame',['../dd/dbe/world_8qc.html#af8f462400b6e203393394085ab5bc7d1',1,'world.qc']]],
   ['restriction',['restriction',['../d4/dd1/spawnpoints_8qh.html#a25d514a9020c819c7c060d0dd4db8d73',1,'spawnpoints.qh']]],
   ['result',['result',['../d2/dce/promise_8qc.html#a249614263d20d2a581e3745646d36c59',1,'promise.qc']]],
-  ['resurface_5flimited',['RESURFACE_LIMITED',['../d1/d9a/navigation_8qc.html#af263813df7addc1340503001188a9b28',1,'RESURFACE_LIMITED():&#160;navigation.qc'],['../d1/d9a/navigation_8qc.html#a193f4c5b3e4436338854e62dc1242939',1,'resurface_limited(vector org, float lim, vector m1):&#160;navigation.qc']]],
+  ['resurface_5flimited',['resurface_limited',['../d1/d9a/navigation_8qc.html#a193f4c5b3e4436338854e62dc1242939',1,'resurface_limited(vector org, float lim, vector m1):&#160;navigation.qc'],['../d1/d9a/navigation_8qc.html#af263813df7addc1340503001188a9b28',1,'RESURFACE_LIMITED():&#160;navigation.qc']]],
   ['reticle_5ftype',['reticle_type',['../de/d23/crosshair_8qc.html#a8e6e68292e567e79d51bb749a4f20edf',1,'crosshair.qc']]],
   ['retrievecategoryent',['RetrieveCategoryEnt',['../d6/d74/serverlist_8qc.html#a4382ec8abd0b7afb51d9855b512f95f2',1,'RetrieveCategoryEnt(int catnum):&#160;serverlist.qc'],['../dd/d7a/serverlist_8qh.html#a4f405c2f7cc538d4b45a6ef81a23c700',1,'RetrieveCategoryEnt(float catnum):&#160;serverlist.qh']]],
   ['return',['return',['../d0/d5d/classAnimation.html#a9b86cc8c21e6c4051880c253d767d2c7',1,'Animation']]],

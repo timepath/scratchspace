@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"de/d2b/world_8qh.html#a774b159b06ee91811f6b278a0696b722":[2,0,6,70,69],
+"de/d2b/world_8qh.html#a78c0ed0111dcca8924305a46bbf880bd":[2,0,6,70,17],
 "de/d2b/world_8qh.html#a7b43dd3f1972815574a4323f79b2cab8":[2,0,6,70,14],
 "de/d2b/world_8qh.html#a7b94986059c96947ea2666d98db2fec2":[2,0,6,70,73],
 "de/d2b/world_8qh.html#a7c0b5437bd9ea2c12fb0e79b57699267":[2,0,6,70,63],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "de/d3c/classBuff.html#ac403b4070fc773a6c6c612f8ee2961aa":[1,0,12,7],
 "de/d3c/classBuff.html#ad8a0be5e74b7a94d9b1d659e974a8975":[1,0,12,4],
 "de/d3c/classBuff.html#ae357161933cf399ac0a3515774f67ff8":[1,0,12,8],
-"de/d3c/common_2notifications_2__mod_8qh.html":[2,0,1,11,1],
-"de/d3c/common_2notifications_2__mod_8qh_source.html":[2,0,1,11,1],
-"de/d3d/cl__minigames_8qh.html":[2,0,1,7,4]
+"de/d3c/common_2notifications_2__mod_8qh.html":[2,0,1,11,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX141 =
 {
+"de/dbd/banning_8qh.html#a602917088317d1971211a0efe61bdc39":[2,0,6,1,3,8],
+"de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe":[2,0,6,1,3,1],
 "de/dbd/banning_8qh.html#aa2e47c771ee44580c3752d160a080930":[2,0,6,1,3,13],
 "de/dbd/banning_8qh.html#ab17c1ef5c1c0d8005df685d3aa685dfd":[2,0,6,1,3,14],
 "de/dbd/banning_8qh.html#ab21eca3696a13953239bad5e0373031f":[2,0,6,1,3,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX141 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,219,29],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a4246fb4b7068aee87e47b2da375de905":[1,0,219,52],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,219,60],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,219,7],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,219,96],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a4ce700a3a0917cb5ebbc8edbe293630f":[1,0,219,30]
+"de/de7/classXonoticHUDItemsTimeDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,219,7]
 };

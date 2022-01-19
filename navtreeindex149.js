@@ -1,5 +1,7 @@
 var NAVTREEINDEX149 =
 {
+"df/dc9/aim_8qc.html#ab8a774722467f5e4d60086ab429df89b":[2,0,6,0,0,3,1],
+"df/dc9/aim_8qc.html#ae876c215515375799091388af5fc15ae":[2,0,6,0,0,3,0],
 "df/dc9/aim_8qc.html#aecfef2eda1200592801a4613a7318266":[2,0,6,0,0,3,2],
 "df/dc9/aim_8qc.html#af8050ab8c527644541f6663b6ea42874":[2,0,6,0,0,3,3],
 "df/dc9/aim_8qc_source.html":[2,0,6,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX149 =
 "df/dd4/strafehud_8qh.html":[2,0,0,1,0,37],
 "df/dd4/strafehud_8qh.html#a01c4d6d45e34cd597358ab5f9c22c052":[2,0,0,1,0,37,36],
 "df/dd4/strafehud_8qh.html#a0a93fc7e078d0df300cb12d88e4b0a4f":[2,0,0,1,0,37,42],
-"df/dd4/strafehud_8qh.html#a0bfcb6da55fece89ac0a807d11aebb66":[2,0,0,1,0,37,43],
-"df/dd4/strafehud_8qh.html#a0ec02e2732274e9d96e328e8a53d6e4a":[2,0,0,1,0,37,51],
-"df/dd4/strafehud_8qh.html#a113cd6ba6ca5bb814c5b3461e14ffc2a":[2,0,0,1,0,37,20]
+"df/dd4/strafehud_8qh.html#a0bfcb6da55fece89ac0a807d11aebb66":[2,0,0,1,0,37,43]
 };

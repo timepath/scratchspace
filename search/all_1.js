@@ -907,7 +907,7 @@ var searchData=
   ['autocvar_5fg_5fbuffs_5fvampire_5fdamage_5fsteal',['autocvar_g_buffs_vampire_damage_steal',['../d8/dd8/sv__buffs_8qh.html#ac217728a40f302f1b8c84e2f6b878c8b',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5fvengeance_5fdamage_5fmultiplier',['autocvar_g_buffs_vengeance_damage_multiplier',['../d8/dd8/sv__buffs_8qh.html#a3601407ee7387bbbce9cebcd529d9ebf',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5fwaypoint_5fdistance',['autocvar_g_buffs_waypoint_distance',['../d8/dd8/sv__buffs_8qh.html#aba58311fe6d049291750c674e8860f09',1,'sv_buffs.qh']]],
-  ['autocvar_5fg_5fca_5fdamage2score_5fmultiplier',['autocvar_g_ca_damage2score_multiplier',['../d7/db6/sv__clanarena_8qc.html#ad975355c5fb8c137be07cbbe2741c7d0',1,'sv_clanarena.qc']]],
+  ['autocvar_5fg_5fca_5fdamage2score',['autocvar_g_ca_damage2score',['../d7/db6/sv__clanarena_8qc.html#a19083757347779a2fe1e5aa08f6be070',1,'sv_clanarena.qc']]],
   ['autocvar_5fg_5fca_5fpoint_5fleadlimit',['autocvar_g_ca_point_leadlimit',['../d1/dbf/sv__clanarena_8qh.html#a99970939c2b6fdffb0cb6c3693fd94a5',1,'sv_clanarena.qh']]],
   ['autocvar_5fg_5fca_5fpoint_5flimit',['autocvar_g_ca_point_limit',['../d1/dbf/sv__clanarena_8qh.html#a7e89ab97ff878f4d69aac275d25995e7',1,'sv_clanarena.qh']]],
   ['autocvar_5fg_5fca_5fround_5ftimelimit',['autocvar_g_ca_round_timelimit',['../d1/dbf/sv__clanarena_8qh.html#a38b1cbdbfc48fe83ca4f0506a070b83b',1,'sv_clanarena.qh']]],

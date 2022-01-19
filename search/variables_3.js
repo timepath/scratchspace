@@ -15,6 +15,7 @@ var searchData=
   ['c4_5fturn_5fteam2',['C4_TURN_TEAM2',['../d5/d00/c4_8qc.html#a1600649b7a36d66749e7b4954c606f1d',1,'c4.qc']]],
   ['c4_5fturn_5fwin',['C4_TURN_WIN',['../d5/d00/c4_8qc.html#a9bb9e1989a86984648e75aebe7535377',1,'c4.qc']]],
   ['c4_5fwin_5fcnt',['C4_WIN_CNT',['../d5/d00/c4_8qc.html#ac422cae60e3bb8264607d61a4c9a04e1',1,'c4.qc']]],
+  ['ca_5fdamage_5fcounter',['ca_damage_counter',['../d7/db6/sv__clanarena_8qc.html#a1d40993c0ccd66743f9a6f8b769c3d3d',1,'sv_clanarena.qc']]],
   ['ca_5fteams',['ca_teams',['../d1/dbf/sv__clanarena_8qh.html#a83007e99e8d51b00452624bbadaae22a',1,'sv_clanarena.qh']]],
   ['cache_5flastmutatormsg',['cache_lastmutatormsg',['../de/d2b/world_8qh.html#a8801bcd8219a784f96599328753a1d25',1,'world.qh']]],
   ['cache_5fmutatormsg',['cache_mutatormsg',['../de/d2b/world_8qh.html#afb83b1d6cc1d1144d6db6342f3d0f4cc',1,'world.qh']]],

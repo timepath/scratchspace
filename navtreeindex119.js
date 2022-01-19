@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"dc/d30/classBallStealer.html#a2de91a875b1647471606be4b098e84ce":[1,0,8,30],
+"dc/d30/classBallStealer.html#a2df1c962fab23afc8c3f7b534873c3eb":[1,0,8,22],
 "dc/d30/classBallStealer.html#a3a6cc23051e9e28409975f41d0e1b77a":[1,0,8,5],
 "dc/d30/classBallStealer.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,8,1],
 "dc/d30/classBallStealer.html#a5bb96554771487710b78db2954a6ceb0":[1,0,8,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "dc/d3d/csqcmodel__hooks_8qc.html#afc0bcf52bfa73d3b24d4cd4d66752a68":[2,0,0,11,9],
 "dc/d3d/csqcmodel__hooks_8qc_source.html":[2,0,0,11],
 "dc/d43/keycodes_8qh.html":[2,0,2,3],
-"dc/d43/keycodes_8qh_source.html":[2,0,2,3],
-"dc/d44/classXonoticScreenshotList.html":[1,0,267],
-"dc/d44/classXonoticScreenshotList.html#a00e343a5171c30a6825d23f73ac93c4b":[1,0,267,73]
+"dc/d43/keycodes_8qh_source.html":[2,0,2,3]
 };

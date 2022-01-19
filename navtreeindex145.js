@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"df/d42/quake3_8qc.html#af209cc1b2014548785983c19968a4fd9":[2,0,6,2,8,3],
+"df/d42/quake3_8qc.html#affeb4e402d0192807abe5781f7fcf22f":[2,0,6,2,8,15],
 "df/d42/quake3_8qc_source.html":[2,0,6,2,8],
 "df/d42/vaporizer_8qc.html":[2,0,1,17,0,38],
 "df/d42/vaporizer_8qc_source.html":[2,0,1,17,0,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "df/d6e/classXonoticSingleplayerDialog.html#a24879e25ea7f45ca62b039c3c0559185":[1,0,275,103],
 "df/d6e/classXonoticSingleplayerDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,275,92],
 "df/d6e/classXonoticSingleplayerDialog.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,275,66],
-"df/d6e/classXonoticSingleplayerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,275,74],
-"df/d6e/classXonoticSingleplayerDialog.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,275,69],
-"df/d6e/classXonoticSingleplayerDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,275,9]
+"df/d6e/classXonoticSingleplayerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,275,74]
 };

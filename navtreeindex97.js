@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"da/d2a/classBashBuff.html#ae357161933cf399ac0a3515774f67ff8":[1,0,9,8],
+"da/d2a/classXonoticDecibelsSlider.html":[1,0,194],
 "da/d2a/classXonoticDecibelsSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,194,97],
 "da/d2a/classXonoticDecibelsSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,194,68],
 "da/d2a/classXonoticDecibelsSlider.html#a0532ad63a21ab0ee3d87bed20ce60394":[1,0,194,67],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "da/d41/dialog__singleplayer_8qc.html#a688fce87e81db4573d97935bb9e2cd8c":[2,0,5,4,162,0],
 "da/d41/dialog__singleplayer_8qc.html#a845e97e974f104e8b4edcb06a3e8aa73":[2,0,5,4,162,1],
 "da/d41/dialog__singleplayer_8qc_source.html":[2,0,5,4,162],
-"da/d44/common_2util_8qc.html":[2,0,1,49],
-"da/d44/common_2util_8qc.html#a0329f82a5b3fb9f25739d35f7ca89fce":[2,0,1,49,37],
-"da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95":[2,0,1,49,20]
+"da/d44/common_2util_8qc.html":[2,0,1,49]
 };
