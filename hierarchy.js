@@ -87,7 +87,9 @@ var hierarchy =
                   [ "XonoticProfileTab", "dc/de2/classXonoticProfileTab.html", null ],
                   [ "XonoticScreenshotBrowserTab", "d9/d37/classXonoticScreenshotBrowserTab.html", null ],
                   [ "XonoticServerCreateTab", "d8/da8/classXonoticServerCreateTab.html", null ],
+                  [ "XonoticServerInfoTab", "d4/dab/classXonoticServerInfoTab.html", null ],
                   [ "XonoticServerListTab", "d1/d7e/classXonoticServerListTab.html", null ],
+                  [ "XonoticServerToSTab", "d5/dd6/classXonoticServerToSTab.html", null ],
                   [ "XonoticUserSettingsTab", "d0/d2d/classXonoticUserSettingsTab.html", null ],
                   [ "XonoticVideoSettingsTab", "d7/d39/classXonoticVideoSettingsTab.html", null ]
                 ] ]
@@ -132,6 +134,7 @@ var hierarchy =
                   [ "XonoticMonsterToolsDialog", "da/d9c/classXonoticMonsterToolsDialog.html", null ],
                   [ "XonoticSandboxToolsDialog", "dd/d9a/classXonoticSandboxToolsDialog.html", null ],
                   [ "XonoticTeamSelectDialog", "d1/d39/classXonoticTeamSelectDialog.html", null ],
+                  [ "XonoticToSDialog", "df/ddb/classXonoticToSDialog.html", null ],
                   [ "XonoticUid2NameDialog", "d4/d85/classXonoticUid2NameDialog.html", null ]
                 ] ],
                 [ "XonoticScreenshotViewerDialog", "db/de2/classXonoticScreenshotViewerDialog.html", null ],
@@ -217,6 +220,7 @@ var hierarchy =
             [ "XonoticSkinList", "d7/de6/classXonoticSkinList.html", null ],
             [ "XonoticSoundList", "d1/d70/classXonoticSoundList.html", null ],
             [ "XonoticStatsList", "d0/d25/classXonoticStatsList.html", null ],
+            [ "XonoticTextBox", "da/df9/classXonoticTextBox.html", null ],
             [ "XonoticWeaponsList", "d6/d15/classXonoticWeaponsList.html", null ]
           ] ]
         ] ],

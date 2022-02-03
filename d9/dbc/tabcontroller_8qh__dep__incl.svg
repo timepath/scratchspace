@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 730;
+var viewWidth = 918;
 var viewHeight = 263;
 var sectionId = 'dynsection-1';
 </script>
@@ -57,8 +57,8 @@ var sectionId = 'dynsection-1';
 <!-- Node11 -->
 <g id="node1" class="node">
 <title>Node11</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="256.5,-235.5 256.5,-254.5 419.5,-254.5 419.5,-235.5 256.5,-235.5"/>
-<text text-anchor="middle" x="338" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/tabcontroller.qh</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="374.5,-235.5 374.5,-254.5 537.5,-254.5 537.5,-235.5 374.5,-235.5"/>
+<text text-anchor="middle" x="456" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/tabcontroller.qh</text>
 </g>
 <!-- Node12 -->
 <g id="node2" class="node">
@@ -73,148 +73,170 @@ var sectionId = 'dynsection-1';
 <!-- Node11&#45;&gt;Node12 -->
 <g id="edge1" class="edge">
 <title>Node11&#45;&gt;Node12</title>
-<path fill="none" stroke="#191970" d="M283.0947,-233.3734C240.0511,-224.2029 178.6619,-211.001 125,-199 122.0872,-198.3486 119.1043,-197.6766 116.0928,-196.9942"/>
-<polygon fill="#191970" stroke="#191970" points="282.5703,-236.8401 293.0798,-235.4986 284.0275,-229.9935 282.5703,-236.8401"/>
+<path fill="none" stroke="#191970" d="M364.3417,-234.4924C297.6999,-226.3109 205.4494,-213.8652 125,-199 122.0649,-198.4577 119.0641,-197.8734 116.0384,-197.2607"/>
+<polygon fill="#191970" stroke="#191970" points="364.0472,-237.9823 374.3973,-235.7184 364.8944,-231.0338 364.0472,-237.9823"/>
 </g>
 <!-- Node16 -->
 <g id="node6" class="node">
 <title>Node16</title>
-<g id="a_node6"><a xlink:href="../../d1/d8e/dialog__multiplayer__media_8qc.html" target="_top" xlink:title="menu/xonotic/dialog\l_multiplayer_media.qc">
-<polygon fill="none" stroke="#000000" points="134,-168.5 134,-198.5 262,-198.5 262,-168.5 134,-168.5"/>
+<g id="a_node6"><a xlink:href="../../dc/db5/dialog__multiplayer__join__serverinfo_8qc.html" target="_top" xlink:title="menu/xonotic/dialog\l_multiplayer_join_serverinfo.qc">
+<polygon fill="none" stroke="#000000" points="134,-168.5 134,-198.5 304,-198.5 304,-168.5 134,-168.5"/>
 <text text-anchor="start" x="142" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/dialog</text>
-<text text-anchor="middle" x="198" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_multiplayer_media.qc</text>
+<text text-anchor="middle" x="219" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_multiplayer_join_serverinfo.qc</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node16 -->
 <g id="edge5" class="edge">
 <title>Node11&#45;&gt;Node16</title>
-<path fill="none" stroke="#191970" d="M306.8493,-231.316C284.729,-221.5988 255.034,-208.5542 232.2479,-198.5446"/>
-<polygon fill="#191970" stroke="#191970" points="305.5617,-234.5731 316.125,-235.3906 308.3771,-228.1642 305.5617,-234.5731"/>
+<path fill="none" stroke="#191970" d="M409.4659,-232.9247C371.5587,-223.088 317.8372,-209.1476 277.1071,-198.5784"/>
+<polygon fill="#191970" stroke="#191970" points="408.6702,-236.3341 419.2288,-235.4581 410.4285,-229.5585 408.6702,-236.3341"/>
 </g>
 <!-- Node17 -->
 <g id="node7" class="node">
 <title>Node17</title>
-<g id="a_node7"><a xlink:href="../../d0/d13/dialog__settings_8qc.html" target="_top" xlink:title="menu/xonotic/dialog\l_settings.qc">
-<polygon fill="none" stroke="#000000" points="280,-168.5 280,-198.5 396,-198.5 396,-168.5 280,-168.5"/>
-<text text-anchor="start" x="288" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/dialog</text>
-<text text-anchor="middle" x="338" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_settings.qc</text>
+<g id="a_node7"><a xlink:href="../../d1/d8e/dialog__multiplayer__media_8qc.html" target="_top" xlink:title="menu/xonotic/dialog\l_multiplayer_media.qc">
+<polygon fill="none" stroke="#000000" points="322,-168.5 322,-198.5 450,-198.5 450,-168.5 322,-168.5"/>
+<text text-anchor="start" x="330" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/dialog</text>
+<text text-anchor="middle" x="386" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_multiplayer_media.qc</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node17 -->
 <g id="edge7" class="edge">
 <title>Node11&#45;&gt;Node17</title>
-<path fill="none" stroke="#191970" d="M338,-225.3693C338,-216.681 338,-206.6241 338,-198.5446"/>
-<polygon fill="#191970" stroke="#191970" points="334.5001,-225.3906 338,-235.3906 341.5001,-225.3907 334.5001,-225.3906"/>
+<path fill="none" stroke="#191970" d="M437.5196,-228.7637C426.8595,-219.398 413.5463,-207.7014 403.1239,-198.5446"/>
+<polygon fill="#191970" stroke="#191970" points="435.2399,-231.4197 445.0625,-235.3906 439.8601,-226.161 435.2399,-231.4197"/>
 </g>
 <!-- Node18 -->
 <g id="node8" class="node">
 <title>Node18</title>
-<g id="a_node8"><a xlink:href="../../dc/dcf/tabcontroller_8qc.html" target="_top" xlink:title="menu/xonotic/tabcontroller.qc">
-<polygon fill="none" stroke="#000000" points="414,-174 414,-193 576,-193 576,-174 414,-174"/>
-<text text-anchor="middle" x="495" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/tabcontroller.qc</text>
+<g id="a_node8"><a xlink:href="../../d0/d13/dialog__settings_8qc.html" target="_top" xlink:title="menu/xonotic/dialog\l_settings.qc">
+<polygon fill="none" stroke="#000000" points="468,-168.5 468,-198.5 584,-198.5 584,-168.5 468,-168.5"/>
+<text text-anchor="start" x="476" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/dialog</text>
+<text text-anchor="middle" x="526" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_settings.qc</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node18 -->
 <g id="edge9" class="edge">
 <title>Node11&#45;&gt;Node18</title>
-<path fill="none" stroke="#191970" d="M372.0863,-231.6477C401.8153,-220.0023 444.2107,-203.3952 470.641,-193.0419"/>
-<polygon fill="#191970" stroke="#191970" points="370.5658,-228.4843 362.5313,-235.3906 373.119,-235.0021 370.5658,-228.4843"/>
+<path fill="none" stroke="#191970" d="M474.4804,-228.7637C485.1405,-219.398 498.4537,-207.7014 508.8761,-198.5446"/>
+<polygon fill="#191970" stroke="#191970" points="472.1399,-226.161 466.9375,-235.3906 476.7601,-231.4197 472.1399,-226.161"/>
 </g>
 <!-- Node19 -->
 <g id="node9" class="node">
 <title>Node19</title>
-<g id="a_node9"><a xlink:href="../../d5/d14/menu_2xonotic_2__mod_8qh.html" target="_top" xlink:title="menu/xonotic/_mod.qh">
-<polygon fill="none" stroke="#000000" points="594,-174 594,-193 722,-193 722,-174 594,-174"/>
-<text text-anchor="middle" x="658" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/_mod.qh</text>
+<g id="a_node9"><a xlink:href="../../dc/dcf/tabcontroller_8qc.html" target="_top" xlink:title="menu/xonotic/tabcontroller.qc">
+<polygon fill="none" stroke="#000000" points="602,-174 602,-193 764,-193 764,-174 602,-174"/>
+<text text-anchor="middle" x="683" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/tabcontroller.qc</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node19 -->
 <g id="edge11" class="edge">
 <title>Node11&#45;&gt;Node19</title>
-<path fill="none" stroke="#191970" d="M401.5639,-233.6151C451.5002,-224.5616 522.7671,-211.3999 585,-199 594.4027,-197.1265 604.4692,-195.041 614.03,-193.0226"/>
-<polygon fill="#191970" stroke="#191970" points="400.7735,-230.2012 391.5567,-235.4261 402.0202,-237.0893 400.7735,-230.2012"/>
+<path fill="none" stroke="#191970" d="M501.1389,-232.7707C544.2458,-221.092 608.3197,-203.7328 647.7803,-193.0419"/>
+<polygon fill="#191970" stroke="#191970" points="500.2055,-229.3974 491.4688,-235.3906 502.0361,-236.1538 500.2055,-229.3974"/>
+</g>
+<!-- Node20 -->
+<g id="node10" class="node">
+<title>Node20</title>
+<g id="a_node10"><a xlink:href="../../d5/d14/menu_2xonotic_2__mod_8qh.html" target="_top" xlink:title="menu/xonotic/_mod.qh">
+<polygon fill="none" stroke="#000000" points="782,-174 782,-193 910,-193 910,-174 782,-174"/>
+<text text-anchor="middle" x="846" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/_mod.qh</text>
+</a>
+</g>
+</g>
+<!-- Node11&#45;&gt;Node20 -->
+<g id="edge13" class="edge">
+<title>Node11&#45;&gt;Node20</title>
+<path fill="none" stroke="#191970" d="M541.1979,-234.1682C605.1544,-225.6661 694.7919,-212.962 773,-199 782.821,-197.2467 793.3383,-195.1459 803.2445,-193.0652"/>
+<polygon fill="#191970" stroke="#191970" points="540.614,-230.7149 531.1595,-235.4963 541.5322,-237.6544 540.614,-230.7149"/>
 </g>
 <!-- Node13 -->
 <g id="node3" class="node">
 <title>Node13</title>
 <g id="a_node3"><a xlink:href="../../d5/d74/menu_2xonotic_2__mod_8inc.html" target="_top" xlink:title="menu/xonotic/_mod.inc">
-<polygon fill="none" stroke="#000000" points="202.5,-112.5 202.5,-131.5 333.5,-131.5 333.5,-112.5 202.5,-112.5"/>
-<text text-anchor="middle" x="268" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/_mod.inc</text>
+<polygon fill="none" stroke="#000000" points="320.5,-112.5 320.5,-131.5 451.5,-131.5 451.5,-112.5 320.5,-112.5"/>
+<text text-anchor="middle" x="386" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/xonotic/_mod.inc</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node13 -->
 <g id="edge2" class="edge">
 <title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="#191970" d="M119.3125,-165.5442C157.2905,-154.4221 204.5486,-140.5822 235.4575,-131.5303"/>
-<polygon fill="#191970" stroke="#191970" points="117.985,-162.2859 109.3718,-168.4554 119.9524,-169.0037 117.985,-162.2859"/>
+<path fill="none" stroke="#191970" d="M126.1156,-167.8302C200.7853,-152.7852 276.0132,-139.8896 326.7462,-131.5253"/>
+<polygon fill="#191970" stroke="#191970" points="125.1681,-164.4511 116.0637,-169.8695 126.5599,-171.3113 125.1681,-164.4511"/>
 </g>
 <!-- Node14 -->
 <g id="node4" class="node">
 <title>Node14</title>
 <g id="a_node4"><a xlink:href="../../dc/d05/menu_2__mod_8inc.html" target="_top" xlink:title="menu/_mod.inc">
-<polygon fill="none" stroke="#000000" points="222,-56.5 222,-75.5 314,-75.5 314,-56.5 222,-56.5"/>
-<text text-anchor="middle" x="268" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/_mod.inc</text>
+<polygon fill="none" stroke="#000000" points="340,-56.5 340,-75.5 432,-75.5 432,-56.5 340,-56.5"/>
+<text text-anchor="middle" x="386" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/_mod.inc</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
 <g id="edge3" class="edge">
 <title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="#191970" d="M268,-102.1575C268,-93.155 268,-82.9199 268,-75.6427"/>
-<polygon fill="#191970" stroke="#191970" points="264.5001,-102.2455 268,-112.2455 271.5001,-102.2456 264.5001,-102.2455"/>
+<path fill="none" stroke="#191970" d="M386,-102.1575C386,-93.155 386,-82.9199 386,-75.6427"/>
+<polygon fill="#191970" stroke="#191970" points="382.5001,-102.2455 386,-112.2455 389.5001,-102.2456 382.5001,-102.2455"/>
 </g>
 <!-- Node15 -->
 <g id="node5" class="node">
 <title>Node15</title>
 <g id="a_node5"><a xlink:href="../../d3/d70/menu_2progs_8inc.html" target="_top" xlink:title="menu/progs.inc">
-<polygon fill="none" stroke="#000000" points="222,-.5 222,-19.5 314,-19.5 314,-.5 222,-.5"/>
-<text text-anchor="middle" x="268" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/progs.inc</text>
+<polygon fill="none" stroke="#000000" points="340,-.5 340,-19.5 432,-19.5 432,-.5 340,-.5"/>
+<text text-anchor="middle" x="386" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/progs.inc</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node15 -->
 <g id="edge4" class="edge">
 <title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="#191970" d="M268,-46.1575C268,-37.155 268,-26.9199 268,-19.6427"/>
-<polygon fill="#191970" stroke="#191970" points="264.5001,-46.2455 268,-56.2455 271.5001,-46.2456 264.5001,-46.2455"/>
+<path fill="none" stroke="#191970" d="M386,-46.1575C386,-37.155 386,-26.9199 386,-19.6427"/>
+<polygon fill="#191970" stroke="#191970" points="382.5001,-46.2455 386,-56.2455 389.5001,-46.2456 382.5001,-46.2455"/>
 </g>
 <!-- Node16&#45;&gt;Node13 -->
 <g id="edge6" class="edge">
 <title>Node16&#45;&gt;Node13</title>
-<path fill="none" stroke="#191970" d="M222.9844,-161.5494C234.5471,-151.3907 247.7024,-139.8329 256.7921,-131.8469"/>
-<polygon fill="#191970" stroke="#191970" points="220.5058,-159.0681 215.3034,-168.2977 225.1259,-164.3269 220.5058,-159.0681"/>
+<path fill="none" stroke="#191970" d="M269.3066,-164.9739C299.2352,-153.9523 335.9594,-140.4281 360.1209,-131.5303"/>
+<polygon fill="#191970" stroke="#191970" points="268.0272,-161.7152 259.8528,-168.4554 270.4462,-168.284 268.0272,-161.7152"/>
 </g>
 <!-- Node17&#45;&gt;Node13 -->
 <g id="edge8" class="edge">
 <title>Node17&#45;&gt;Node13</title>
-<path fill="none" stroke="#191970" d="M313.0156,-161.5494C301.4529,-151.3907 288.2976,-139.8329 279.2079,-131.8469"/>
-<polygon fill="#191970" stroke="#191970" points="310.8741,-164.3269 320.6966,-168.2977 315.4942,-159.0681 310.8741,-164.3269"/>
+<path fill="none" stroke="#191970" d="M386,-158.2849C386,-148.9858 386,-138.9883 386,-131.8469"/>
+<polygon fill="#191970" stroke="#191970" points="382.5001,-158.2977 386,-168.2977 389.5001,-158.2978 382.5001,-158.2977"/>
 </g>
 <!-- Node18&#45;&gt;Node13 -->
 <g id="edge10" class="edge">
 <title>Node18&#45;&gt;Node13</title>
-<path fill="none" stroke="#191970" d="M449.8611,-171.2707C406.7542,-159.592 342.6803,-142.2328 303.2197,-131.5419"/>
-<polygon fill="#191970" stroke="#191970" points="448.9639,-174.6538 459.5313,-173.8906 450.7945,-167.8974 448.9639,-174.6538"/>
+<path fill="none" stroke="#191970" d="M482.5184,-164.3992C457.6739,-153.4853 427.5994,-140.274 407.695,-131.5303"/>
+<polygon fill="#191970" stroke="#191970" points="481.1889,-167.6379 491.7521,-168.4554 484.0043,-161.229 481.1889,-167.6379"/>
 </g>
-<!-- Node20 -->
-<g id="node10" class="node">
-<title>Node20</title>
-<g id="a_node10"><a xlink:href="../../db/d31/menu_2__mod_8qh.html" target="_top" xlink:title="menu/_mod.qh">
-<polygon fill="none" stroke="#000000" points="613.5,-112.5 613.5,-131.5 702.5,-131.5 702.5,-112.5 613.5,-112.5"/>
-<text text-anchor="middle" x="658" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/_mod.qh</text>
+<!-- Node19&#45;&gt;Node13 -->
+<g id="edge12" class="edge">
+<title>Node19&#45;&gt;Node13</title>
+<path fill="none" stroke="#191970" d="M627.1036,-171.9255C570.7547,-160.2573 484.8012,-142.4588 432.1885,-131.5643"/>
+<polygon fill="#191970" stroke="#191970" points="626.4176,-175.3576 636.9196,-173.9581 627.8371,-168.503 626.4176,-175.3576"/>
+</g>
+<!-- Node21 -->
+<g id="node11" class="node">
+<title>Node21</title>
+<g id="a_node11"><a xlink:href="../../db/d31/menu_2__mod_8qh.html" target="_top" xlink:title="menu/_mod.qh">
+<polygon fill="none" stroke="#000000" points="801.5,-112.5 801.5,-131.5 890.5,-131.5 890.5,-112.5 801.5,-112.5"/>
+<text text-anchor="middle" x="846" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">menu/_mod.qh</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node20 -->
-<g id="edge12" class="edge">
-<title>Node19&#45;&gt;Node20</title>
-<path fill="none" stroke="#191970" d="M658,-163.7462C658,-153.0519 658,-140.314 658,-131.7449"/>
-<polygon fill="#191970" stroke="#191970" points="654.5001,-163.8906 658,-173.8906 661.5001,-163.8907 654.5001,-163.8906"/>
+<!-- Node20&#45;&gt;Node21 -->
+<g id="edge14" class="edge">
+<title>Node20&#45;&gt;Node21</title>
+<path fill="none" stroke="#191970" d="M846,-163.7462C846,-153.0519 846,-140.314 846,-131.7449"/>
+<polygon fill="#191970" stroke="#191970" points="842.5001,-163.8906 846,-173.8906 849.5001,-163.8907 842.5001,-163.8906"/>
 </g>
 </g>
 </svg>

@@ -8,6 +8,7 @@ var constants_8qh =
     [ "FRAGS_SPECTATOR", "db/d2a/constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe", null ],
     [ "SERVERFLAG_ALLOW_FULLBRIGHT", "db/d2a/constants_8qh.html#a1cb919cfd08037b7e1a3d226460d215c", null ],
     [ "SERVERFLAG_PLAYERSTATS", "db/d2a/constants_8qh.html#a40128d49216e2a2f57a563ecf9be33be", null ],
+    [ "SERVERFLAG_PLAYERSTATS_CUSTOM", "db/d2a/constants_8qh.html#aa1039422638c32c4e98c0186d5d6b4a9", null ],
     [ "SERVERFLAG_TEAMPLAY", "db/d2a/constants_8qh.html#a589686464c46a353960d0ba3696d15c0", null ],
     [ "SPECIES_ALIEN", "db/d2a/constants_8qh.html#ac9873a09c7ef06c4c0f6743f3971e9c2", null ],
     [ "SPECIES_ANIMAL", "db/d2a/constants_8qh.html#a0aa16fb4b5a880866ece61e87fab71ed", null ],

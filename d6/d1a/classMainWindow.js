@@ -1,5 +1,6 @@
 var classMainWindow =
 [
+    [ "ATTRIB", "d6/d1a/classMainWindow.html#a21f01832ba826e4def8e62cfba50c1e6", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#add870f3470c176b541b432cac45f5dc5", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#a549d362be4232efb07509c2d749e2ba5", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#aa21c9f979bb00fd1ab5a2df2841286c2", null ],
@@ -14,11 +15,10 @@ var classMainWindow =
     [ "ATTRIB", "d6/d1a/classMainWindow.html#a9d8006ceb7047b2888170a128d54b5af", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#afd3a881d71c15e8265c4bdd446ef59cd", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#aa19246ed962edd276063a2f76ab3974e", null ],
-    [ "ATTRIB", "d6/d1a/classMainWindow.html#accd4599fa450e0ac420cc22d2db422b5", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#a18c0d181c2da604365f59a78f511fda9", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#a0aff2b3aab7ac8dcae729d4a3d7959eb", null ],
-    [ "ATTRIB", "d6/d1a/classMainWindow.html#a57d47c9d391f762811bece4a6dfd2305", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#a6cc59c1de971510be31db1dbba9ec665", null ],
+    [ "ATTRIB", "d6/d1a/classMainWindow.html#a57d47c9d391f762811bece4a6dfd2305", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#af676840d5b62a125d3673a421afd5746", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#a21c7071e5024d898349acbe2717e16cc", null ],
     [ "ATTRIB", "d6/d1a/classMainWindow.html#aec6ad845fe7ee48971a8f2a67e2be94d", null ],
@@ -80,6 +80,7 @@ var classMainWindow =
     [ "allowFocusSound", "d6/d1a/classMainWindow.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "disconnectDialogVisibility", "d6/d1a/classMainWindow.html#afa1ffafd78ad9f0c3432d09a15ad8678", null ],
     [ "fadedAlpha", "d6/d1a/classMainWindow.html#a1bce3222529a92fbd7bdc4343d85d91a", null ],
+    [ "firstDraw", "d6/d1a/classMainWindow.html#a4be0a7da258f80d80a1ad49f586c4015", null ],
     [ "focusable", "d6/d1a/classMainWindow.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d6/d1a/classMainWindow.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262", null ],
     [ "origin", "d6/d1a/classMainWindow.html#a890974fd1608e18604cdc5b674b96f47", null ],

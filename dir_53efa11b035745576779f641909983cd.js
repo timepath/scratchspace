@@ -162,6 +162,10 @@ var dir_53efa11b035745576779f641909983cd =
     [ "dialog_multiplayer_join.qh", "d7/d42/dialog__multiplayer__join_8qh.html", "d7/d42/dialog__multiplayer__join_8qh" ],
     [ "dialog_multiplayer_join_serverinfo.qc", "dc/db5/dialog__multiplayer__join__serverinfo_8qc.html", "dc/db5/dialog__multiplayer__join__serverinfo_8qc" ],
     [ "dialog_multiplayer_join_serverinfo.qh", "d1/d33/dialog__multiplayer__join__serverinfo_8qh.html", "d1/d33/dialog__multiplayer__join__serverinfo_8qh" ],
+    [ "dialog_multiplayer_join_serverinfotab.qc", "dc/dc7/dialog__multiplayer__join__serverinfotab_8qc.html", "dc/dc7/dialog__multiplayer__join__serverinfotab_8qc" ],
+    [ "dialog_multiplayer_join_serverinfotab.qh", "de/de7/dialog__multiplayer__join__serverinfotab_8qh.html", "de/de7/dialog__multiplayer__join__serverinfotab_8qh" ],
+    [ "dialog_multiplayer_join_termsofservice.qc", "d8/d6b/dialog__multiplayer__join__termsofservice_8qc.html", "d8/d6b/dialog__multiplayer__join__termsofservice_8qc" ],
+    [ "dialog_multiplayer_join_termsofservice.qh", "dd/dfd/dialog__multiplayer__join__termsofservice_8qh.html", "dd/dfd/dialog__multiplayer__join__termsofservice_8qh" ],
     [ "dialog_multiplayer_media.qc", "d1/d8e/dialog__multiplayer__media_8qc.html", "d1/d8e/dialog__multiplayer__media_8qc" ],
     [ "dialog_multiplayer_media.qh", "d3/deb/dialog__multiplayer__media_8qh.html", "d3/deb/dialog__multiplayer__media_8qh" ],
     [ "dialog_multiplayer_media_demo.qc", "d4/d4c/dialog__multiplayer__media__demo_8qc.html", "d4/d4c/dialog__multiplayer__media__demo_8qc" ],
@@ -262,6 +266,8 @@ var dir_53efa11b035745576779f641909983cd =
     [ "dialog_teamselect.qh", "df/daf/dialog__teamselect_8qh.html", [
       [ "XonoticTeamSelectDialog", "d1/d39/classXonoticTeamSelectDialog.html", "d1/d39/classXonoticTeamSelectDialog" ]
     ] ],
+    [ "dialog_termsofservice.qc", "d9/d3c/dialog__termsofservice_8qc.html", "d9/d3c/dialog__termsofservice_8qc" ],
+    [ "dialog_termsofservice.qh", "df/d72/dialog__termsofservice_8qh.html", "df/d72/dialog__termsofservice_8qh" ],
     [ "dialog_uid2name.qc", "d6/d55/dialog__uid2name_8qc.html", "d6/d55/dialog__uid2name_8qc" ],
     [ "dialog_uid2name.qh", "d3/dab/dialog__uid2name_8qh.html", [
       [ "XonoticUid2NameDialog", "d4/d85/classXonoticUid2NameDialog.html", "d4/d85/classXonoticUid2NameDialog" ]
@@ -336,6 +342,8 @@ var dir_53efa11b035745576779f641909983cd =
     ] ],
     [ "tabcontroller.qc", "dc/dcf/tabcontroller_8qc.html", "dc/dcf/tabcontroller_8qc" ],
     [ "tabcontroller.qh", "d0/d81/tabcontroller_8qh.html", "d0/d81/tabcontroller_8qh" ],
+    [ "textbox.qc", "d7/d3f/textbox_8qc.html", "d7/d3f/textbox_8qc" ],
+    [ "textbox.qh", "dc/d44/textbox_8qh.html", "dc/d44/textbox_8qh" ],
     [ "textlabel.qc", "d2/d67/textlabel_8qc.html", "d2/d67/textlabel_8qc" ],
     [ "textlabel.qh", "d0/de9/textlabel_8qh.html", "d0/de9/textlabel_8qh" ],
     [ "textslider.qc", "dc/d24/xonotic_2textslider_8qc.html", "dc/d24/xonotic_2textslider_8qc" ],

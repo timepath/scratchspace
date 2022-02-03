@@ -73,6 +73,7 @@ var classXonoticFirstRunDialog =
     [ "MenuItem ::toString", "d4/d5f/classXonoticFirstRunDialog.html#a9104bb64bf958907cd8ec69d8d9f513f", null ],
     [ "XonoticDialog ::configureDialog", "d4/d5f/classXonoticFirstRunDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticFirstRunDialog ::fill", "d4/d5f/classXonoticFirstRunDialog.html#a2809e800dcaa45fce040a57d7f663945", null ],
+    [ "XonoticFirstRunDialog ::shouldShow", "d4/d5f/classXonoticFirstRunDialog.html#aeff2796befea62b7cc68699b930a8cec", null ],
     [ "XonoticRootDialog ::close", "d4/d5f/classXonoticFirstRunDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
     [ "XonoticRootDialog ::showNotify", "d4/d5f/classXonoticFirstRunDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "allowFocusSound", "d4/d5f/classXonoticFirstRunDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],

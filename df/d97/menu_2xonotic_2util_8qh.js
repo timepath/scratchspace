@@ -30,6 +30,7 @@ var menu_2xonotic_2util_8qh =
     [ "UpdateNotification_URI_Get_Callback", "df/d97/menu_2xonotic_2util_8qh.html#a33132c559dad0e1c8227935613fa6c55", null ],
     [ "_Nex_ExtResponseSystem_BannedServers", "df/d97/menu_2xonotic_2util_8qh.html#aa156cba974687799fe21dd198b2bc00a", null ],
     [ "_Nex_ExtResponseSystem_BannedServersNeedsRefresh", "df/d97/menu_2xonotic_2util_8qh.html#a26806fad571ec451328ac79c060cd921", null ],
+    [ "_Nex_ExtResponseSystem_NewToS", "df/d97/menu_2xonotic_2util_8qh.html#aa80bed7ceaa16b1fd155e9cfdd41e4c8", null ],
     [ "_Nex_ExtResponseSystem_PromotedServers", "df/d97/menu_2xonotic_2util_8qh.html#aa655bfe1be2b4063e2893929694cee00", null ],
     [ "_Nex_ExtResponseSystem_PromotedServersNeedsRefresh", "df/d97/menu_2xonotic_2util_8qh.html#afdb946f2d7145df9249e3edb4f95ec91", null ],
     [ "_Nex_ExtResponseSystem_RecommendedServers", "df/d97/menu_2xonotic_2util_8qh.html#abf5f44cadfaef4193628a744be7052db", null ],

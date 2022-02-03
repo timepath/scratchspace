@@ -45,6 +45,7 @@ var searchData=
   ['_5fmovetype_5ftestentityposition_5fent',['_Movetype_TestEntityPosition_ent',['../d2/db1/movetypes_8qc.html#a09c05b5e60959b3da148eb20ca3bf3ba',1,'movetypes.qc']]],
   ['_5fnex_5fextresponsesystem_5fbannedservers',['_Nex_ExtResponseSystem_BannedServers',['../df/d97/menu_2xonotic_2util_8qh.html#aa156cba974687799fe21dd198b2bc00a',1,'util.qh']]],
   ['_5fnex_5fextresponsesystem_5fbannedserversneedsrefresh',['_Nex_ExtResponseSystem_BannedServersNeedsRefresh',['../df/d97/menu_2xonotic_2util_8qh.html#a26806fad571ec451328ac79c060cd921',1,'util.qh']]],
+  ['_5fnex_5fextresponsesystem_5fnewtos',['_Nex_ExtResponseSystem_NewToS',['../df/d97/menu_2xonotic_2util_8qh.html#aa80bed7ceaa16b1fd155e9cfdd41e4c8',1,'util.qh']]],
   ['_5fnex_5fextresponsesystem_5fpacks',['_Nex_ExtResponseSystem_Packs',['../df/d9b/menu_2xonotic_2util_8qc.html#a50cc1457901a594746683e8f35b133c6',1,'util.qc']]],
   ['_5fnex_5fextresponsesystem_5fpacksstep',['_Nex_ExtResponseSystem_PacksStep',['../df/d9b/menu_2xonotic_2util_8qc.html#a9bc73e034ccab48e5cbcb3298481913a',1,'util.qc']]],
   ['_5fnex_5fextresponsesystem_5fpromotedservers',['_Nex_ExtResponseSystem_PromotedServers',['../df/d97/menu_2xonotic_2util_8qh.html#aa655bfe1be2b4063e2893929694cee00',1,'util.qh']]],

@@ -27,6 +27,8 @@ var searchData=
   ['test_2eqh',['test.qh',['../d4/d5b/test_8qh.html',1,'']]],
   ['tests_2eqc',['tests.qc',['../dd/dde/tests_8qc.html',1,'']]],
   ['tests_2eqh',['tests.qh',['../df/d7d/tests_8qh.html',1,'']]],
+  ['textbox_2eqc',['textbox.qc',['../d7/d3f/textbox_8qc.html',1,'']]],
+  ['textbox_2eqh',['textbox.qh',['../dc/d44/textbox_8qh.html',1,'']]],
   ['textlabel_2eqc',['textlabel.qc',['../d2/d67/textlabel_8qc.html',1,'']]],
   ['textlabel_2eqh',['textlabel.qh',['../d0/de9/textlabel_8qh.html',1,'']]],
   ['textslider_2eqc',['textslider.qc',['../d6/d19/item_2textslider_8qc.html',1,'(Global Namespace)'],['../dc/d24/xonotic_2textslider_8qc.html',1,'(Global Namespace)']]],

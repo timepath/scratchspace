@@ -159,6 +159,7 @@ var searchData=
   ['_5fnew',['_new',['../db/d0a/oo_8qh.html#abb1f528f2bd7f47d39b83eab72230797',1,'oo.qh']]],
   ['_5fnex_5fextresponsesystem_5fbannedservers',['_Nex_ExtResponseSystem_BannedServers',['../df/d97/menu_2xonotic_2util_8qh.html#aa156cba974687799fe21dd198b2bc00a',1,'util.qh']]],
   ['_5fnex_5fextresponsesystem_5fbannedserversneedsrefresh',['_Nex_ExtResponseSystem_BannedServersNeedsRefresh',['../df/d97/menu_2xonotic_2util_8qh.html#a26806fad571ec451328ac79c060cd921',1,'util.qh']]],
+  ['_5fnex_5fextresponsesystem_5fnewtos',['_Nex_ExtResponseSystem_NewToS',['../df/d97/menu_2xonotic_2util_8qh.html#aa80bed7ceaa16b1fd155e9cfdd41e4c8',1,'util.qh']]],
   ['_5fnex_5fextresponsesystem_5fpacks',['_Nex_ExtResponseSystem_Packs',['../df/d9b/menu_2xonotic_2util_8qc.html#a50cc1457901a594746683e8f35b133c6',1,'util.qc']]],
   ['_5fnex_5fextresponsesystem_5fpacksstep',['_Nex_ExtResponseSystem_PacksStep',['../df/d9b/menu_2xonotic_2util_8qc.html#a9bc73e034ccab48e5cbcb3298481913a',1,'util.qc']]],
   ['_5fnex_5fextresponsesystem_5fpromotedservers',['_Nex_ExtResponseSystem_PromotedServers',['../df/d97/menu_2xonotic_2util_8qh.html#aa655bfe1be2b4063e2893929694cee00',1,'util.qh']]],

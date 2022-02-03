@@ -14,6 +14,7 @@ var urllib_8qh =
     [ "URI_GET_DISCARD", "dc/dbb/urllib_8qh.html#a8e7e7802b603e5eaf63d8e549110b16b", null ],
     [ "URI_GET_IPBAN", "dc/dbb/urllib_8qh.html#a2fe58031614b5df4f3d0f58a8c9768d7", null ],
     [ "URI_GET_IPBAN_END", "dc/dbb/urllib_8qh.html#a360902d644001b25f287fc63fb2c0146", null ],
+    [ "URI_GET_TOS", "dc/dbb/urllib_8qh.html#a999ee5494ecfd2ed1ec8dca384214656", null ],
     [ "URI_GET_UPDATENOTIFICATION", "dc/dbb/urllib_8qh.html#ad0a5834d428a6a583250ae3a20174e63", null ],
     [ "URI_GET_URLLIB", "dc/dbb/urllib_8qh.html#ac31a5a59fe3a1cceaf0dbc4c061ee4a6", null ],
     [ "URI_GET_URLLIB_END", "dc/dbb/urllib_8qh.html#aae48597cfd867ac4b2ca9e59b6003d24", null ],

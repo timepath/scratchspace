@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"d4/d0f/buffs_8qc.html":[2,0,1,10,0,2,3],
 "d4/d0f/buffs_8qc.html#a7c73e9ee5f2498f85e04b5adaafef6b3":[2,0,1,10,0,2,3,0],
 "d4/d0f/buffs_8qc_source.html":[2,0,1,10,0,2,3],
 "d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc.html":[2,0,1,3,0,14,0],
@@ -149,8 +150,8 @@ var NAVTREEINDEX41 =
 "d4/d1b/radar_8qh.html#aea860d0d9d90d19ea30cea67f898b380":[2,0,0,1,0,31,5],
 "d4/d1b/radar_8qh.html#af7a3634b312fdfaceb89cbaed6c194dc":[2,0,0,1,0,31,6],
 "d4/d1b/radar_8qh_source.html":[2,0,0,1,0,31],
-"d4/d20/mainwindow_8qh.html":[2,0,5,4,185],
-"d4/d20/mainwindow_8qh_source.html":[2,0,5,4,185],
+"d4/d20/mainwindow_8qh.html":[2,0,5,4,191],
+"d4/d20/mainwindow_8qh_source.html":[2,0,5,4,191],
 "d4/d21/dialog__hudpanel__physics_8qc.html":[2,0,5,4,64],
 "d4/d21/dialog__hudpanel__physics_8qc.html#a9b085af15534ec8ac17a204bfd5e9fc6":[2,0,5,4,64,0],
 "d4/d21/dialog__hudpanel__physics_8qc_source.html":[2,0,5,4,64],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "d4/d3b/classXonoticBigButton.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,175,39],
 "d4/d3b/classXonoticBigButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,175,82],
 "d4/d3b/classXonoticBigButton.html#a35765335b88ee4489504808bf8bbda78":[1,0,175,66],
-"d4/d3b/classXonoticBigButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,175,77],
-"d4/d3b/classXonoticBigButton.html#a382a09f7c5068d0f7969a394178c444a":[1,0,175,30]
+"d4/d3b/classXonoticBigButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,175,77]
 };

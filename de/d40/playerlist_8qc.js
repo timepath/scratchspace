@@ -5,10 +5,10 @@ var playerlist_8qc =
     [ "XonoticPlayerList_getPlayerList", "de/d40/playerlist_8qc.html#a5c5e590dde4677eca458d95b8a4fbba2", null ],
     [ "XonoticPlayerList_resizeNotify", "de/d40/playerlist_8qc.html#af0d6cceb0b898811578ff53a6fe0737b", null ],
     [ "XonoticPlayerList_setPlayerList", "de/d40/playerlist_8qc.html#afc6b76233d09c867d5f855e3977c2fd2", null ],
-    [ "PLAYERPARM_COUNT", "de/d40/playerlist_8qc.html#aae418006d268f8e608ec32fa0c2852df", null ],
-    [ "PLAYERPARM_NAME", "de/d40/playerlist_8qc.html#ab59b48faea18dd4288ae1ca4c1b8342f", null ],
-    [ "PLAYERPARM_PING", "de/d40/playerlist_8qc.html#a512fdfff0ae79b90dd37cba610dfbcba", null ],
-    [ "PLAYERPARM_SCORE", "de/d40/playerlist_8qc.html#a8eb2d4a7a39dac19bcbefb3ebcb6e762", null ],
-    [ "PLAYERPARM_TEAM", "de/d40/playerlist_8qc.html#a2da2f534e7d95310a3a7e562a417548d", null ],
+    [ "PLAYERPARM_COUNT", "de/d40/playerlist_8qc.html#a7e80e43719d2fb2e25bbd9c2f93011f0", null ],
+    [ "PLAYERPARM_NAME", "de/d40/playerlist_8qc.html#a5b72d9a006d001067218c574c1a7095e", null ],
+    [ "PLAYERPARM_PING", "de/d40/playerlist_8qc.html#a5c1bcbc07951af1fb8cbb50f44267d4a", null ],
+    [ "PLAYERPARM_SCORE", "de/d40/playerlist_8qc.html#a7c277607708dc1056380676a44f12526", null ],
+    [ "PLAYERPARM_TEAM", "de/d40/playerlist_8qc.html#a74ef0979012645f0ca318f1d86afe7a6", null ],
     [ "realUpperMargin2", "de/d40/playerlist_8qc.html#a6d4ecee6a0c8ce64ce98498c969c819c", null ]
 ];
