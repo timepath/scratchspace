@@ -1,5 +1,8 @@
 var NAVTREEINDEX51 =
 {
+"d4/dd5/cl__spawn__near__teammate_8qh_source.html":[2,0,1,10,0,33,3],
+"d4/dd6/minelayer_8qc.html":[2,0,1,17,0,22],
+"d4/dd6/minelayer_8qc_source.html":[2,0,1,17,0,22],
 "d4/dd7/movetypes_8qh.html":[2,0,1,12,0,6],
 "d4/dd7/movetypes_8qh.html#a08001d7539f498833d366bf73fe26e65":[2,0,1,12,0,6,30],
 "d4/dd7/movetypes_8qh.html#a099fe9be6d48138058ab84c372b1a40e":[2,0,1,12,0,6,24],
@@ -246,8 +249,5 @@ var NAVTREEINDEX51 =
 "d4/df8/classXonoticHUDRadarDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,227,82],
 "d4/df8/classXonoticHUDRadarDialog.html#a34c24899d332b64a4827628957b243aa":[1,0,227,43],
 "d4/df8/classXonoticHUDRadarDialog.html#a36836cbbfc40570ef70c3b43798ca096":[1,0,227,23],
-"d4/df8/classXonoticHUDRadarDialog.html#a382a09f7c5068d0f7969a394178c444a":[1,0,227,59],
-"d4/df8/classXonoticHUDRadarDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,227,77],
-"d4/df8/classXonoticHUDRadarDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,227,107],
-"d4/df8/classXonoticHUDRadarDialog.html#a3bfe985eb7e90c227d56dc81434bb5f9":[1,0,227,48]
+"d4/df8/classXonoticHUDRadarDialog.html#a382a09f7c5068d0f7969a394178c444a":[1,0,227,59]
 };

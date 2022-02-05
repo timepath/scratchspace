@@ -171,6 +171,7 @@ var searchData=
   ['hud_5fnotify_5fexport',['HUD_Notify_Export',['../d4/d48/notify_8qc.html#abd71f8deb3161700b1812044ad63666f',1,'notify.qc']]],
   ['hud_5fnotify_5fpush',['HUD_Notify_Push',['../d3/d05/hud_8qh.html#a3f24d1601ce9eaa70aa03b90c969a568',1,'HUD_Notify_Push(string icon, string attacker, string victim):&#160;notify.qc'],['../d4/d48/notify_8qc.html#a3f24d1601ce9eaa70aa03b90c969a568',1,'HUD_Notify_Push(string icon, string attacker, string victim):&#160;notify.qc']]],
   ['hud_5fpanel_5farrow_5faction',['HUD_Panel_Arrow_Action',['../dc/d90/hud__config_8qc.html#ad2feee5f3269c7a6f0af7c0c6af538aa',1,'hud_config.qc']]],
+  ['hud_5fpanel_5fchat_5finputevent',['HUD_Panel_Chat_InputEvent',['../d4/d58/client_2hud_2panel_2chat_8qc.html#a4dbce426b7772e1f0aa7bfd52c384a47',1,'HUD_Panel_Chat_InputEvent(float bInputType, float nPrimary, float nSecondary):&#160;chat.qc'],['../d7/d6f/client_2hud_2panel_2chat_8qh.html#a4dbce426b7772e1f0aa7bfd52c384a47',1,'HUD_Panel_Chat_InputEvent(float bInputType, float nPrimary, float nSecondary):&#160;chat.qc']]],
   ['hud_5fpanel_5fcheck_5fmouse_5fpos',['HUD_Panel_Check_Mouse_Pos',['../dc/d90/hud__config_8qc.html#a37b9023b39d6d024d006e427aa8e72ee',1,'hud_config.qc']]],
   ['hud_5fpanel_5fcheckmove',['HUD_Panel_CheckMove',['../dc/d90/hud__config_8qc.html#ae4e47b3aa46c08e087d9b879cca6b1bf',1,'hud_config.qc']]],
   ['hud_5fpanel_5fcheckresize',['HUD_Panel_CheckResize',['../dc/d90/hud__config_8qc.html#a7e6a62092f9f23614760422e891dc51f',1,'hud_config.qc']]],

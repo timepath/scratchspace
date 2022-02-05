@@ -124,6 +124,8 @@ var searchData=
   ['charmap',['CHARMAP',['../d0/dad/charmap_8qc.html#a15312d79bf6714ef7ed27b9da8fcf4ae',1,'charmap.qc']]],
   ['charoffset',['charOffset',['../d5/d53/classXonoticCharmap.html#ab3fa5c4434ca52caae557cf0122334b5',1,'XonoticCharmap']]],
   ['chase_5factive_5fbackup',['chase_active_backup',['../d0/d2a/client_2main_8qh.html#a551f2b128282373f6efd025c468ce520',1,'main.qh']]],
+  ['chat_5fmaximized_5freset_5fscroll_5ftime',['chat_maximized_reset_scroll_time',['../d4/d58/client_2hud_2panel_2chat_8qc.html#ad307ff5413d0436b7bf6ebf0bb9f50d4',1,'chat.qc']]],
+  ['chat_5fmaximized_5fscroll_5fofs',['chat_maximized_scroll_ofs',['../d4/d58/client_2hud_2panel_2chat_8qc.html#a3610ca815c3352ebd571b9eb27f66e0a',1,'chat.qc']]],
   ['chat_5fpanel_5fmodified',['chat_panel_modified',['../d3/d05/hud_8qh.html#af1ea65cc101371fce0ad1aca1ddf7301',1,'hud.qh']]],
   ['chat_5fposy',['chat_posy',['../d3/d05/hud_8qh.html#acc6b389d9670817b3a2dd7453b7b2d0f',1,'hud.qh']]],
   ['chat_5fsizey',['chat_sizey',['../d3/d05/hud_8qh.html#a70a2f0626e905caee470dbb25f1e8d11',1,'hud.qh']]],

@@ -1,5 +1,6 @@
 var client_2hud_2panel_2chat_8qh =
 [
+    [ "HUD_Panel_Chat_InputEvent", "d7/d6f/client_2hud_2panel_2chat_8qh.html#a4dbce426b7772e1f0aa7bfd52c384a47", null ],
     [ "autocvar__con_chat_maximized", "d7/d6f/client_2hud_2panel_2chat_8qh.html#aeed66c65a3efb7158905a5d599623d27", null ],
     [ "autocvar_con_chat", "d7/d6f/client_2hud_2panel_2chat_8qh.html#a2133679236cf3264da767bae41ab9b35", null ],
     [ "autocvar_con_chatrect", "d7/d6f/client_2hud_2panel_2chat_8qh.html#ace93cc8f65a0138a213c794bfb240802", null ],

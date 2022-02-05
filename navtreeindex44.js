@@ -36,7 +36,10 @@ var NAVTREEINDEX44 =
 "d4/d56/classHunterKillerAttack.html#afd6a5b617980337ce93befe0b4e741ff":[1,0,59,12],
 "d4/d58/client_2hud_2panel_2chat_8qc.html":[2,0,0,1,0,6],
 "d4/d58/client_2hud_2panel_2chat_8qc.html#a008d4ee087388abdbf0ccb7377b13387":[2,0,0,1,0,6,0],
+"d4/d58/client_2hud_2panel_2chat_8qc.html#a3610ca815c3352ebd571b9eb27f66e0a":[2,0,0,1,0,6,4],
+"d4/d58/client_2hud_2panel_2chat_8qc.html#a4dbce426b7772e1f0aa7bfd52c384a47":[2,0,0,1,0,6,2],
 "d4/d58/client_2hud_2panel_2chat_8qc.html#ad114fc7439005bf3b871713021e453f7":[2,0,0,1,0,6,1],
+"d4/d58/client_2hud_2panel_2chat_8qc.html#ad307ff5413d0436b7bf6ebf0bb9f50d4":[2,0,0,1,0,6,3],
 "d4/d58/client_2hud_2panel_2chat_8qc_source.html":[2,0,0,1,0,6],
 "d4/d5b/spawnpoint_8qc.html":[2,0,1,6,2,14],
 "d4/d5b/spawnpoint_8qc_source.html":[2,0,1,6,2,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "d4/d62/damage_8qh.html#a68ca431c4a567c5116d47c4e4b1b4e59":[2,0,6,24,77],
 "d4/d62/damage_8qh.html#a6fa1a68d8d18ee269438276ad351c0e9":[2,0,6,24,6],
 "d4/d62/damage_8qh.html#a707109587d304a07d8692fd6d12404a1":[2,0,6,24,2],
-"d4/d62/damage_8qh.html#a70a9d995c3dce005ff6f5cb738dd1cdc":[2,0,6,24,51],
-"d4/d62/damage_8qh.html#a71cbd3b7045074352ef5de0d1711f3d6":[2,0,6,24,84],
-"d4/d62/damage_8qh.html#a74a905bd8950c5b2bd0555961dc29722":[2,0,6,24,8],
-"d4/d62/damage_8qh.html#a798f63d3b40c416811743d9bfc9b1d28":[2,0,6,24,83]
+"d4/d62/damage_8qh.html#a70a9d995c3dce005ff6f5cb738dd1cdc":[2,0,6,24,51]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX53 =
 {
+"d5/d30/sv__powerups_8qc.html#a54947c3478446bb24ef80ba5e7603bc9":[2,0,1,10,0,26,7,2],
+"d5/d30/sv__powerups_8qc.html#a5bfb09ea112e8ebcb2f1d03a2b8e2a3a":[2,0,1,10,0,26,7,10],
+"d5/d30/sv__powerups_8qc.html#a5eccb1e5c6e0b6bbe09227bad437542a":[2,0,1,10,0,26,7,13],
 "d5/d30/sv__powerups_8qc.html#a6ee12e22713234f9a9ea25509eded585":[2,0,1,10,0,26,7,0],
 "d5/d30/sv__powerups_8qc.html#a8d53ccc082a8e8cd9e5c79f254d32d0b":[2,0,1,10,0,26,7,11],
 "d5/d30/sv__powerups_8qc.html#aa0c69d4a466134cc9183164a1e1b1324":[2,0,1,10,0,26,7,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX53 =
 "d5/d6c/classResistanceBuff.html#ad500a55c328abdfb32e537eb6417b2be":[1,0,131,4],
 "d5/d6c/classResistanceBuff.html#add8ddfd5908ab7591bd96096f0d9a488":[1,0,131,9],
 "d5/d6c/classResistanceBuff.html#ae357161933cf399ac0a3515774f67ff8":[1,0,131,8],
-"d5/d6c/classResistanceBuff.html#aeddf393b7ab946947f277b3a12a21310":[1,0,131,6],
-"d5/d6c/classXonoticHUDSkinList.html":[1,0,229],
-"d5/d6c/classXonoticHUDSkinList.html#a01e0b37934024baff415a4b53a1def51":[1,0,229,45],
-"d5/d6c/classXonoticHUDSkinList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,229,62]
+"d5/d6c/classResistanceBuff.html#aeddf393b7ab946947f277b3a12a21310":[1,0,131,6]
 };
