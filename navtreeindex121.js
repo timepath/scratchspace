@@ -1,5 +1,6 @@
 var NAVTREEINDEX121 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,216,3],
 "dc/d37/classXonoticHUDExitDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,216,89],
 "dc/d37/classXonoticHUDExitDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,216,63],
 "dc/d37/classXonoticHUDExitDialog.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,216,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX121 =
 "dc/d55/clientkill_8qc.html#ad4e6ef235cc1911ad7654ecd808ff4c1":[2,0,6,21,0],
 "dc/d55/clientkill_8qc.html#ad782a8ecd5d72aefee13e592a4906f84":[2,0,6,21,2],
 "dc/d55/clientkill_8qc_source.html":[2,0,6,21],
-"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc.html":[2,0,1,3,0,12,0],
-"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc_source.html":[2,0,1,3,0,12,0]
+"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc.html":[2,0,1,3,0,12,0]
 };

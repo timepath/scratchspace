@@ -1,5 +1,6 @@
 var NAVTREEINDEX140 =
 {
+"de/d72/client_2items_2__mod_8inc.html":[2,0,0,2,0],
 "de/d72/client_2items_2__mod_8inc_source.html":[2,0,0,2,0],
 "de/d73/common_2mutators_2mutator_2vampirehook_2__mod_8inc.html":[2,0,1,10,0,39,0],
 "de/d73/common_2mutators_2mutator_2vampirehook_2__mod_8inc_source.html":[2,0,1,10,0,39,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX140 =
 "de/d93/classXonoticBindingsResetDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,177,9],
 "de/d93/classXonoticBindingsResetDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,177,108],
 "de/d93/classXonoticBindingsResetDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,177,100],
-"de/d93/classXonoticBindingsResetDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,177,51],
-"de/d93/classXonoticBindingsResetDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,177,17]
+"de/d93/classXonoticBindingsResetDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,177,51]
 };

@@ -918,6 +918,7 @@ var searchData=
   ['autocvar_5fg_5flms_5fjoin_5fanytime',['autocvar_g_lms_join_anytime',['../dc/d0d/sv__lms_8qc.html#abc480e526e3ffc223326187d18f60793',1,'sv_lms.qc']]],
   ['autocvar_5fg_5flms_5flast_5fjoin',['autocvar_g_lms_last_join',['../dc/d0d/sv__lms_8qc.html#a023242b139bb11bd657c135ee7ecb5a2',1,'sv_lms.qc']]],
   ['autocvar_5fg_5flms_5fregenerate',['autocvar_g_lms_regenerate',['../dc/d0d/sv__lms_8qc.html#abda3bba723e43b4b4bfd0f508aa94ddc',1,'sv_lms.qc']]],
+  ['autocvar_5fg_5flms_5frot',['autocvar_g_lms_rot',['../dc/d0d/sv__lms_8qc.html#a27121cd25b4115a3d60a0d914d81911e',1,'sv_lms.qc']]],
   ['autocvar_5fg_5flms_5fweaponarena',['autocvar_g_lms_weaponarena',['../df/d58/sv__lms_8qh.html#a1c16af18b745237e0d4a2bf0734a8567',1,'sv_lms.qh']]],
   ['autocvar_5fg_5fmapinfo_5fignore_5fwarnings',['autocvar_g_mapinfo_ignore_warnings',['../d3/d46/mapinfo_8qc.html#a461e3272bbfe43c0b5f8f29b9d4391ad',1,'mapinfo.qc']]],
   ['autocvar_5fg_5fmaplist_5fcheck_5fwaypoints',['autocvar_g_maplist_check_waypoints',['../d3/d53/server_2mapvoting_8qh.html#a166a8e01f650221d9160e68b58b09354',1,'mapvoting.qh']]],

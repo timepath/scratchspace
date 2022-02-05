@@ -35,5 +35,6 @@ var sv__lms_8qc =
     [ "autocvar_g_lms_items", "dc/d0d/sv__lms_8qc.html#a8fd95c24b445c4d9c066861d9d2f7cc5", null ],
     [ "autocvar_g_lms_join_anytime", "dc/d0d/sv__lms_8qc.html#abc480e526e3ffc223326187d18f60793", null ],
     [ "autocvar_g_lms_last_join", "dc/d0d/sv__lms_8qc.html#a023242b139bb11bd657c135ee7ecb5a2", null ],
-    [ "autocvar_g_lms_regenerate", "dc/d0d/sv__lms_8qc.html#abda3bba723e43b4b4bfd0f508aa94ddc", null ]
+    [ "autocvar_g_lms_regenerate", "dc/d0d/sv__lms_8qc.html#abda3bba723e43b4b4bfd0f508aa94ddc", null ],
+    [ "autocvar_g_lms_rot", "dc/d0d/sv__lms_8qc.html#a27121cd25b4115a3d60a0d914d81911e", null ]
 ];

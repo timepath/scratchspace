@@ -1,5 +1,6 @@
 var NAVTREEINDEX124 =
 {
+"dc/dbb/urllib_8qh.html#af602e253bfc56fa7bdb973e558c606e8":[2,0,4,65,19],
 "dc/dbb/urllib_8qh_source.html":[2,0,4,65],
 "dc/dc7/dialog__multiplayer__join__serverinfotab_8qc.html":[2,0,5,4,102],
 "dc/dc7/dialog__multiplayer__join__serverinfotab_8qc.html#a8a34719fef2438f41d7c6fb6984b35c8":[2,0,5,4,102,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "dc/de7/bumblebee__weapons_8qc.html":[2,0,1,16,0,4],
 "dc/de7/bumblebee__weapons_8qc_source.html":[2,0,1,16,0,4],
 "dc/de9/classXonoticRootDialog.html":[1,0,262],
-"dc/de9/classXonoticRootDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,262,6],
-"dc/de9/classXonoticRootDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,262,104]
+"dc/de9/classXonoticRootDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,262,6]
 };

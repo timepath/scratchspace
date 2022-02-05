@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc_source.html":[2,0,1,3,0,12,0],
 "dc/d56/cvarlist_8qc.html":[2,0,5,4,32],
 "dc/d56/cvarlist_8qc.html#a03af6344dc0fada817213f1c27aa4413":[2,0,5,4,32,9],
 "dc/d56/cvarlist_8qc.html#a10ec4a764cb4b6a27f99d3f6bc699c89":[2,0,5,4,32,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "dc/d90/hud__config_8qc.html#afa99d222f605afe3b9f4abbc32d9163d":[2,0,0,1,7,26],
 "dc/d90/hud__config_8qc.html#afef9ec12c707c8e22a9a16a4ae8ea12a":[2,0,0,1,7,1],
 "dc/d90/hud__config_8qc.html#aff11757a3172f4f26585a7edc21785f0":[2,0,0,1,7,2],
-"dc/d90/hud__config_8qc_source.html":[2,0,0,1,7],
-"dc/d92/common_2mutators_2mutator_2status__effects_2__mod_8inc.html":[2,0,1,10,0,35,1]
+"dc/d90/hud__config_8qc_source.html":[2,0,0,1,7]
 };
