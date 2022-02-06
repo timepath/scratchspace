@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"d7/d32/classBlaster.html#ab59aa3661d33d9cea31f3f54edc8d4a5":[1,0,10,11],
 "d7/d32/classBlaster.html#abcd8c19cc240f9cabad99db39b6d9388":[1,0,10,17],
 "d7/d32/classBlaster.html#ac68491c5010e83eac66e266ed5ceff9a":[1,0,10,21],
 "d7/d32/classBlaster.html#aca66432bf541ba81f6fcd6ccfda89d27":[1,0,10,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "d7/d47/menu__cmd_8qc.html#ac475b9372dac09416fe834d14d6231c6":[2,0,5,1,2,1],
 "d7/d47/menu__cmd_8qc_source.html":[2,0,5,1,2],
 "d7/d4b/common_2mutators_2mutator_2doublejump_2__mod_8inc.html":[2,0,1,10,0,8,0],
-"d7/d4b/common_2mutators_2mutator_2doublejump_2__mod_8inc_source.html":[2,0,1,10,0,8,0],
-"d7/d4b/item_2dialog_8qc.html":[2,0,5,2,10]
+"d7/d4b/common_2mutators_2mutator_2doublejump_2__mod_8inc_source.html":[2,0,1,10,0,8,0]
 };

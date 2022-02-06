@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"d6/d79/classXonoticHUDWeaponsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,233,92],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a1bf5967ac5ae19f3ffeefe07759c4fe5":[1,0,233,108],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a1d075bfcff7e8efe420695ddd203bb4d":[1,0,233,54],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a1d17df6e1367f9d3bfe263314fc6e046":[1,0,233,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "d6/d99/effectinfo__buffs_8inc.html#a4eb69c2d5a72055e664d44f0c79b4656":[2,0,1,2,10,21],
 "d6/d99/effectinfo__buffs_8inc.html#a61b7a42774a0e3771a8ca440ede84e6e":[2,0,1,2,10,2],
 "d6/d99/effectinfo__buffs_8inc.html#a658b660e63f555599c86f56b3c65ed2f":[2,0,1,2,10,16],
-"d6/d99/effectinfo__buffs_8inc.html#a658c13db518ffe512feed9968222d7bf":[2,0,1,2,10,19],
-"d6/d99/effectinfo__buffs_8inc.html#a750fb493ea8d4acc5cad790fd45bd39c":[2,0,1,2,10,31]
+"d6/d99/effectinfo__buffs_8inc.html#a658c13db518ffe512feed9968222d7bf":[2,0,1,2,10,19]
 };

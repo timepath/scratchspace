@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"d5/d6c/classResistanceBuff.html#aeddf393b7ab946947f277b3a12a21310":[1,0,131,6],
 "d5/d6c/classXonoticHUDSkinList.html":[1,0,229],
 "d5/d6c/classXonoticHUDSkinList.html#a01e0b37934024baff415a4b53a1def51":[1,0,229,45],
 "d5/d6c/classXonoticHUDSkinList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,229,62],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "d5/d7f/cl__buffs_8qh.html#a6683695ae3db9eb68b43175540a3b035":[2,0,1,10,0,2,6,0],
 "d5/d7f/cl__buffs_8qh.html#a9d0381c8b0a4cc43a743b4f23741763b":[2,0,1,10,0,2,6,1],
 "d5/d7f/cl__buffs_8qh_source.html":[2,0,1,10,0,2,6],
-"d5/d81/crylink_8qh.html":[2,0,1,17,0,7],
-"d5/d81/crylink_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,17,0,7,1]
+"d5/d81/crylink_8qh.html":[2,0,1,17,0,7]
 };

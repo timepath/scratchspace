@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"d9/d4f/deathtypes_2all_8qh.html#a511a8cb366fb4918f14fab9d9ba50557":[2,0,1,1,4,8],
 "d9/d4f/deathtypes_2all_8qh.html#a5323a267d4110e1c2a732dc9263af5c5":[2,0,1,1,4,12],
 "d9/d4f/deathtypes_2all_8qh.html#a5d776d28500a9006a4a7dd9da293f557":[2,0,1,1,4,14],
 "d9/d4f/deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd":[2,0,1,1,4,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "d9/d62/menu_2draw_8qh.html#a7ac520c41682e2cf64d61115522ddaba":[2,0,5,8,26],
 "d9/d62/menu_2draw_8qh.html#a7f890d7494e947f551852879f6df17f6":[2,0,5,8,0],
 "d9/d62/menu_2draw_8qh.html#a9b24797c76296d5321ba125e4ee92f8e":[2,0,5,8,19],
-"d9/d62/menu_2draw_8qh.html#a9b98cfffc443113a6eedb91f922160e0":[2,0,5,8,13],
-"d9/d62/menu_2draw_8qh.html#a9ba27c4846a5864397cba265d25cb35c":[2,0,5,8,24]
+"d9/d62/menu_2draw_8qh.html#a9b98cfffc443113a6eedb91f922160e0":[2,0,5,8,13]
 };

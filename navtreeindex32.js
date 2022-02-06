@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"d3/d78/classAnimHost.html#a4e4c8742c074b20cb7305dc9be6c1a7a":[1,0,4,3],
 "d3/d78/classAnimHost.html#a64c3850b112972e60dd7bd1d40135b89":[1,0,4,7],
 "d3/d78/classAnimHost.html#a6a559fbcb5373e093b2dfa6fec391754":[1,0,4,8],
 "d3/d78/classAnimHost.html#a8e166e4ee1b7b530fc10cef63a8a1aec":[1,0,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "d3/d86/classXonoticMapList.html#af7b59e695b6ffa4c2db2339aae3cc716":[1,0,242,14],
 "d3/d86/classXonoticMapList.html#af89ea045533cba3ba7b219c6c2ecff02":[1,0,242,21],
 "d3/d88/bot__null_8qc.html":[2,0,6,0,1,2],
-"d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2],
-"d3/d89/mutators_2mutator_2status__effects_2all_8qc.html":[2,0,1,10,0,35,3]
+"d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2]
 };

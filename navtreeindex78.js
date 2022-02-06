@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"d7/de6/classXonoticSkinList.html#a2976526ce80a74f7269a4e7532b396da":[1,0,278,56],
 "d7/de6/classXonoticSkinList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,278,100],
 "d7/de6/classXonoticSkinList.html#a2b7d00a35d3f3b0662ecd494d225448a":[1,0,278,49],
 "d7/de6/classXonoticSkinList.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,278,40],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a56efba3dee461a1038f29bee6cfe1369":[2,0,5,4,96,4],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a58536951459f0c2e11aa7166042754a0":[2,0,5,4,96,11],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a5f2f74238b73f04b830a5002e4fb1871":[2,0,5,4,96,0],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a6d11d3a5a76ed57ecbcac9602c8b507e":[2,0,5,4,96,3],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a88b4e0fbbc7d4a23ac65a74379f53e20":[2,0,5,4,96,1]
+"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a6d11d3a5a76ed57ecbcac9602c8b507e":[2,0,5,4,96,3]
 };
