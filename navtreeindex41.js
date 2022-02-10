@@ -1,12 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"d4/d0d/client_2mapvoting_8qc_source.html":[2,0,0,17],
-"d4/d0f/buffs_8qc.html":[2,0,1,10,0,2,3],
-"d4/d0f/buffs_8qc.html#a7c73e9ee5f2498f85e04b5adaafef6b3":[2,0,1,10,0,2,3,0],
-"d4/d0f/buffs_8qc_source.html":[2,0,1,10,0,2,3],
-"d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc.html":[2,0,1,3,0,14,0],
-"d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc_source.html":[2,0,1,3,0,14,0],
-"d4/d12/racetimer_8qc.html":[2,0,0,1,0,28],
 "d4/d12/racetimer_8qc.html#a1d97e861438f54908b0d60fc2c930c06":[2,0,0,1,0,28,1],
 "d4/d12/racetimer_8qc.html#a437eba1452c50ca9eeb085d1036974b4":[2,0,0,1,0,28,2],
 "d4/d12/racetimer_8qc.html#ab9a7c1bca2d8d5e98402f03d1997b9ca":[2,0,0,1,0,28,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX41 =
 "d4/d3b/classXonoticBigButton.html#a29ef318627232b8879b7e81131f937f7":[1,0,175,2],
 "d4/d3b/classXonoticBigButton.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,175,39],
 "d4/d3b/classXonoticBigButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,175,82],
-"d4/d3b/classXonoticBigButton.html#a35765335b88ee4489504808bf8bbda78":[1,0,175,66]
+"d4/d3b/classXonoticBigButton.html#a35765335b88ee4489504808bf8bbda78":[1,0,175,66],
+"d4/d3b/classXonoticBigButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,175,77],
+"d4/d3b/classXonoticBigButton.html#a382a09f7c5068d0f7969a394178c444a":[1,0,175,30],
+"d4/d3b/classXonoticBigButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,175,83],
+"d4/d3b/classXonoticBigButton.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,175,32],
+"d4/d3b/classXonoticBigButton.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,175,26],
+"d4/d3b/classXonoticBigButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,175,68],
+"d4/d3b/classXonoticBigButton.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,175,31]
 };

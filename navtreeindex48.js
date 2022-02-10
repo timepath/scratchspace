@@ -1,12 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"d4/d94/classXonoticHUDVoteDialog.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,232,56],
-"d4/d94/classXonoticHUDVoteDialog.html#ad67727bded724210e1017635eed79c56":[1,0,232,36],
-"d4/d94/classXonoticHUDVoteDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,232,109],
-"d4/d94/classXonoticHUDVoteDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,232,83],
-"d4/d94/classXonoticHUDVoteDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,232,76],
-"d4/d94/classXonoticHUDVoteDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,232,112],
-"d4/d94/classXonoticHUDVoteDialog.html#ae711b6806134114e0e004692509db6a0":[1,0,232,102],
 "d4/d94/classXonoticHUDVoteDialog.html#ae94f2e7fb100a64d6fd1fbeb509d7e72":[1,0,232,33],
 "d4/d94/classXonoticHUDVoteDialog.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,232,24],
 "d4/d94/classXonoticHUDVoteDialog.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,232,38],
@@ -249,5 +242,12 @@ var NAVTREEINDEX48 =
 "d4/da5/classXonoticBigCommandButton.html#aaf66da058af5d081753410af28388d27":[1,0,176,24],
 "d4/da5/classXonoticBigCommandButton.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,176,10],
 "d4/da5/classXonoticBigCommandButton.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,176,29],
-"d4/da5/classXonoticBigCommandButton.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,176,2]
+"d4/da5/classXonoticBigCommandButton.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,176,2],
+"d4/da5/classXonoticBigCommandButton.html#ac683a82fc9351ea9f7f9564e1cbf5791":[1,0,176,69],
+"d4/da5/classXonoticBigCommandButton.html#ac99bbef7da50394f5ed0362e4e2181b1":[1,0,176,61],
+"d4/da5/classXonoticBigCommandButton.html#acc667da54cf9571e6e6bb0e337183f48":[1,0,176,20],
+"d4/da5/classXonoticBigCommandButton.html#ad20960ff06cd72c29e5a8ed70702c1a4":[1,0,176,13],
+"d4/da5/classXonoticBigCommandButton.html#ad3916b930a4e2a364ab072d2c3523edf":[1,0,176,5],
+"d4/da5/classXonoticBigCommandButton.html#ad515e2d139ec73b00d9d27cda0af7ade":[1,0,176,12],
+"d4/da5/classXonoticBigCommandButton.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,176,28]
 };

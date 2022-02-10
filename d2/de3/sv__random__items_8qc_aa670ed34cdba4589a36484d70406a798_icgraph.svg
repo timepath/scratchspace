@@ -54,16 +54,16 @@ var sectionId = 'dynsection-13';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>RandomItems_GetRandomVanillaItemClassName</title>
-<!-- Node208 -->
+<!-- Node207 -->
 <g id="node1" class="node">
-<title>Node208</title>
+<title>Node207</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-14 0,-44 181,-44 181,-14 0,-14"/>
 <text text-anchor="start" x="8" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">RandomItems_GetRandomVanilla</text>
 <text text-anchor="middle" x="90.5" y="-21" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ItemClassName</text>
 </g>
-<!-- Node209 -->
+<!-- Node208 -->
 <g id="node2" class="node">
-<title>Node209</title>
+<title>Node208</title>
 <g id="a_node2"><a xlink:href="../../d8/d48/sv__random__items_8qh.html#a732923b4ae4678be286a01f9ae75ebd4" target="_top" xlink:title="Returns a random classname of the item. ">
 <polygon fill="none" stroke="#000000" points="217,-14 217,-44 387,-44 387,-14 217,-14"/>
 <text text-anchor="start" x="225" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">RandomItems_GetRandomItem</text>
@@ -71,75 +71,75 @@ var sectionId = 'dynsection-13';
 </a>
 </g>
 </g>
-<!-- Node208&#45;&gt;Node209 -->
+<!-- Node207&#45;&gt;Node208 -->
 <g id="edge1" class="edge">
-<title>Node208&#45;&gt;Node209</title>
+<title>Node207&#45;&gt;Node208</title>
 <path fill="none" stroke="#191970" d="M191.1911,-29C199.8033,-29 208.4604,-29 216.9331,-29"/>
 <polygon fill="#191970" stroke="#191970" points="191.1155,-25.5001 181.1154,-29 191.1154,-32.5001 191.1155,-25.5001"/>
 </g>
-<!-- Node209&#45;&gt;Node209 -->
+<!-- Node208&#45;&gt;Node208 -->
 <g id="edge2" class="edge">
-<title>Node209&#45;&gt;Node209</title>
+<title>Node208&#45;&gt;Node208</title>
 <path fill="none" stroke="#191970" d="M265.3963,-54.4579C269.9393,-59.179 282.1406,-62.5 302,-62.5 334.5898,-62.5 346.5564,-53.5566 337.8997,-44.159"/>
 <polygon fill="#191970" stroke="#191970" points="268.9101,-54.3744 266.1003,-44.159 261.9264,-53.897 268.9101,-54.3744"/>
 </g>
-<!-- Node210 -->
+<!-- Node209 -->
 <g id="node3" class="node">
-<title>Node210</title>
+<title>Node209</title>
 <g id="a_node3"><a xlink:href="../../d2/de3/sv__random__items_8qc.html#a470a4fe03f93be6c62663d96818cddce" target="_top" xlink:title="Replaces a map item. ">
 <polygon fill="none" stroke="#000000" points="423,-38.5 423,-57.5 594,-57.5 594,-38.5 423,-38.5"/>
 <text text-anchor="middle" x="508.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">RandomItems_ReplaceMapItem</text>
 </a>
 </g>
 </g>
-<!-- Node209&#45;&gt;Node210 -->
+<!-- Node208&#45;&gt;Node209 -->
 <g id="edge3" class="edge">
-<title>Node209&#45;&gt;Node210</title>
+<title>Node208&#45;&gt;Node209</title>
 <path fill="none" stroke="#191970" d="M397.1827,-37.7577C405.7416,-38.5452 414.3749,-39.3396 422.8453,-40.1189"/>
 <polygon fill="#191970" stroke="#191970" points="397.4623,-34.2688 387.1837,-36.8377 396.8209,-41.2393 397.4623,-34.2688"/>
 </g>
-<!-- Node212 -->
+<!-- Node211 -->
 <g id="node5" class="node">
-<title>Node212</title>
+<title>Node211</title>
 <g id="a_node5"><a xlink:href="../../d2/de3/sv__random__items_8qc.html#aea68046b18b6c21762249c71fa669164" target="_top" xlink:title="Spawns a random loot item. ">
 <polygon fill="none" stroke="#000000" points="425.5,-.5 425.5,-19.5 591.5,-19.5 591.5,-.5 425.5,-.5"/>
 <text text-anchor="middle" x="508.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">RandomItems_SpawnLootItem</text>
 </a>
 </g>
 </g>
-<!-- Node209&#45;&gt;Node212 -->
+<!-- Node208&#45;&gt;Node211 -->
 <g id="edge5" class="edge">
-<title>Node209&#45;&gt;Node212</title>
+<title>Node208&#45;&gt;Node211</title>
 <path fill="none" stroke="#191970" d="M397.2511,-20.236C406.574,-19.3782 415.9844,-18.5123 425.1758,-17.6666"/>
 <polygon fill="#191970" stroke="#191970" points="396.8209,-16.7607 387.1837,-21.1623 397.4623,-23.7312 396.8209,-16.7607"/>
 </g>
-<!-- Node211 -->
+<!-- Node210 -->
 <g id="node4" class="node">
-<title>Node211</title>
+<title>Node210</title>
 <g id="a_node4"><a xlink:href="../../d2/de3/sv__random__items_8qc.html#a2eed2b08380665aeefdc3f802c558785" target="_top" xlink:title="Hook that is called when an item is about to spawn. ">
 <polygon fill="none" stroke="#000000" points="630,-38.5 630,-57.5 779,-57.5 779,-38.5 630,-38.5"/>
 <text text-anchor="middle" x="704.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MUTATOR_HOOKFUNCTION</text>
 </a>
 </g>
 </g>
-<!-- Node210&#45;&gt;Node211 -->
+<!-- Node209&#45;&gt;Node210 -->
 <g id="edge4" class="edge">
-<title>Node210&#45;&gt;Node211</title>
+<title>Node209&#45;&gt;Node210</title>
 <path fill="none" stroke="#191970" d="M604.2206,-48C612.7933,-48 621.3893,-48 629.746,-48"/>
 <polygon fill="#191970" stroke="#191970" points="604.1834,-44.5001 594.1833,-48 604.1833,-51.5001 604.1834,-44.5001"/>
 </g>
-<!-- Node213 -->
+<!-- Node212 -->
 <g id="node6" class="node">
-<title>Node213</title>
+<title>Node212</title>
 <g id="a_node6"><a xlink:href="../../d2/de3/sv__random__items_8qc.html#a76c736edbcbf5583892557c60402667b" target="_top" xlink:title="Hook which is called when the player dies. ">
 <polygon fill="none" stroke="#000000" points="630,-.5 630,-19.5 779,-19.5 779,-.5 630,-.5"/>
 <text text-anchor="middle" x="704.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MUTATOR_HOOKFUNCTION</text>
 </a>
 </g>
 </g>
-<!-- Node212&#45;&gt;Node213 -->
+<!-- Node211&#45;&gt;Node212 -->
 <g id="edge6" class="edge">
-<title>Node212&#45;&gt;Node213</title>
+<title>Node211&#45;&gt;Node212</title>
 <path fill="none" stroke="#191970" d="M601.821,-10C611.2566,-10 620.7503,-10 629.9509,-10"/>
 <polygon fill="#191970" stroke="#191970" points="601.6217,-6.5001 591.6216,-10 601.6216,-13.5001 601.6217,-6.5001"/>
 </g>

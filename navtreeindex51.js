@@ -1,14 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"d4/dd5/cl__spawn__near__teammate_8qh.html#aa96398c023a4626454169c973c5c0946":[2,0,1,10,0,33,3,0],
-"d4/dd5/cl__spawn__near__teammate_8qh_source.html":[2,0,1,10,0,33,3],
-"d4/dd6/minelayer_8qc.html":[2,0,1,17,0,22],
-"d4/dd6/minelayer_8qc_source.html":[2,0,1,17,0,22],
-"d4/dd7/movetypes_8qh.html":[2,0,1,12,0,6],
-"d4/dd7/movetypes_8qh.html#a08001d7539f498833d366bf73fe26e65":[2,0,1,12,0,6,30],
-"d4/dd7/movetypes_8qh.html#a099fe9be6d48138058ab84c372b1a40e":[2,0,1,12,0,6,24],
-"d4/dd7/movetypes_8qh.html#a0c3c32b8e67737d63dbf704612d6b22c":[2,0,1,12,0,6,37],
-"d4/dd7/movetypes_8qh.html#a0efcf46f27727d3c8260b004bebd9ea4":[2,0,1,12,0,6,29],
 "d4/dd7/movetypes_8qh.html#a1bda5514df56d211a94a6953fe0dab27":[2,0,1,12,0,6,66],
 "d4/dd7/movetypes_8qh.html#a23878f171fe94c2b5c31a13077e1c845":[2,0,1,12,0,6,67],
 "d4/dd7/movetypes_8qh.html#a29a88512a529238f210bd12531cf3859":[2,0,1,12,0,6,6],
@@ -249,5 +240,14 @@ var NAVTREEINDEX51 =
 "d4/df8/classXonoticHUDRadarDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,227,8],
 "d4/df8/classXonoticHUDRadarDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,227,82],
 "d4/df8/classXonoticHUDRadarDialog.html#a34c24899d332b64a4827628957b243aa":[1,0,227,43],
-"d4/df8/classXonoticHUDRadarDialog.html#a36836cbbfc40570ef70c3b43798ca096":[1,0,227,23]
+"d4/df8/classXonoticHUDRadarDialog.html#a36836cbbfc40570ef70c3b43798ca096":[1,0,227,23],
+"d4/df8/classXonoticHUDRadarDialog.html#a382a09f7c5068d0f7969a394178c444a":[1,0,227,59],
+"d4/df8/classXonoticHUDRadarDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,227,77],
+"d4/df8/classXonoticHUDRadarDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,227,107],
+"d4/df8/classXonoticHUDRadarDialog.html#a3bfe985eb7e90c227d56dc81434bb5f9":[1,0,227,48],
+"d4/df8/classXonoticHUDRadarDialog.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,227,61],
+"d4/df8/classXonoticHUDRadarDialog.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,227,55],
+"d4/df8/classXonoticHUDRadarDialog.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,227,29],
+"d4/df8/classXonoticHUDRadarDialog.html#a4246fb4b7068aee87e47b2da375de905":[1,0,227,52],
+"d4/df8/classXonoticHUDRadarDialog.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,227,60]
 };

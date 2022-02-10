@@ -1,9 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"d2/d79/scores_8qc.html#a394bf84d67f07e376beeff4a5c6ed94c":[2,0,6,54,27],
-"d2/d79/scores_8qc.html#a408a3ce2d8238dea7575fb00e5b0df63":[2,0,6,54,5],
-"d2/d79/scores_8qc.html#a44b8f99db06745b381ae739bd57ddf6e":[2,0,6,54,43],
-"d2/d79/scores_8qc.html#a49ab4c157dab975433e94a16f05d9d17":[2,0,6,54,30],
 "d2/d79/scores_8qc.html#a4b24b2ecfa2e6d4914ed47ce8d16472f":[2,0,6,54,33],
 "d2/d79/scores_8qc.html#a51f0d41043a05b6682f5322b3f338abd":[2,0,6,54,23],
 "d2/d79/scores_8qc.html#a536688c8d54d72f0f2325e8e8a57a0a6":[2,0,6,54,1],
@@ -209,8 +205,7 @@ var NAVTREEINDEX22 =
 "d2/dac/sv__buffs_8qc.html#a62d783735deb2f75391f2af3912cfa2b":[2,0,1,10,0,2,7,33],
 "d2/dac/sv__buffs_8qc.html#a6402cba734cd6e73f7a243dc10033a4d":[2,0,1,10,0,2,7,41],
 "d2/dac/sv__buffs_8qc.html#a65ebf32ba12083c978e5bbe6bc0f4bcd":[2,0,1,10,0,2,7,4],
-"d2/dac/sv__buffs_8qc.html#a6683695ae3db9eb68b43175540a3b035":[2,0,1,10,0,2,7,45],
-"d2/dac/sv__buffs_8qc.html#a671e9a86cffc00c52255ca6529b70a6f":[2,0,1,10,0,2,7,46],
+"d2/dac/sv__buffs_8qc.html#a671e9a86cffc00c52255ca6529b70a6f":[2,0,1,10,0,2,7,45],
 "d2/dac/sv__buffs_8qc.html#a6f90c6fb5218e61586d69ddef8a870d9":[2,0,1,10,0,2,7,19],
 "d2/dac/sv__buffs_8qc.html#a77fd18a78f1e4c215d54d855c7230851":[2,0,1,10,0,2,7,0],
 "d2/dac/sv__buffs_8qc.html#a859bd15eca74af039efae7b437a79925":[2,0,1,10,0,2,7,42],
@@ -249,5 +244,10 @@ var NAVTREEINDEX22 =
 "d2/dae/classFlacAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,45,1],
 "d2/dae/classFlacAttack.html#a5bb96554771487710b78db2954a6ceb0":[1,0,45,18],
 "d2/dae/classFlacAttack.html#a693da712af4359ea5c45528ea19413bf":[1,0,45,6],
-"d2/dae/classFlacAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c":[1,0,45,28]
+"d2/dae/classFlacAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c":[1,0,45,28],
+"d2/dae/classFlacAttack.html#a7388eaa85b4d9f9cdc9d9531941849e4":[1,0,45,14],
+"d2/dae/classFlacAttack.html#a7515d4131829927372fd6583d4ae610a":[1,0,45,0],
+"d2/dae/classFlacAttack.html#a7806a7d558533700a40ccab8a2558232":[1,0,45,23],
+"d2/dae/classFlacAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,45,36],
+"d2/dae/classFlacAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,45,29]
 };

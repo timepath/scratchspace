@@ -25,6 +25,8 @@ var sv__dodging_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d5/da6/sv__dodging_8qc.html#a79edf5f003df23f60263bd1b88e25e09", null ],
     [ "PM_dodging", "d5/da6/sv__dodging_8qc.html#aab945235b41472d811f114833244b62a", null ],
     [ "PM_dodging_checkpressedkeys", "d5/da6/sv__dodging_8qc.html#ae41649aa3125a05e563e17acae13d4a6", null ],
+    [ "REPLICATE", "d5/da6/sv__dodging_8qc.html#a8d1951307e3a121a0343355d8ddd3d49", null ],
+    [ "REPLICATE", "d5/da6/sv__dodging_8qc.html#acd78df5eb78d79e7b3c9e3d0f5e07b67", null ],
     [ "dodging_action", "d5/da6/sv__dodging_8qc.html#ab9f600a3f16315bcbeca77bc491bbeee", null ],
     [ "dodging_direction", "d5/da6/sv__dodging_8qc.html#a1c76fd262a218a95cb8d47db9c3c11c2", null ],
     [ "dodging_force_remaining", "d5/da6/sv__dodging_8qc.html#ac7ca776611b8f134451d6755529c3bb5", null ],

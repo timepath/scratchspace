@@ -1,10 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"db/d15/api_8qh.html#aea53a298ab073d66318806cb8dfdbe9b":[2,0,6,0,5,142],
-"db/d15/api_8qh.html#aea88bfbb9ab3152384f950dfd921a6b8":[2,0,6,0,5,70],
-"db/d15/api_8qh.html#aead34efa45a7667e5838f5e5520eb717":[2,0,6,0,5,126],
-"db/d15/api_8qh.html#aeb4012d45ed047757f0a48605193564c":[2,0,6,0,5,75],
-"db/d15/api_8qh.html#aeb699871ff75d840108d7731512352e9":[2,0,6,0,5,166],
 "db/d15/api_8qh.html#aeba6f9ec460907e0848c20e92165c984":[2,0,6,0,5,56],
 "db/d15/api_8qh.html#aeceb41f0fb7e75152f9e7f9c8edf1195":[2,0,6,0,5,102],
 "db/d15/api_8qh.html#aeec709ac24ea54914787f032f0bedc54":[2,0,6,0,5,41],
@@ -77,8 +72,8 @@ var NAVTREEINDEX107 =
 "db/d29/classXonoticRegisteredSettingsList.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,259,43],
 "db/d29/classXonoticRegisteredSettingsList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,259,95],
 "db/d29/classXonoticRegisteredSettingsList.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,259,46],
-"db/d29/classXonoticRegisteredSettingsList.html#a3025bb9215438b0e2a22971d34027d45":[1,0,259,52],
 "db/d29/classXonoticRegisteredSettingsList.html#a3025bb9215438b0e2a22971d34027d45":[1,0,259,51],
+"db/d29/classXonoticRegisteredSettingsList.html#a3025bb9215438b0e2a22971d34027d45":[1,0,259,52],
 "db/d29/classXonoticRegisteredSettingsList.html#a3609f7c1cb911c5b14ca20f9bd3ba843":[1,0,259,55],
 "db/d29/classXonoticRegisteredSettingsList.html#a361c76197a2f4af7eb56e4e9ab3055b3":[1,0,259,2],
 "db/d29/classXonoticRegisteredSettingsList.html#a382a09f7c5068d0f7969a394178c444a":[1,0,259,37],
@@ -249,5 +244,10 @@ var NAVTREEINDEX107 =
 "db/d2f/subs_8qh.html#aaee12b410e85192641c50f8eeeef532f":[2,0,1,6,14,12],
 "db/d2f/subs_8qh.html#ab615cf80c934c52fa8bdd27f8eaa5094":[2,0,1,6,14,45],
 "db/d2f/subs_8qh.html#ab98375d0b27a874a6dfb67d8ec295610":[2,0,1,6,14,9],
-"db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf":[2,0,1,6,14,17]
+"db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf":[2,0,1,6,14,17],
+"db/d2f/subs_8qh.html#acb98bc938048ba07095a2042c4d67a0a":[2,0,1,6,14,19],
+"db/d2f/subs_8qh.html#acce33f776714141af48e41e4839a1ff2":[2,0,1,6,14,41],
+"db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729":[2,0,1,6,14,40],
+"db/d2f/subs_8qh.html#acfc05d721470c3c19835fe5d5bc5a3e9":[2,0,1,6,14,35],
+"db/d2f/subs_8qh.html#ad0806fe42eadae7a1a7a48660cbbd755":[2,0,1,6,14,14]
 };

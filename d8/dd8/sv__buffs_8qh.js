@@ -58,6 +58,5 @@ var sv__buffs_8qh =
     [ "buff_model", "d8/dd8/sv__buffs_8qh.html#a14f4e75f961cd8672b251062ae26870b", null ],
     [ "buff_shield", "d8/dd8/sv__buffs_8qh.html#a028d0aff7513914b039f9a16bc1ed86b", null ],
     [ "buff_waypoint", "d8/dd8/sv__buffs_8qh.html#a39a49dfb13476e573dab25e06a90e563", null ],
-    [ "cvar_cl_buffs_autoreplace", "d8/dd8/sv__buffs_8qh.html#a9d0381c8b0a4cc43a743b4f23741763b", null ],
     [ "oldbuffs", "d8/dd8/sv__buffs_8qh.html#a1bce1333acfa58d5b75e79d9f1d3bf22", null ]
 ];

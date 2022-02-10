@@ -122,6 +122,8 @@ $(document).ready(function(){initNavTree('d2/d62/selection_8qc.html','../../');}
 Functions</h2></td></tr>
 <tr class="memitem:aba6ed323f0e8f5773f5d7de51e2d3411"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411">client_hasweapon</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, <a class="el" href="../../dc/de5/classWeapon.html">Weapon</a> wpn,.<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> weaponentity, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> andammo, <a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a> complain)</td></tr>
 <tr class="separator:aba6ed323f0e8f5773f5d7de51e2d3411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0999fe55cf92fbf20f2b778726f2f14e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/selection_8qc.html#a0999fe55cf92fbf20f2b778726f2f14e">REPLICATE_APPLYCHANGE</a> (&quot;cl_weaponpriority&quot;, for(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> slot=0;slot&lt; <a class="el" href="../../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a>;++slot) { .<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> weaponentity=<a class="el" href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[slot];<a class="el" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a>(this.(weaponentity) &amp;&amp;(this.(weaponentity).m_weapon !=WEP_Null||slot==0)) this.(weaponentity).m_switchweapon=<a class="el" href="../../d8/d6b/selection_8qh.html#a460cc1f632ee31594d9df6ba1407a329">w_getbestweapon</a>(<a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, weaponentity);})</td></tr>
+<tr class="separator:a0999fe55cf92fbf20f2b778726f2f14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f9b75f17639bb910d8445a136d4a837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d2b/world_8qh.html#a53725b9aacf1d43cbeab626375505eda">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837">Send_WeaponComplain</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> wpn, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> type)</td></tr>
 <tr class="separator:a6f9b75f17639bb910d8445a136d4a837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6feb08ba7d01d611762b08aeb5dd7dd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d2b/world_8qh.html#a53725b9aacf1d43cbeab626375505eda">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/selection_8qc.html#a6feb08ba7d01d611762b08aeb5dd7dd6">W_CycleWeapon</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, <a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a> <a class="el" href="../../d4/def/weapons_8qc.html#acbf6d97cc09f97ee2a71b562ffae170d">weaponorder</a>, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> <a class="el" href="../../d4/d53/server_2impulse_8qc.html#a851cf68c8f607573c1a5e987784c83f6">dir</a>,.<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> weaponentity)</td></tr>
@@ -238,6 +240,44 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0999fe55cf92fbf20f2b778726f2f14e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0999fe55cf92fbf20f2b778726f2f14e">&#9670;&nbsp;</a></span>REPLICATE_APPLYCHANGE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">REPLICATE_APPLYCHANGE </td>
+          <td>(</td>
+          <td class="paramtype">&quot;cl_weaponpriority&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d53/server_2impulse_8qc.html#af32eeed7d18c1f2d14fafb26f310b087">for</a>(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> slot=0;slot&lt; <a class="el" href="../../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a>;++slot) { .<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> weaponentity=<a class="el" href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[slot];<a class="el" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a>(this.(weaponentity) &amp;&amp;(this.(weaponentity).m_weapon !=WEP_Null||slot==0)) this.(weaponentity).m_switchweapon=<a class="el" href="../../d8/d6b/selection_8qh.html#a460cc1f632ee31594d9df6ba1407a329">w_getbestweapon</a>(<a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, weaponentity);}&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d62/selection_8qc_source.html#l00341">W_LastWeapon()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a0999fe55cf92fbf20f2b778726f2f14e_icgraph.svg" width="498" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a6f9b75f17639bb910d8445a136d4a837"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f9b75f17639bb910d8445a136d4a837">&#9670;&nbsp;</a></span>Send_WeaponComplain()</h2>
 
@@ -278,19 +318,19 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = e;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    WriteHeader(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, TE_CSQC_WEAPONCOMPLAIN);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, wpn);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, type);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div><div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
 <div class="ttc" id="progsdefs_8qc_html_a47fc8f1bf5a661bca4df28f5657c5aa5"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a></div><div class="ttdeci">entity msg_entity</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00063">progsdefs.qc:63</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2938cf8334c141eda70b56b31409d120"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a></div><div class="ttdeci">float MSG_ONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00056">menudefs.qc:56</a></div></div>
-</div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a6f9b75f17639bb910d8445a136d4a837_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a6f9b75f17639bb910d8445a136d4a837_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a6f9b75f17639bb910d8445a136d4a837_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -345,19 +385,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="weapons_8qc_html_acbf6d97cc09f97ee2a71b562ffae170d"><div class="ttname"><a href="../../d4/def/weapons_8qc.html#acbf6d97cc09f97ee2a71b562ffae170d">weaponorder</a></div><div class="ttdeci">entity weaponorder[REGISTRY_MAX(Weapons)]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/weapons_8qc_source.html#l00086">weapons.qc:86</a></div></div>
 <div class="ttc" id="selection_8qc_html_a040fef5835b1141797bcb28e880c7f5a"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#a040fef5835b1141797bcb28e880c7f5a">W_SwitchWeapon</a></div><div class="ttdeci">bool W_SwitchWeapon(entity this, Weapon w,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00272">selection.qc:272</a></div></div>
 <div class="ttc" id="server_2impulse_8qc_html_a851cf68c8f607573c1a5e987784c83f6"><div class="ttname"><a href="../../d4/d53/server_2impulse_8qc.html#a851cf68c8f607573c1a5e987784c83f6">dir</a></div><div class="ttdeci">int dir</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d53/server_2impulse_8qc_source.html#l00089">impulse.qc:89</a></div></div>
-</div><!-- fragment --><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a6feb08ba7d01d611762b08aeb5dd7dd6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a6feb08ba7d01d611762b08aeb5dd7dd6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a6feb08ba7d01d611762b08aeb5dd7dd6_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -439,19 +479,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="server_2impulse_8qc_html_a851cf68c8f607573c1a5e987784c83f6"><div class="ttname"><a href="../../d4/d53/server_2impulse_8qc.html#a851cf68c8f607573c1a5e987784c83f6">dir</a></div><div class="ttdeci">int dir</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d53/server_2impulse_8qc_source.html#l00089">impulse.qc:89</a></div></div>
 <div class="ttc" id="selection_8qh_html_a792474bccd27fb2b24c8631866f6b203"><div class="ttname"><a href="../../d8/d6b/selection_8qh.html#a792474bccd27fb2b24c8631866f6b203">selectweapon</a></div><div class="ttdeci">int selectweapon</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6b/selection_8qh_source.html#l00010">selection.qh:10</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00019">iter.qh:19</a></div></div>
-</div><!-- fragment --><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_adf3e13e24e532932c0396c15ad5d1228_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_adf3e13e24e532932c0396c15ad5d1228_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_adf3e13e24e532932c0396c15ad5d1228_icgraph.svg" width="100%" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -486,7 +526,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d62/selection_8qc_source.html#l00341">341</a> of file <a class="el" href="../../d2/d62/selection_8qc_source.html">selection.qc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d62/selection_8qc_source.html#l00048">client_hasweapon()</a>, <a class="el" href="../../dd/def/client_2hud_2panel_2powerups_8qc_source.html#l00024">cnt</a>, <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00043">REGISTRY_GET</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00253">W_SwitchToOtherWeapon()</a>, and <a class="el" href="../../d2/d62/selection_8qc_source.html#l00272">W_SwitchWeapon()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d62/selection_8qc_source.html#l00048">client_hasweapon()</a>, <a class="el" href="../../dd/def/client_2hud_2panel_2powerups_8qc_source.html#l00024">cnt</a>, <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00013">MAX_WEAPONSLOTS</a>, <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00043">REGISTRY_GET</a>, <a class="el" href="../../d2/d62/selection_8qc.html#a0999fe55cf92fbf20f2b778726f2f14e">REPLICATE_APPLYCHANGE()</a>, <a class="el" href="../../d8/d6b/selection_8qh_source.html#l00023">w_getbestweapon</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00253">W_SwitchToOtherWeapon()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00272">W_SwitchWeapon()</a>, and <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00014">weaponentities</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00306">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;{</div><div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> wep = <a class="code" href="../../d2/d5e/registry_8qh.html#af9efcf8663e15017f8acd1a218ec7cdf">REGISTRY_GET</a>(Weapons, this.(weaponentity).<a class="code" href="../../dd/def/client_2hud_2panel_2powerups_8qc.html#abfa4eafbc361865597bedf1979325249">cnt</a>);</div><div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411">client_hasweapon</a>(<span class="keyword">this</span>, wep, weaponentity, <span class="keyword">true</span>, <span class="keyword">false</span>))</div><div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        <a class="code" href="../../d2/d62/selection_8qc.html#a040fef5835b1141797bcb28e880c7f5a">W_SwitchWeapon</a>(<span class="keyword">this</span>, wep, weaponentity);</div><div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <a class="code" href="../../d2/d62/selection_8qc.html#ac84b5920c2121ae19b3e269c60244bfd">W_SwitchToOtherWeapon</a>(<span class="keyword">this</span>, weaponentity);</div><div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;}</div><div class="ttc" id="selection_8qc_html_ac84b5920c2121ae19b3e269c60244bfd"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#ac84b5920c2121ae19b3e269c60244bfd">W_SwitchToOtherWeapon</a></div><div class="ttdeci">void W_SwitchToOtherWeapon(entity this,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00253">selection.qc:253</a></div></div>
@@ -495,19 +535,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="selection_8qc_html_a040fef5835b1141797bcb28e880c7f5a"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#a040fef5835b1141797bcb28e880c7f5a">W_SwitchWeapon</a></div><div class="ttdeci">bool W_SwitchWeapon(entity this, Weapon w,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00272">selection.qc:272</a></div></div>
 <div class="ttc" id="classWeapon_html"><div class="ttname"><a href="../../dc/de5/classWeapon.html">Weapon</a></div><div class="ttdoc">fields which are explicitly/manually set are marked with &quot;M&quot;, fields set automatically are marked wit...</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00041">weapon.qh:41</a></div></div>
 <div class="ttc" id="selection_8qc_html_aba6ed323f0e8f5773f5d7de51e2d3411"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411">client_hasweapon</a></div><div class="ttdeci">bool client_hasweapon(entity this, Weapon wpn,.entity weaponentity, float andammo, bool complain)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00048">selection.qc:48</a></div></div>
-</div><!-- fragment --><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_ad4bf72dfdd0aaeca5bc1da4fb607fb3b_cgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_ad4bf72dfdd0aaeca5bc1da4fb607fb3b_cgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_ad4bf72dfdd0aaeca5bc1da4fb607fb3b_icgraph.svg" width="259" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -555,19 +595,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="weapons_2weapon_8qh_html_a33a5fa56c7d71ec499a00d0ed547de24"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24">weaponorder_byid</a></div><div class="ttdeci">string weaponorder_byid</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00214">weapon.qh:214</a></div></div>
 <div class="ttc" id="server_2client_8qh_html_a29848d3b0f49c16a8f68744672ba7cdb"><div class="ttname"><a href="../../d8/de2/server_2client_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a></div><div class="ttdeci">string weaponorder_byimpulse</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00060">client.qh:60</a></div></div>
 <div class="ttc" id="selection_8qc_html_a6feb08ba7d01d611762b08aeb5dd7dd6"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#a6feb08ba7d01d611762b08aeb5dd7dd6">W_CycleWeapon</a></div><div class="ttdeci">void W_CycleWeapon(entity this, string weaponorder, float dir,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00302">selection.qc:302</a></div></div>
-</div><!-- fragment --><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a5f709942f88a08901c4e7b646b2dee9b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a5f709942f88a08901c4e7b646b2dee9b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a5f709942f88a08901c4e7b646b2dee9b_icgraph.svg" width="263" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -616,19 +656,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="state_8qh_html_a1a5647609e1177ce93a5c3a463cbe101"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a></div><div class="ttdeci">#define CS_CVAR(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00051">state.qh:51</a></div></div>
 <div class="ttc" id="selection_8qc_html_adf3e13e24e532932c0396c15ad5d1228"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#adf3e13e24e532932c0396c15ad5d1228">W_GetCycleWeapon</a></div><div class="ttdeci">float W_GetCycleWeapon(entity this, string weaponorder, float dir, float imp, float complain, float skipmissing,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00131">selection.qc:131</a></div></div>
 <div class="ttc" id="selection_8qc_html_a040fef5835b1141797bcb28e880c7f5a"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#a040fef5835b1141797bcb28e880c7f5a">W_SwitchWeapon</a></div><div class="ttdeci">bool W_SwitchWeapon(entity this, Weapon w,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00272">selection.qc:272</a></div></div>
-</div><!-- fragment --><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_aa9ed52c05bcae706e07b86117f1165df_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_aa9ed52c05bcae706e07b86117f1165df_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_aa9ed52c05bcae706e07b86117f1165df_icgraph.svg" width="667" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -676,19 +716,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="weapons_2weapon_8qh_html_a33a5fa56c7d71ec499a00d0ed547de24"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24">weaponorder_byid</a></div><div class="ttdeci">string weaponorder_byid</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00214">weapon.qh:214</a></div></div>
 <div class="ttc" id="server_2client_8qh_html_a29848d3b0f49c16a8f68744672ba7cdb"><div class="ttname"><a href="../../d8/de2/server_2client_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a></div><div class="ttdeci">string weaponorder_byimpulse</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00060">client.qh:60</a></div></div>
 <div class="ttc" id="selection_8qc_html_a6feb08ba7d01d611762b08aeb5dd7dd6"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#a6feb08ba7d01d611762b08aeb5dd7dd6">W_CycleWeapon</a></div><div class="ttdeci">void W_CycleWeapon(entity this, string weaponorder, float dir,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00302">selection.qc:302</a></div></div>
-</div><!-- fragment --><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a0f321b3257e4e705a6d2ad7ad4f00bdf_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a0f321b3257e4e705a6d2ad7ad4f00bdf_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a0f321b3257e4e705a6d2ad7ad4f00bdf_icgraph.svg" width="288" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -731,19 +771,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="selection_8qc_html_a26a298ee4ff7a3e0706b8892030ecf1a"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#a26a298ee4ff7a3e0706b8892030ecf1a">W_SwitchWeapon_Force</a></div><div class="ttdeci">void W_SwitchWeapon_Force(Player this, Weapon wep,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00243">selection.qc:243</a></div></div>
 <div class="ttc" id="weapons_2all_8qh_html_af64f4486ae6141a10160958a5e9a70b4"><div class="ttname"><a href="../../d0/ddd/weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4">WepSet_FromWeapon</a></div><div class="ttdeci">#define WepSet_FromWeapon(it)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/weapons_2all_8qh_source.html#l00038">all.qh:38</a></div></div>
 <div class="ttc" id="classWeapon_html"><div class="ttname"><a href="../../dc/de5/classWeapon.html">Weapon</a></div><div class="ttdoc">fields which are explicitly/manually set are marked with &quot;M&quot;, fields set automatically are marked wit...</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00041">weapon.qh:41</a></div></div>
-</div><!-- fragment --><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_ac84b5920c2121ae19b3e269c60244bfd_cgraph.svg" width="532" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_ac84b5920c2121ae19b3e269c60244bfd_cgraph.svg" width="532" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_ac84b5920c2121ae19b3e269c60244bfd_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -794,19 +834,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="selection_8qc_html_aba6ed323f0e8f5773f5d7de51e2d3411"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411">client_hasweapon</a></div><div class="ttdeci">bool client_hasweapon(entity this, Weapon wpn,.entity weaponentity, float andammo, bool complain)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00048">selection.qc:48</a></div></div>
 <div class="ttc" id="classWeapon_html_a7bfa8cea7d4fcbb0c04dd7a540a7e4dd"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd">Weapon::m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00042">weapon.qh:42</a></div></div>
 <div class="ttc" id="selection_8qh_html_a792474bccd27fb2b24c8631866f6b203"><div class="ttname"><a href="../../d8/d6b/selection_8qh.html#a792474bccd27fb2b24c8631866f6b203">selectweapon</a></div><div class="ttdeci">int selectweapon</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6b/selection_8qh_source.html#l00010">selection.qh:10</a></div></div>
-</div><!-- fragment --><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a040fef5835b1141797bcb28e880c7f5a_cgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a040fef5835b1141797bcb28e880c7f5a_cgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a040fef5835b1141797bcb28e880c7f5a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -854,19 +894,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00082">_all.inc:82</a></div></div>
 <div class="ttc" id="classWeapon_html"><div class="ttname"><a href="../../dc/de5/classWeapon.html">Weapon</a></div><div class="ttdoc">fields which are explicitly/manually set are marked with &quot;M&quot;, fields set automatically are marked wit...</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00041">weapon.qh:41</a></div></div>
 <div class="ttc" id="classWeapon_html_a7bfa8cea7d4fcbb0c04dd7a540a7e4dd"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd">Weapon::m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00042">weapon.qh:42</a></div></div>
-</div><!-- fragment --><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a26a298ee4ff7a3e0706b8892030ecf1a_cgraph.svg" width="298" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a26a298ee4ff7a3e0706b8892030ecf1a_cgraph.svg" width="298" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a26a298ee4ff7a3e0706b8892030ecf1a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -914,19 +954,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="classWeapon_html_a07bb940405dd6a1cc59526ddca74c1b7"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a07bb940405dd6a1cc59526ddca74c1b7">Weapon::impulse</a></div><div class="ttdeci">int impulse</div><div class="ttdoc">M: impulse : weapon impulse. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00050">weapon.qh:50</a></div></div>
 <div class="ttc" id="selection_8qc_html_aa9ed52c05bcae706e07b86117f1165df"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#aa9ed52c05bcae706e07b86117f1165df">W_NextWeaponOnImpulse</a></div><div class="ttdeci">void W_NextWeaponOnImpulse(entity this, float imp,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00310">selection.qc:310</a></div></div>
 <div class="ttc" id="selection_8qc_html_a040fef5835b1141797bcb28e880c7f5a"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#a040fef5835b1141797bcb28e880c7f5a">W_SwitchWeapon</a></div><div class="ttdeci">bool W_SwitchWeapon(entity this, Weapon w,.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00272">selection.qc:272</a></div></div>
-</div><!-- fragment --><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a8031c259652162f4aeefa9a0fc3183dc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a8031c259652162f4aeefa9a0fc3183dc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a8031c259652162f4aeefa9a0fc3183dc_icgraph.svg" width="424" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -970,19 +1010,19 @@ Functions</h2></td></tr>
 <div class="ttc" id="selection_8qh_html_af788daf8a45a659a2215f928b4590158"><div class="ttname"><a href="../../d8/d6b/selection_8qh.html#af788daf8a45a659a2215f928b4590158">autocvar_g_showweaponspawns</a></div><div class="ttdeci">int autocvar_g_showweaponspawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6b/selection_8qh_source.html#l00006">selection.qh:6</a></div></div>
 <div class="ttc" id="server_2items_2items_8qh_html_a21516c4e202f0fa473d6b010d8b651b5"><div class="ttname"><a href="../../d0/d7d/server_2items_2items_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a></div><div class="ttdeci">IntrusiveList g_items</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d7d/server_2items_2items_8qh_source.html#l00126">items.qh:126</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-</div><!-- fragment --><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a8ebba9ca88508abccc39d23b9c40defd_cgraph.svg" width="251" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a8ebba9ca88508abccc39d23b9c40defd_cgraph.svg" width="251" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d62/selection_8qc_a8ebba9ca88508abccc39d23b9c40defd_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -995,7 +1035,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d2/d62/selection_8qc.html">selection.qc</a></li>
-    <li class="footer">Generated on Tue Feb 8 2022 17:31:00 for Xonotic by
+    <li class="footer">Generated on Thu Feb 10 2022 12:03:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

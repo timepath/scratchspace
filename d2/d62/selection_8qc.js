@@ -1,6 +1,7 @@
 var selection_8qc =
 [
     [ "client_hasweapon", "d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411", null ],
+    [ "REPLICATE_APPLYCHANGE", "d2/d62/selection_8qc.html#a0999fe55cf92fbf20f2b778726f2f14e", null ],
     [ "Send_WeaponComplain", "d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837", null ],
     [ "W_CycleWeapon", "d2/d62/selection_8qc.html#a6feb08ba7d01d611762b08aeb5dd7dd6", null ],
     [ "W_GetCycleWeapon", "d2/d62/selection_8qc.html#adf3e13e24e532932c0396c15ad5d1228", null ],

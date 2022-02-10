@@ -1,16 +1,11 @@
 var NAVTREEINDEX18 =
 {
-"d2/d08/sv__spawn__near__teammate_8qc.html#a582050a7f52aadc149b2810a95865f6c":[2,0,1,10,0,33,6,4],
-"d2/d08/sv__spawn__near__teammate_8qc.html#a719320626f92829677573c6e6714dbae":[2,0,1,10,0,33,6,13],
-"d2/d08/sv__spawn__near__teammate_8qc.html#a80ab02300025fa40fca0d8f24e8b1b4f":[2,0,1,10,0,33,6,11],
-"d2/d08/sv__spawn__near__teammate_8qc.html#a946c9152e1d2f58636ec5f7481980695":[2,0,1,10,0,33,6,10],
-"d2/d08/sv__spawn__near__teammate_8qc.html#a9e3ba6aa3a231c79aeed88b4460dc928":[2,0,1,10,0,33,6,9],
-"d2/d08/sv__spawn__near__teammate_8qc.html#aa96398c023a4626454169c973c5c0946":[2,0,1,10,0,33,6,3],
-"d2/d08/sv__spawn__near__teammate_8qc.html#aab0d7fdefb365e732ff2353c7d22421b":[2,0,1,10,0,33,6,6],
-"d2/d08/sv__spawn__near__teammate_8qc.html#ad23c797958622d4ed1b1e8ecedb0058f":[2,0,1,10,0,33,6,14],
+"d2/d08/sv__spawn__near__teammate_8qc.html#a9e3ba6aa3a231c79aeed88b4460dc928":[2,0,1,10,0,33,6,8],
+"d2/d08/sv__spawn__near__teammate_8qc.html#aab0d7fdefb365e732ff2353c7d22421b":[2,0,1,10,0,33,6,5],
+"d2/d08/sv__spawn__near__teammate_8qc.html#ad23c797958622d4ed1b1e8ecedb0058f":[2,0,1,10,0,33,6,12],
 "d2/d08/sv__spawn__near__teammate_8qc.html#ad2d2a24803c926f92f844a777389fedf":[2,0,1,10,0,33,6,0],
 "d2/d08/sv__spawn__near__teammate_8qc.html#ad86fe863b59d4ae6f75b9c398d9cc822":[2,0,1,10,0,33,6,2],
-"d2/d08/sv__spawn__near__teammate_8qc.html#af3f3ecba5ba5ff75e9de47b99dc101d6":[2,0,1,10,0,33,6,8],
+"d2/d08/sv__spawn__near__teammate_8qc.html#af3f3ecba5ba5ff75e9de47b99dc101d6":[2,0,1,10,0,33,6,7],
 "d2/d08/sv__spawn__near__teammate_8qc_source.html":[2,0,1,10,0,33,6],
 "d2/d0a/common_2physics_2player_8qc.html":[2,0,1,12,6],
 "d2/d0a/common_2physics_2player_8qc.html#a1013ea762d39fb23e720f32491799c47":[2,0,1,12,6,12],
@@ -249,5 +244,10 @@ var NAVTREEINDEX18 =
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,197,53],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,197,44],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a1363f51d76bde5021f29a75dad41e706":[1,0,197,15],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,197,93]
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,197,93],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,197,90],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a1d075bfcff7e8efe420695ddd203bb4d":[1,0,197,54],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a1d17df6e1367f9d3bfe263314fc6e046":[1,0,197,45],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,197,89],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,197,62]
 };

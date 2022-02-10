@@ -7,7 +7,6 @@ var server_2main_8qh =
     [ "remove_except_protected", "d1/dd8/server_2main_8qh.html#aa16293e20d9c95cd2706a83a9e1fe8fb", null ],
     [ "remove_safely", "d1/dd8/server_2main_8qh.html#a0214f10fac80584471e106daa9bbd656", null ],
     [ "remove_unsafely", "d1/dd8/server_2main_8qh.html#a4e74ce1d2075c282aed288a570b9bd0f", null ],
-    [ "strcat1", "d1/dd8/server_2main_8qh.html#a9974b20c57efacc64d84960329620554", null ],
     [ "autocvar_g_balance_contents_damagerate", "d1/dd8/server_2main_8qh.html#a6bcaf0fbfd2207f1e0ebcd991abb1855", null ],
     [ "autocvar_g_balance_contents_drowndelay", "d1/dd8/server_2main_8qh.html#a40480d2977f543e3a7d548a310509a4e", null ],
     [ "autocvar_g_balance_contents_playerdamage_drowning", "d1/dd8/server_2main_8qh.html#a3601a2214003a69aef40a019e67c69f1", null ],

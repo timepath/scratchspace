@@ -1,14 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"d6/d11/progsdefs_8qc.html#a835802057aef3faaaaa38335100809b5":[2,0,2,0,4,6],
-"d6/d11/progsdefs_8qc.html#a842a5256688a7c19f56df63e5d585d05":[2,0,2,0,4,138],
-"d6/d11/progsdefs_8qc.html#a85d825400d8c8516b78d9682b887aa0b":[2,0,2,0,4,223],
-"d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1":[2,0,2,0,4,155],
-"d6/d11/progsdefs_8qc.html#a89117a8aa63b0c5a590eba5124055c3e":[2,0,2,0,4,199],
-"d6/d11/progsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b":[2,0,2,0,4,237],
-"d6/d11/progsdefs_8qc.html#a8c246dfd219649b9765c786784e618a7":[2,0,2,0,4,151],
-"d6/d11/progsdefs_8qc.html#a8e71f7936972007a18e92e60312c2ceb":[2,0,2,0,4,92],
-"d6/d11/progsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd":[2,0,2,0,4,256],
 "d6/d11/progsdefs_8qc.html#a8f1fedffff0fe0b96c93d099a3aa02b9":[2,0,2,0,4,43],
 "d6/d11/progsdefs_8qc.html#a915ee629bb13889cd5b99f284c4956e5":[2,0,2,0,4,87],
 "d6/d11/progsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf":[2,0,2,0,4,241],
@@ -249,5 +240,14 @@ var NAVTREEINDEX60 =
 "d6/d18/classModel.html#a94ef36182b936eec6e1cf1658d1d6e8f":[1,0,93,1],
 "d6/d18/classModel.html#af6b10f529b9eb538bd9ae5d63a5f9424":[1,0,93,0],
 "d6/d19/item_2textslider_8qc.html":[2,0,5,2,32],
-"d6/d19/item_2textslider_8qc.html#a14102f9196453857b40937f8bac072b2":[2,0,5,2,32,4]
+"d6/d19/item_2textslider_8qc.html#a14102f9196453857b40937f8bac072b2":[2,0,5,2,32,4],
+"d6/d19/item_2textslider_8qc.html#a1a435e0c1d23c3473e05314920338bf3":[2,0,5,2,32,7],
+"d6/d19/item_2textslider_8qc.html#a2b395ff38a5b2039dfed4a7ba717cec2":[2,0,5,2,32,8],
+"d6/d19/item_2textslider_8qc.html#a5e1ea9e6b3986e13b3599969bca8cfef":[2,0,5,2,32,3],
+"d6/d19/item_2textslider_8qc.html#a5e6bda641277315482cf8c688c84f9bd":[2,0,5,2,32,6],
+"d6/d19/item_2textslider_8qc.html#a66b13438483e2a8cc46450ee3ab4e7fb":[2,0,5,2,32,9],
+"d6/d19/item_2textslider_8qc.html#a6fda399e72618bd9a2fd0859b1ac52ae":[2,0,5,2,32,1],
+"d6/d19/item_2textslider_8qc.html#aa16c0597db29e0e41b727cd5307496a3":[2,0,5,2,32,2],
+"d6/d19/item_2textslider_8qc.html#adfe01db335b98febb13f9f868af89017":[2,0,5,2,32,0],
+"d6/d19/item_2textslider_8qc.html#af29fe111fc37e1ed19f6d0f376024f02":[2,0,5,2,32,5]
 };

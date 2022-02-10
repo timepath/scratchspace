@@ -54,31 +54,31 @@ var sectionId = 'dynsection-12';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>RandomItems_GetRandomVanillaItemClassName</title>
-<!-- Node203 -->
+<!-- Node202 -->
 <g id="node1" class="node">
-<title>Node203</title>
+<title>Node202</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-36 0,-66 181,-66 181,-36 0,-36"/>
 <text text-anchor="start" x="8" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">RandomItems_GetRandomVanilla</text>
 <text text-anchor="middle" x="90.5" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ItemClassName</text>
 </g>
-<!-- Node204 -->
+<!-- Node203 -->
 <g id="node2" class="node">
-<title>Node204</title>
+<title>Node203</title>
 <g id="a_node2"><a xlink:href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488" target="_top" xlink:title="cvar">
 <polygon fill="none" stroke="#000000" points="473.5,-82.5 473.5,-101.5 511.5,-101.5 511.5,-82.5 473.5,-82.5"/>
 <text text-anchor="middle" x="492.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cvar</text>
 </a>
 </g>
 </g>
-<!-- Node203&#45;&gt;Node204 -->
+<!-- Node202&#45;&gt;Node203 -->
 <g id="edge1" class="edge">
-<title>Node203&#45;&gt;Node204</title>
+<title>Node202&#45;&gt;Node203</title>
 <path fill="none" stroke="#191970" d="M157.5122,-66.0211C176.6418,-69.8245 197.5684,-73.5275 217,-76 306.2208,-87.3527 412.7354,-90.6592 463.2036,-91.6154"/>
 <polygon fill="#191970" stroke="#191970" points="463.32,-95.1178 473.3787,-91.7901 463.4403,-88.1188 463.32,-95.1178"/>
 </g>
-<!-- Node205 -->
+<!-- Node204 -->
 <g id="node3" class="node">
-<title>Node205</title>
+<title>Node204</title>
 <g id="a_node3"><a xlink:href="../../d2/de3/sv__random__items_8qc.html#a67a18349934bc81bcd9d5bbcd5783fc0" target="_top" xlink:title="Returns a random classname of the item with specific property. ">
 <polygon fill="none" stroke="#000000" points="217,-36 217,-66 387,-66 387,-36 217,-36"/>
 <text text-anchor="start" x="225" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">RandomItems_GetRandomItem</text>
@@ -86,51 +86,51 @@ var sectionId = 'dynsection-12';
 </a>
 </g>
 </g>
-<!-- Node203&#45;&gt;Node205 -->
+<!-- Node202&#45;&gt;Node204 -->
 <g id="edge2" class="edge">
-<title>Node203&#45;&gt;Node205</title>
+<title>Node202&#45;&gt;Node204</title>
 <path fill="none" stroke="#191970" d="M181.1154,-51C189.6575,-51 198.334,-51 206.9159,-51"/>
 <polygon fill="#191970" stroke="#191970" points="206.9331,-54.5001 216.9331,-51 206.9331,-47.5001 206.9331,-54.5001"/>
 </g>
-<!-- Node207 -->
+<!-- Node206 -->
 <g id="node5" class="node">
-<title>Node207</title>
+<title>Node206</title>
 <g id="a_node5"><a xlink:href="../../dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" target="_top" xlink:title="RandomSelection_Init">
 <polygon fill="none" stroke="#000000" points="431,-.5 431,-19.5 554,-19.5 554,-.5 431,-.5"/>
 <text text-anchor="middle" x="492.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">RandomSelection_Init</text>
 </a>
 </g>
 </g>
-<!-- Node203&#45;&gt;Node207 -->
+<!-- Node202&#45;&gt;Node206 -->
 <g id="edge6" class="edge">
-<title>Node203&#45;&gt;Node207</title>
+<title>Node202&#45;&gt;Node206</title>
 <path fill="none" stroke="#191970" d="M157.5122,-35.9789C176.6418,-32.1755 197.5684,-28.4725 217,-26 285.7915,-17.2468 364.8638,-13.2769 420.6008,-11.4795"/>
 <polygon fill="#191970" stroke="#191970" points="420.841,-14.9739 430.7288,-11.1685 420.6261,-7.9772 420.841,-14.9739"/>
 </g>
-<!-- Node205&#45;&gt;Node204 -->
+<!-- Node204&#45;&gt;Node203 -->
 <g id="edge3" class="edge">
-<title>Node205&#45;&gt;Node204</title>
+<title>Node204&#45;&gt;Node203</title>
 <path fill="none" stroke="#191970" d="M371.8535,-66.0341C403.4886,-72.8427 439.1557,-80.5191 463.4522,-85.7482"/>
 <polygon fill="#191970" stroke="#191970" points="462.929,-89.2157 473.4416,-87.8982 464.4019,-82.3724 462.929,-89.2157"/>
 </g>
-<!-- Node206 -->
+<!-- Node205 -->
 <g id="node4" class="node">
-<title>Node206</title>
+<title>Node205</title>
 <g id="a_node4"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a88f34c0b048ed43a25139649a01d6d98" target="_top" xlink:title="Checks whether the items with the specified definition are allowed to spawn. ">
 <polygon fill="none" stroke="#000000" points="423,-41.5 423,-60.5 562,-60.5 562,-41.5 423,-41.5"/>
 <text text-anchor="middle" x="492.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Item_IsDefinitionAllowed</text>
 </a>
 </g>
 </g>
-<!-- Node205&#45;&gt;Node206 -->
+<!-- Node204&#45;&gt;Node205 -->
 <g id="edge4" class="edge">
-<title>Node205&#45;&gt;Node206</title>
+<title>Node204&#45;&gt;Node205</title>
 <path fill="none" stroke="#191970" d="M387.2207,-51C395.6722,-51 404.2302,-51 412.6247,-51"/>
 <polygon fill="#191970" stroke="#191970" points="412.7647,-54.5001 422.7647,-51 412.7646,-47.5001 412.7647,-54.5001"/>
 </g>
-<!-- Node205&#45;&gt;Node207 -->
+<!-- Node204&#45;&gt;Node206 -->
 <g id="edge5" class="edge">
-<title>Node205&#45;&gt;Node207</title>
+<title>Node204&#45;&gt;Node206</title>
 <path fill="none" stroke="#191970" d="M371.8535,-35.9659C393.7549,-31.2522 417.5889,-26.1226 438.2444,-21.6771"/>
 <polygon fill="#191970" stroke="#191970" points="439.067,-25.0803 448.1067,-19.5545 437.5941,-18.237 439.067,-25.0803"/>
 </g>

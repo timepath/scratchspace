@@ -1,14 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d6/de9/cheats_8qc.html#ab12ab680ff52099e78d6e3a7968815dc":[2,0,6,17,6],
-"d6/de9/cheats_8qc.html#ab8cf8b6398e20084a629164e3388a6cf":[2,0,6,17,22],
-"d6/de9/cheats_8qc.html#abf690db48ff84b0c056187a5c58bd53d":[2,0,6,17,33],
-"d6/de9/cheats_8qc.html#ac8c324931fb0af19eddfa7d523f12321":[2,0,6,17,38],
-"d6/de9/cheats_8qc.html#addaa80f08a1814656fc04b113d1bdc3e":[2,0,6,17,27],
-"d6/de9/cheats_8qc.html#ae9d36814925a74febb4ea1d621c300a5":[2,0,6,17,36],
-"d6/de9/cheats_8qc.html#aecc34d4a00fe223b018b37bcd6f15b80":[2,0,6,17,16],
-"d6/de9/cheats_8qc_source.html":[2,0,6,17],
-"d6/dea/crosshairpicker_8qc.html":[2,0,5,4,28],
 "d6/dea/crosshairpicker_8qc.html#a4c4327ccd7a6062460da870f8b6b33b7":[2,0,5,4,28,2],
 "d6/dea/crosshairpicker_8qc.html#a56c691ef6239647964068dc4850b9bf1":[2,0,5,4,28,4],
 "d6/dea/crosshairpicker_8qc.html#a5c221b96cde768a1ba2bb5c09a80ca01":[2,0,5,4,28,3],
@@ -249,5 +240,14 @@ var NAVTREEINDEX70 =
 "d7/d13/classXonoticHUDAmmoDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,211,63],
 "d7/d13/classXonoticHUDAmmoDialog.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,211,22],
 "d7/d13/classXonoticHUDAmmoDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,211,5],
-"d7/d13/classXonoticHUDAmmoDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,211,10]
+"d7/d13/classXonoticHUDAmmoDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,211,10],
+"d7/d13/classXonoticHUDAmmoDialog.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,211,50],
+"d7/d13/classXonoticHUDAmmoDialog.html#afd31a5a00f0cbf86e51ee61a8082a6c6":[1,0,211,80],
+"d7/d13/classXonoticHUDAmmoDialog.html#afdfc5587c68e067ba10bd7537aae08a8":[1,0,211,71],
+"d7/d13/dialog__quit_8qh.html":[2,0,5,4,123],
+"d7/d13/dialog__quit_8qh_source.html":[2,0,5,4,123],
+"d7/d15/hud_8qc.html":[2,0,0,1,5],
+"d7/d15/hud_8qc.html#a016a0fcf08900a461b8f001adcd8ae38":[2,0,0,1,5,25],
+"d7/d15/hud_8qc.html#a059bf1ec85f2c301ebd508746966ffaa":[2,0,0,1,5,24],
+"d7/d15/hud_8qc.html#a17432988ef7a28b058fec9318b29fea3":[2,0,0,1,5,2]
 };

@@ -1,12 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"d3/d89/mutators_2mutator_2status__effects_2all_8qc.html":[2,0,1,10,0,35,3],
-"d3/d89/mutators_2mutator_2status__effects_2all_8qc_source.html":[2,0,1,10,0,35,3],
-"d3/d8f/cl__status__effects_8qh.html":[2,0,1,10,0,35,6],
-"d3/d8f/cl__status__effects_8qh_source.html":[2,0,1,10,0,35,6],
-"d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
-"d3/d92/roles_8qh.html#a1cc24935994a1db67f5eadfc5007ac5c":[2,0,6,0,0,0,5,1],
-"d3/d92/roles_8qh.html#a6cc3933347729c799694be0ec3c641fc":[2,0,6,0,0,0,5,3],
 "d3/d92/roles_8qh.html#aa064a39de365d0244bd476bd9ce85833":[2,0,6,0,0,0,5,2],
 "d3/d92/roles_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8":[2,0,6,0,0,0,5,4],
 "d3/d92/roles_8qh.html#acab64c2fe38b303fbe8907423b34fc04":[2,0,6,0,0,0,5,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX33 =
 "d3/db6/projectile_8qc.html#a9f8c39b72e4cac7db813d64f6b47da53":[2,0,0,4,2,2],
 "d3/db6/projectile_8qc.html#aa0569f1b060229bf8b6d0c13b4dff8f1":[2,0,0,4,2,1],
 "d3/db6/projectile_8qc.html#aa212ff44982cb3d66e1a0eff0bea547e":[2,0,0,4,2,0],
-"d3/db6/projectile_8qc.html#aafb6ab318b9d8923d5fb0d4e56242d87":[2,0,0,4,2,8]
+"d3/db6/projectile_8qc.html#aafb6ab318b9d8923d5fb0d4e56242d87":[2,0,0,4,2,8],
+"d3/db6/projectile_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b":[2,0,0,4,2,9],
+"d3/db6/projectile_8qc.html#ac4299ed240f883c226a73f8b7c4da3fa":[2,0,0,4,2,4],
+"d3/db6/projectile_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,0,4,2,10],
+"d3/db6/projectile_8qc.html#afa735eeb763e03508cd4e27a1921b593":[2,0,0,4,2,7],
+"d3/db6/projectile_8qc_source.html":[2,0,0,4,2],
+"d3/db7/dialog__settings__bindings__reset_8qc.html":[2,0,5,4,130],
+"d3/db7/dialog__settings__bindings__reset_8qc.html#acce924b3ec8d10aaca50b175851e87b7":[2,0,5,4,130,0]
 };
