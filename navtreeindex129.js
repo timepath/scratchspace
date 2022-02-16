@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"dd/d70/pathlib_8qh.html#a93f7bc967b9351b9bcf4c4631c80d83a":[2,0,6,5,14,10],
+"dd/d70/pathlib_8qh.html#a995d8c8367709bbcee8cbb05b12ea857":[2,0,6,5,14,69],
 "dd/d70/pathlib_8qh.html#a9a5f806b1043ea8fb28c9481361b2197":[2,0,6,5,14,72],
 "dd/d70/pathlib_8qh.html#aa0385717dc25c455be45f7cb832c7d10":[2,0,6,5,14,23],
 "dd/d70/pathlib_8qh.html#aa0da3d0f66f70ff12e2b69560240133e":[2,0,6,5,14,44],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "dd/d90/classRaptorFlare.html#ab41e06c129b088099719b53ff748a225":[1,0,130,24],
 "dd/d90/classRaptorFlare.html#ab59aa3661d33d9cea31f3f54edc8d4a5":[1,0,130,11],
 "dd/d90/classRaptorFlare.html#ab85fabb72654d058fc379853e1decee4":[1,0,130,33],
-"dd/d90/classRaptorFlare.html#abcd8c19cc240f9cabad99db39b6d9388":[1,0,130,17],
-"dd/d90/classRaptorFlare.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,130,38],
-"dd/d90/classRaptorFlare.html#ac68491c5010e83eac66e266ed5ceff9a":[1,0,130,21]
+"dd/d90/classRaptorFlare.html#abcd8c19cc240f9cabad99db39b6d9388":[1,0,130,17]
 };

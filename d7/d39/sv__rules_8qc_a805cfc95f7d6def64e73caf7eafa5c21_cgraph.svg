@@ -48,142 +48,142 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 669;
 var viewHeight = 120;
-var sectionId = 'dynsection-2';
+var sectionId = 'dynsection-3';
 </script>
 <script xlink:href="../../svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>_GameRules_scoring_add_team</title>
-<!-- Node6 -->
+<!-- Node13 -->
 <g id="node1" class="node">
-<title>Node6</title>
+<title>Node13</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-33 0,-63 118,-63 118,-33 0,-33"/>
 <text text-anchor="start" x="8" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_GameRules_scoring</text>
 <text text-anchor="middle" x="59" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_add_team</text>
 </g>
-<!-- Node7 -->
+<!-- Node14 -->
 <g id="node2" class="node">
-<title>Node7</title>
+<title>Node14</title>
 <g id="a_node2"><a xlink:href="../../d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c" target="_top" xlink:title="Adds a score to both the player and the team. ">
 <polygon fill="none" stroke="#000000" points="154,-38.5 154,-57.5 279,-57.5 279,-38.5 154,-38.5"/>
 <text text-anchor="middle" x="216.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">PlayerTeamScore_Add</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
+<!-- Node13&#45;&gt;Node14 -->
 <g id="edge1" class="edge">
-<title>Node6&#45;&gt;Node7</title>
+<title>Node13&#45;&gt;Node14</title>
 <path fill="none" stroke="#191970" d="M118.0953,-48C126.5022,-48 135.2283,-48 143.8561,-48"/>
 <polygon fill="#191970" stroke="#191970" points="143.9143,-51.5001 153.9142,-48 143.9142,-44.5001 143.9143,-51.5001"/>
 </g>
-<!-- Node8 -->
+<!-- Node15 -->
 <g id="node3" class="node">
-<title>Node8</title>
+<title>Node15</title>
 <g id="a_node3"><a xlink:href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4" target="_top" xlink:title="Adds a score to the player&#39;s scores. ">
 <polygon fill="none" stroke="#000000" points="315,-66.5 315,-85.5 413,-85.5 413,-66.5 315,-66.5"/>
 <text text-anchor="middle" x="364" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">PlayerScore_Add</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
+<!-- Node14&#45;&gt;Node15 -->
 <g id="edge2" class="edge">
-<title>Node7&#45;&gt;Node8</title>
+<title>Node14&#45;&gt;Node15</title>
 <path fill="none" stroke="#191970" d="M266.8486,-57.5577C279.0971,-59.8828 292.3064,-62.3904 304.9191,-64.7846"/>
 <polygon fill="#191970" stroke="#191970" points="304.3993,-68.2484 314.8766,-66.6749 305.7049,-61.3712 304.3993,-68.2484"/>
 </g>
-<!-- Node12 -->
+<!-- Node19 -->
 <g id="node7" class="node">
-<title>Node12</title>
+<title>Node19</title>
 <g id="a_node7"><a xlink:href="../../d2/d79/scores_8qc.html#a394bf84d67f07e376beeff4a5c6ed94c" target="_top" xlink:title="Adds a score to the player&#39;s team&#39;s scores. ">
 <polygon fill="none" stroke="#000000" points="317,-19.5 317,-38.5 411,-38.5 411,-19.5 317,-19.5"/>
 <text text-anchor="middle" x="364" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamScore_Add</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node12 -->
+<!-- Node14&#45;&gt;Node19 -->
 <g id="edge6" class="edge">
-<title>Node7&#45;&gt;Node12</title>
+<title>Node14&#45;&gt;Node19</title>
 <path fill="none" stroke="#191970" d="M279.0533,-39.9423C288.181,-38.7665 297.5429,-37.5606 306.5623,-36.3988"/>
 <polygon fill="#191970" stroke="#191970" points="307.0981,-39.8587 316.569,-35.1098 306.2038,-32.9161 307.0981,-39.8587"/>
 </g>
-<!-- Node9 -->
+<!-- Node16 -->
 <g id="node4" class="node">
-<title>Node9</title>
+<title>Node16</title>
 <g id="a_node4"><a xlink:href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" target="_top" xlink:title="entity">
 <polygon fill="none" stroke="#000000" points="616,-76.5 616,-95.5 661,-95.5 661,-76.5 616,-76.5"/>
 <text text-anchor="middle" x="638.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">entity</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node9 -->
+<!-- Node15&#45;&gt;Node16 -->
 <g id="edge3" class="edge">
-<title>Node8&#45;&gt;Node9</title>
+<title>Node15&#45;&gt;Node16</title>
 <path fill="none" stroke="#191970" d="M385.5034,-85.5414C402.389,-92.4877 426.6962,-101.2999 449,-105 506.4372,-114.5285 522.494,-114.1045 580,-105 588.7179,-103.6198 597.9047,-101.1501 606.3489,-98.4384"/>
 <polygon fill="#191970" stroke="#191970" points="607.5154,-101.7385 615.8478,-95.1946 605.2533,-95.1141 607.5154,-101.7385"/>
 </g>
-<!-- Node10 -->
+<!-- Node17 -->
 <g id="node5" class="node">
-<title>Node10</title>
+<title>Node17</title>
 <g id="a_node5"><a xlink:href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" target="_top" xlink:title="CS">
 <polygon fill="none" stroke="#000000" points="500,-76.5 500,-95.5 529,-95.5 529,-76.5 500,-76.5"/>
 <text text-anchor="middle" x="514.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CS</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node10 -->
+<!-- Node15&#45;&gt;Node17 -->
 <g id="edge4" class="edge">
-<title>Node8&#45;&gt;Node10</title>
+<title>Node15&#45;&gt;Node17</title>
 <path fill="none" stroke="#191970" d="M413.2793,-79.2744C438.8581,-80.974 469,-82.9767 489.6997,-84.3521"/>
 <polygon fill="#191970" stroke="#191970" points="489.654,-87.8567 499.8641,-85.0275 490.1182,-80.8721 489.654,-87.8567"/>
 </g>
-<!-- Node11 -->
+<!-- Node18 -->
 <g id="node6" class="node">
-<title>Node11</title>
+<title>Node18</title>
 <g id="a_node6"><a xlink:href="../../d9/d09/notifications_2all_8inc.html#abcd3b74b893eeaea24bb577dfc59b6d3" target="_top" xlink:title="strcat">
 <polygon fill="none" stroke="#000000" points="492.5,-38.5 492.5,-57.5 536.5,-57.5 536.5,-38.5 492.5,-38.5"/>
 <text text-anchor="middle" x="514.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">strcat</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node11 -->
+<!-- Node15&#45;&gt;Node18 -->
 <g id="edge5" class="edge">
-<title>Node8&#45;&gt;Node11</title>
+<title>Node15&#45;&gt;Node18</title>
 <path fill="none" stroke="#191970" d="M413.2793,-66.8318C436.0559,-62.5943 462.4506,-57.6836 482.5751,-53.9395"/>
 <polygon fill="#191970" stroke="#191970" points="483.2839,-57.3678 492.475,-52.0977 482.0035,-50.4859 483.2839,-57.3678"/>
 </g>
-<!-- Node13 -->
+<!-- Node20 -->
 <g id="node8" class="node">
-<title>Node13</title>
+<title>Node20</title>
 <g id="a_node8"><a xlink:href="../../d2/d79/scores_8qc.html#a74bac5f29749ffee855cd6a5d0e18836" target="_top" xlink:title="Adds a score to the given team. ">
 <polygon fill="none" stroke="#000000" points="449,-.5 449,-19.5 580,-19.5 580,-.5 449,-.5"/>
 <text text-anchor="middle" x="514.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamScore_AddToTeam</text>
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node13 -->
+<!-- Node19&#45;&gt;Node20 -->
 <g id="edge7" class="edge">
-<title>Node12&#45;&gt;Node13</title>
+<title>Node19&#45;&gt;Node20</title>
 <path fill="none" stroke="#191970" d="M411.2062,-23.0404C420.0058,-21.9295 429.4024,-20.7432 438.8083,-19.5558"/>
 <polygon fill="#191970" stroke="#191970" points="439.5076,-22.9954 448.9904,-18.2703 438.6308,-16.0505 439.5076,-22.9954"/>
 </g>
-<!-- Node13&#45;&gt;Node9 -->
+<!-- Node20&#45;&gt;Node16 -->
 <g id="edge8" class="edge">
-<title>Node13&#45;&gt;Node9</title>
+<title>Node20&#45;&gt;Node16</title>
 <path fill="none" stroke="#191970" d="M558.7155,-19.5958C566.0839,-22.0921 573.4518,-25.1864 580,-29 597.5226,-39.205 613.7227,-55.7946 624.6103,-68.4518"/>
 <polygon fill="#191970" stroke="#191970" points="622.1728,-70.9956 631.2501,-76.4595 627.5614,-66.5275 622.1728,-70.9956"/>
 </g>
-<!-- Node14 -->
+<!-- Node21 -->
 <g id="node9" class="node">
-<title>Node14</title>
+<title>Node21</title>
 <g id="a_node9"><a xlink:href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2" target="_top" xlink:title="error">
 <polygon fill="none" stroke="#000000" points="618.5,-.5 618.5,-19.5 658.5,-19.5 658.5,-.5 618.5,-.5"/>
 <text text-anchor="middle" x="638.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">error</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node14 -->
+<!-- Node20&#45;&gt;Node21 -->
 <g id="edge9" class="edge">
-<title>Node13&#45;&gt;Node14</title>
+<title>Node20&#45;&gt;Node21</title>
 <path fill="none" stroke="#191970" d="M580.131,-10C589.9342,-10 599.6159,-10 608.1913,-10"/>
 <polygon fill="#191970" stroke="#191970" points="608.3877,-13.5001 618.3877,-10 608.3876,-6.5001 608.3877,-13.5001"/>
 </g>

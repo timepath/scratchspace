@@ -1,6 +1,7 @@
 var sv__rules_8qc =
 [
     [ "_GameRules_scoring_add", "d7/d39/sv__rules_8qc.html#ab9a219ab2da0e7033e154972a2c711d2", null ],
+    [ "_GameRules_scoring_add_float2int", "d7/d39/sv__rules_8qc.html#aedf5fc170990c97a1b1af80cfafed38b", null ],
     [ "_GameRules_scoring_add_team", "d7/d39/sv__rules_8qc.html#a805cfc95f7d6def64e73caf7eafa5c21", null ],
     [ "_GameRules_scoring_begin", "d7/d39/sv__rules_8qc.html#ad064ef1808225f081811f489520c4919", null ],
     [ "_GameRules_scoring_end", "d7/d39/sv__rules_8qc.html#a3cba046f74efc1f65d60a2142cf7b239", null ],

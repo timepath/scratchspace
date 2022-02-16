@@ -18,6 +18,7 @@ var sv__keepaway_8qc =
     [ "ka_TimeScoring", "de/da1/sv__keepaway_8qc.html#a4aec8808850dd14dd563f20a9ce5618c", null ],
     [ "ka_TouchEvent", "de/da1/sv__keepaway_8qc.html#ac4c4fbb459ed5ae28fa62d2a8d53a5a7", null ],
     [ "MODEL", "de/da1/sv__keepaway_8qc.html#ac330d65918aa5819069643930e0f1059", null ],
+    [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#aa15c6a2074fee103d173809c063ec22b", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#a8794086f299436c0f3ad85428fbe8e3e", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#a486197576b92b805bf08b2055ed88e0c", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#a08699eb471b07fade0e12f803b223d01", null ],
@@ -51,5 +52,6 @@ var sv__keepaway_8qc =
     [ "autocvar_g_keepawayball_respawntime", "de/da1/sv__keepaway_8qc.html#a6162a2543abaa5c266f0a1dc7ed7e416", null ],
     [ "autocvar_g_keepawayball_trail_color", "de/da1/sv__keepaway_8qc.html#a13708f1533019ac55a65ce8d8d82f0a7", null ],
     [ "ballcarried", "de/da1/sv__keepaway_8qc.html#a137a4251a46a5fea7db7d4f16b190dcb", null ],
-    [ "pushable", "de/da1/sv__keepaway_8qc.html#a62c381a8dd53927f035d3f51b303e108", null ]
+    [ "pushable", "de/da1/sv__keepaway_8qc.html#a62c381a8dd53927f035d3f51b303e108", null ],
+    [ "timepoints_counter", "de/da1/sv__keepaway_8qc.html#aaf068f3475c214afa3236ac5c065d402", null ]
 ];

@@ -104,6 +104,8 @@ $(document).ready(function(){initNavTree('d7/d39/sv__rules_8qc.html','../../');}
 Functions</h2></td></tr>
 <tr class="memitem:ab9a219ab2da0e7033e154972a2c711d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d39/sv__rules_8qc.html#ab9a219ab2da0e7033e154972a2c711d2">_GameRules_scoring_add</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> client, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> sp, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> value)</td></tr>
 <tr class="separator:ab9a219ab2da0e7033e154972a2c711d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedf5fc170990c97a1b1af80cfafed38b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d39/sv__rules_8qc.html#aedf5fc170990c97a1b1af80cfafed38b">_GameRules_scoring_add_float2int</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> client, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> sp, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> value,.<a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> float_field, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> score_factor)</td></tr>
+<tr class="separator:aedf5fc170990c97a1b1af80cfafed38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a805cfc95f7d6def64e73caf7eafa5c21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d39/sv__rules_8qc.html#a805cfc95f7d6def64e73caf7eafa5c21">_GameRules_scoring_add_team</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> client, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> sp, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> st, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> value)</td></tr>
 <tr class="separator:a805cfc95f7d6def64e73caf7eafa5c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad064ef1808225f081811f489520c4919"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d2b/world_8qh.html#a53725b9aacf1d43cbeab626375505eda">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d39/sv__rules_8qc.html#ad064ef1808225f081811f489520c4919">_GameRules_scoring_begin</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> <a class="el" href="../../d0/d2a/client_2main_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a>, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> spprio, <a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> stprio)</td></tr>
@@ -187,16 +189,76 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d39/sv__rules_8qc_source.html#l00107">107</a> of file <a class="el" href="../../d7/d39/sv__rules_8qc_source.html">sv_rules.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d39/sv__rules_8qc_source.html#l00126">126</a> of file <a class="el" href="../../d7/d39/sv__rules_8qc_source.html">sv_rules.qc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/d79/scores_8qc_source.html#l00336">PlayerScore_Add()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;{</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(client, sp, value);</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div><div class="ttc" id="scores_8qc_html_aebb89cf706a7b2fe6037e3ab4e56dfe4"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a></div><div class="ttdeci">float PlayerScore_Add(entity player, PlayerScoreField scorefield, float score)</div><div class="ttdoc">Adds a score to the player&amp;#39;s scores. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00336">scores.qc:336</a></div></div>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(client, sp, value);</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;}</div><div class="ttc" id="scores_8qc_html_aebb89cf706a7b2fe6037e3ab4e56dfe4"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a></div><div class="ttdeci">float PlayerScore_Add(entity player, PlayerScoreField scorefield, float score)</div><div class="ttdoc">Adds a score to the player&amp;#39;s scores. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00336">scores.qc:336</a></div></div>
 </div><!-- fragment --><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_ab9a219ab2da0e7033e154972a2c711d2_cgraph.svg" width="486" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aedf5fc170990c97a1b1af80cfafed38b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedf5fc170990c97a1b1af80cfafed38b">&#9670;&nbsp;</a></span>_GameRules_scoring_add_float2int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> _GameRules_scoring_add_float2int </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
+          <td class="paramname"><em>client</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
+          <td class="paramname"><em>sp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">.<a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a>&#160;</td>
+          <td class="paramname"><em>float_field</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d93/elimination_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a>&#160;</td>
+          <td class="paramname"><em>score_factor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d39/sv__rules_8qc_source.html#l00111">111</a> of file <a class="el" href="../../d7/d39/sv__rules_8qc_source.html">sv_rules.qc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, and <a class="el" href="../../d2/d79/scores_8qc_source.html#l00336">PlayerScore_Add()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;{</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    client.(float_field) += value;</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordtype">float</span> score_counter = client.(float_field) / score_factor;</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">if</span> (score_counter &gt;= -0.5 &amp;&amp; score_counter &lt; 0.5)</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="comment">// NOTE: this code works for subtracting score too</span></div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordtype">int</span> points = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(score_counter + 0.5);</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    client.(float_field) -= points * score_factor;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">if</span> (!points)</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(client, sp, points);</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div><div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
+<div class="ttc" id="scores_8qc_html_aebb89cf706a7b2fe6037e3ab4e56dfe4"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a></div><div class="ttdeci">float PlayerScore_Add(entity player, PlayerScoreField scorefield, float score)</div><div class="ttdoc">Adds a score to the player&amp;#39;s scores. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00336">scores.qc:336</a></div></div>
+</div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_aedf5fc170990c97a1b1af80cfafed38b_cgraph.svg" width="455" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -240,15 +302,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d39/sv__rules_8qc_source.html#l00111">111</a> of file <a class="el" href="../../d7/d39/sv__rules_8qc_source.html">sv_rules.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d39/sv__rules_8qc_source.html#l00130">130</a> of file <a class="el" href="../../d7/d39/sv__rules_8qc_source.html">sv_rules.qc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/d79/scores_8qc_source.html#l00390">PlayerTeamScore_Add()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;{</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c">PlayerTeamScore_Add</a>(client, sp, st, value);</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div><div class="ttc" id="scores_8qc_html_a95c06d8a35e1db6d343a7c883241444c"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c">PlayerTeamScore_Add</a></div><div class="ttdeci">float PlayerTeamScore_Add(entity player, PlayerScoreField pscorefield, float tscorefield, float score)</div><div class="ttdoc">Adds a score to both the player and the team. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00390">scores.qc:390</a></div></div>
-</div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c">PlayerTeamScore_Add</a>(client, sp, st, value);</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div><div class="ttc" id="scores_8qc_html_a95c06d8a35e1db6d343a7c883241444c"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c">PlayerTeamScore_Add</a></div><div class="ttdeci">float PlayerTeamScore_Add(entity player, PlayerScoreField pscorefield, float tscorefield, float score)</div><div class="ttdoc">Adds a score to both the player and the team. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00390">scores.qc:390</a></div></div>
+</div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a805cfc95f7d6def64e73caf7eafa5c21_cgraph.svg" width="100%" height="420"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -293,11 +355,11 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f">ScoreRules_basics</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a>, spprio, stprio, <a class="code" href="../../d7/d39/sv__rules_8qc.html#a3679179b32702da922f419fe0ec74ea3">_GameRules_score_enabled</a>);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div><div class="ttc" id="scores__rules_8qc_html_ac67defd12e305443ab1cf4266ca03c8f"><div class="ttname"><a href="../../d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f">ScoreRules_basics</a></div><div class="ttdeci">void ScoreRules_basics(int teams, float sprio, float stprio, float score_enabled)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d14/scores__rules_8qc_source.html#l00029">scores_rules.qc:29</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_aae60b6f90eba2f5a0dc702b382500b0f"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a></div><div class="ttdeci">entity teams</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00044">main.qh:44</a></div></div>
 <div class="ttc" id="sv__rules_8qc_html_a3679179b32702da922f419fe0ec74ea3"><div class="ttname"><a href="../../d7/d39/sv__rules_8qc.html#a3679179b32702da922f419fe0ec74ea3">_GameRules_score_enabled</a></div><div class="ttdeci">bool _GameRules_score_enabled</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/sv__rules_8qc_source.html#l00027">sv_rules.qc:27</a></div></div>
-</div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_ad064ef1808225f081811f489520c4919_cgraph.svg" width="659" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -323,11 +385,11 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d5/d14/scores__rules_8qc_source.html#l00064">ScoreRules_basics_end()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05">ScoreRules_basics_end</a>();</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div><div class="ttc" id="scores__rules_8qc_html_a70c01ecc880399b0cc5fa84520d93a05"><div class="ttname"><a href="../../d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05">ScoreRules_basics_end</a></div><div class="ttdeci">void ScoreRules_basics_end()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d14/scores__rules_8qc_source.html#l00064">scores_rules.qc:64</a></div></div>
-</div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a3cba046f74efc1f65d60a2142cf7b239_cgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -370,11 +432,11 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d2/d79/scores_8qc_source.html#l00165">ScoreInfo_SetLabel_PlayerScore()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de">ScoreInfo_SetLabel_PlayerScore</a>(i, label, scoreflags);</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div><div class="ttc" id="scores_8qc_html_a601d5f667de9976b2a1ca7f6fc6051de"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de">ScoreInfo_SetLabel_PlayerScore</a></div><div class="ttdeci">void ScoreInfo_SetLabel_PlayerScore(PlayerScoreField i, string label, float scoreflags)</div><div class="ttdoc">Set the label of a player score item, as well as the scoring flags. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00165">scores.qc:165</a></div></div>
-</div><!-- fragment --><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a6635298a130f805be9a49388e88881a6_cgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -417,11 +479,11 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d2/d79/scores_8qc_source.html#l00181">ScoreInfo_SetLabel_TeamScore()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;{</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882">ScoreInfo_SetLabel_TeamScore</a>(i, label, scoreflags);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div><div class="ttc" id="scores_8qc_html_afc148f5f21c7b4c29db8ffeabfb26882"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882">ScoreInfo_SetLabel_TeamScore</a></div><div class="ttdeci">void ScoreInfo_SetLabel_TeamScore(float i, string label, float scoreflags)</div><div class="ttdoc">Set the label of a team score item, as well as the scoring flags. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00181">scores.qc:181</a></div></div>
-</div><!-- fragment --><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a13d83e932609242d07a0f03270a940ca_cgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -454,19 +516,19 @@ Variables</h2></td></tr>
 <div class="ttc" id="sv__rules_8qh_html_aa67893e7a8710883f652e2605ef84554"><div class="ttname"><a href="../../db/d55/sv__rules_8qh.html#aa67893e7a8710883f652e2605ef84554">autocvar_leadlimit_override</a></div><div class="ttdeci">int autocvar_leadlimit_override</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/sv__rules_8qh_source.html#l00005">sv_rules.qh:5</a></div></div>
 <div class="ttc" id="sv__rules_8qc_html_ae2b870c0380562667a9a55b9bf082ed7"><div class="ttname"><a href="../../d7/d39/sv__rules_8qc.html#ae2b870c0380562667a9a55b9bf082ed7">GameRules_limit_time</a></div><div class="ttdeci">void GameRules_limit_time(int limit)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/sv__rules_8qc_source.html#l00054">sv_rules.qc:54</a></div></div>
 <div class="ttc" id="sv__rules_8qc_html_adf695916c7ce442864c602f3d39e24da"><div class="ttname"><a href="../../d7/d39/sv__rules_8qc.html#adf695916c7ce442864c602f3d39e24da">GameRules_limit_lead</a></div><div class="ttdeci">void GameRules_limit_lead(int limit)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/sv__rules_8qc_source.html#l00044">sv_rules.qc:44</a></div></div>
-</div><!-- fragment --><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a9046801e82708540ebaa900468560722_cgraph.svg" width="558" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a9046801e82708540ebaa900468560722_cgraph.svg" width="558" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a9046801e82708540ebaa900468560722_icgraph.svg" width="350" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -498,19 +560,19 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="server_2campaign_8qh_html_a9e49d744aa004a9ba871c7301dd92e7c"><div class="ttname"><a href="../../dd/d66/server_2campaign_8qh.html#a9e49d744aa004a9ba871c7301dd92e7c">autocvar_g_campaign</a></div><div class="ttdeci">bool autocvar_g_campaign</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d66/server_2campaign_8qh_source.html#l00006">campaign.qh:6</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
-</div><!-- fragment --><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_adf695916c7ce442864c602f3d39e24da_cgraph.svg" width="304" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_adf695916c7ce442864c602f3d39e24da_cgraph.svg" width="304" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_adf695916c7ce442864c602f3d39e24da_icgraph.svg" width="630" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -542,19 +604,19 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2campaign_8qh_html_a9e49d744aa004a9ba871c7301dd92e7c"><div class="ttname"><a href="../../dd/d66/server_2campaign_8qh.html#a9e49d744aa004a9ba871c7301dd92e7c">autocvar_g_campaign</a></div><div class="ttdeci">bool autocvar_g_campaign</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d66/server_2campaign_8qh_source.html#l00006">campaign.qh:6</a></div></div>
 <div class="ttc" id="sv__rules_8qc_html_aa78de0e9236e832d1fb03d94eb8bd957"><div class="ttname"><a href="../../d7/d39/sv__rules_8qc.html#aa78de0e9236e832d1fb03d94eb8bd957">GameRules_limit_score_initialized</a></div><div class="ttdeci">bool GameRules_limit_score_initialized</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/sv__rules_8qc_source.html#l00033">sv_rules.qc:33</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
-</div><!-- fragment --><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a36358ab35253a593eb204328062d7ad2_cgraph.svg" width="311" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a36358ab35253a593eb204328062d7ad2_cgraph.svg" width="311" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a36358ab35253a593eb204328062d7ad2_icgraph.svg" width="636" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -586,19 +648,19 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2campaign_8qh_html_a9e49d744aa004a9ba871c7301dd92e7c"><div class="ttname"><a href="../../dd/d66/server_2campaign_8qh.html#a9e49d744aa004a9ba871c7301dd92e7c">autocvar_g_campaign</a></div><div class="ttdeci">bool autocvar_g_campaign</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d66/server_2campaign_8qh_source.html#l00006">campaign.qh:6</a></div></div>
 <div class="ttc" id="sv__rules_8qc_html_ad6081554f1c749a7ead9aec8f557bba4"><div class="ttname"><a href="../../d7/d39/sv__rules_8qc.html#ad6081554f1c749a7ead9aec8f557bba4">GameRules_limit_time_initialized</a></div><div class="ttdeci">bool GameRules_limit_time_initialized</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/sv__rules_8qc_source.html#l00053">sv_rules.qc:53</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
-</div><!-- fragment --><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_ae2b870c0380562667a9a55b9bf082ed7_cgraph.svg" width="307" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_ae2b870c0380562667a9a55b9bf082ed7_cgraph.svg" width="307" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_ae2b870c0380562667a9a55b9bf082ed7_icgraph.svg" width="632" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -630,19 +692,19 @@ Variables</h2></td></tr>
 <div class="ttc" id="sv__rules_8qc_html_a9b053d805686498f0d93377a6ac95dd8"><div class="ttname"><a href="../../d7/d39/sv__rules_8qc.html#a9b053d805686498f0d93377a6ac95dd8">GameRules_limit_time_qualifying_initialized</a></div><div class="ttdeci">bool GameRules_limit_time_qualifying_initialized</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/sv__rules_8qc_source.html#l00063">sv_rules.qc:63</a></div></div>
 <div class="ttc" id="server_2campaign_8qh_html_a9e49d744aa004a9ba871c7301dd92e7c"><div class="ttname"><a href="../../dd/d66/server_2campaign_8qh.html#a9e49d744aa004a9ba871c7301dd92e7c">autocvar_g_campaign</a></div><div class="ttdeci">bool autocvar_g_campaign</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d66/server_2campaign_8qh_source.html#l00006">campaign.qh:6</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
-</div><!-- fragment --><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_ad675f6439c453f5fbf689f56c73cfcea_cgraph.svg" width="307" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_ad675f6439c453f5fbf689f56c73cfcea_cgraph.svg" width="307" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_ad675f6439c453f5fbf689f56c73cfcea_icgraph.svg" width="536" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -673,11 +735,11 @@ Variables</h2></td></tr>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d72/sv__cts_8qc_source.html#l00054">cts_ScoreRules()</a>, <a class="el" href="../../db/da5/sv__invasion_8qc_source.html#l00562">invasion_ScoreRules()</a>, <a class="el" href="../../db/dec/sv__race_8qc_source.html#l00054">race_ScoreRules()</a>, and <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00016">REGISTER_MUTATOR()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d7/d39/sv__rules_8qc.html#a3679179b32702da922f419fe0ec74ea3">_GameRules_score_enabled</a> = value;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div><div class="ttc" id="sv__rules_8qc_html_a3679179b32702da922f419fe0ec74ea3"><div class="ttname"><a href="../../d7/d39/sv__rules_8qc.html#a3679179b32702da922f419fe0ec74ea3">_GameRules_score_enabled</a></div><div class="ttdeci">bool _GameRules_score_enabled</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/sv__rules_8qc_source.html#l00027">sv_rules.qc:27</a></div></div>
-</div><!-- fragment --><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a6d048a398964786e1440a048b8188e7a_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -741,12 +803,12 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d39/sv__rules_8qc_source.html#l00098">98</a> of file <a class="el" href="../../d7/d39/sv__rules_8qc_source.html">sv_rules.qc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l00681">ctf_Handle_Pickup()</a>, <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l00393">ctf_Handle_Retrieve()</a>, <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l00444">ctf_Handle_Throw()</a>, <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l01163">ctf_RespawnFlag()</a>, <a class="el" href="../../d2/d24/sv__nexball_8qc_source.html#l00202">DropBall()</a>, <a class="el" href="../../d2/d24/sv__nexball_8qc_source.html#l00141">GiveBall()</a>, <a class="el" href="../../de/da1/sv__keepaway_8qc_source.html#l00162">ka_PlayerReset()</a>, and <a class="el" href="../../de/da1/sv__keepaway_8qc_source.html#l00098">ka_TouchEvent()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;{</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    player.m_GameRules_scoring_vip = value;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div></div><!-- fragment --><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l00681">ctf_Handle_Pickup()</a>, <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l00393">ctf_Handle_Retrieve()</a>, <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l00444">ctf_Handle_Throw()</a>, <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l01163">ctf_RespawnFlag()</a>, <a class="el" href="../../d2/d24/sv__nexball_8qc_source.html#l00202">DropBall()</a>, <a class="el" href="../../d2/d24/sv__nexball_8qc_source.html#l00141">GiveBall()</a>, <a class="el" href="../../de/da1/sv__keepaway_8qc_source.html#l00176">ka_PlayerReset()</a>, and <a class="el" href="../../de/da1/sv__keepaway_8qc_source.html#l00112">ka_TouchEvent()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;{</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    player.m_GameRules_scoring_vip = value;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div></div><!-- fragment --><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a45421c6953dd81519e25361836938249_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -777,11 +839,11 @@ Variables</h2></td></tr>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d39/sv__rules_8qc_source.html#l00006">GameRules_teams()</a>, <a class="el" href="../../d1/dbf/sv__clanarena_8qh_source.html#l00028">REGISTER_MUTATOR()</a>, and <a class="el" href="../../d6/dd5/sv__tdm_8qc_source.html#l00053">tdm_Initialize()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d4/dd1/spawnpoints_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a> = value ? -1 : 0;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div><div class="ttc" id="spawnpoints_8qh_html_a5594c59ad277a5bde42f3670de5077b3"><div class="ttname"><a href="../../d4/dd1/spawnpoints_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a></div><div class="ttdeci">int have_team_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd1/spawnpoints_8qh_source.html#l00016">spawnpoints.qh:16</a></div></div>
-</div><!-- fragment --><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_a26b7dbcc38a3e20303d28e49cca3da08_icgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -815,19 +877,19 @@ Variables</h2></td></tr>
 <div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
 <div class="ttc" id="teamplay_8qc_html_a6254ff72c4c41a6189d5d7d3ee76a791"><div class="ttname"><a href="../../de/d4f/teamplay_8qc.html#a6254ff72c4c41a6189d5d7d3ee76a791">Team_InitTeams</a></div><div class="ttdeci">void Team_InitTeams()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4f/teamplay_8qc_source.html#l00047">teamplay.qc:47</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
-</div><!-- fragment --><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_aadde099aa9d91e5bad4328d9481021cb_cgraph.svg" width="368" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_aadde099aa9d91e5bad4328d9481021cb_cgraph.svg" width="368" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d39/sv__rules_8qc_aadde099aa9d91e5bad4328d9481021cb_icgraph.svg" width="563" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -947,7 +1009,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../d7/d39/sv__rules_8qc.html">sv_rules.qc</a></li>
-    <li class="footer">Generated on Tue Feb 15 2022 23:19:02 for Xonotic by
+    <li class="footer">Generated on Wed Feb 16 2022 17:31:15 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

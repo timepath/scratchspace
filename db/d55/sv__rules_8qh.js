@@ -2,6 +2,7 @@ var sv__rules_8qh =
 [
     [ "GameRules_scoring", "db/d55/sv__rules_8qh.html#ab2cccbd2d6067eb4e5d4cc7beb324bf1", null ],
     [ "GameRules_scoring_add", "db/d55/sv__rules_8qh.html#a84cd094615e02e85cc65103bf28fbdc3", null ],
+    [ "GameRules_scoring_add_float2int", "db/d55/sv__rules_8qh.html#a672c0aac66e9497d963f9dfd80a7225f", null ],
     [ "GameRules_scoring_add_team", "db/d55/sv__rules_8qh.html#aa9f4c0ea2b1c326c952668ed886f6bb0", null ],
     [ "INGAME", "db/d55/sv__rules_8qh.html#a5c8e07d9bd3e4bd0491c905130a901aa", null ],
     [ "INGAME_JOINED", "db/d55/sv__rules_8qh.html#a99b7265b79edc2a5702886558924a139", null ],
@@ -12,6 +13,7 @@ var sv__rules_8qh =
     [ "INGAME_STATUS_NONE", "db/d55/sv__rules_8qh.html#a0baf067d8909dc076661e6d4513dca62", null ],
     [ "INGAME_STATUS_SET", "db/d55/sv__rules_8qh.html#aa7df1194c125ac6956483eac8157ce43", null ],
     [ "_GameRules_scoring_add", "db/d55/sv__rules_8qh.html#ab9a219ab2da0e7033e154972a2c711d2", null ],
+    [ "_GameRules_scoring_add_float2int", "db/d55/sv__rules_8qh.html#a5cefd953a0468906a51e751f92e3454c", null ],
     [ "_GameRules_scoring_add_team", "db/d55/sv__rules_8qh.html#a805cfc95f7d6def64e73caf7eafa5c21", null ],
     [ "_GameRules_scoring_begin", "db/d55/sv__rules_8qh.html#ad064ef1808225f081811f489520c4919", null ],
     [ "_GameRules_scoring_end", "db/d55/sv__rules_8qh.html#a3cba046f74efc1f65d60a2142cf7b239", null ],
