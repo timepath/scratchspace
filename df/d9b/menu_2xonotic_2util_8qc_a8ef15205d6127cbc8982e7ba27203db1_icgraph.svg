@@ -8,75 +8,75 @@
  viewBox="0.00 0.00 418.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>updateCheck</title>
-<!-- Node607 -->
+<!-- Node604 -->
 <g id="node1" class="node">
-<title>Node607</title>
+<title>Node604</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 80,-38.5 80,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="40" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">updateCheck</text>
 </g>
-<!-- Node608 -->
+<!-- Node605 -->
 <g id="node2" class="node">
-<title>Node608</title>
+<title>Node605</title>
 <g id="a_node2"><a xlink:href="../../df/d9b/menu_2xonotic_2util_8qc.html#a3d10a92a0b5efff2067efd3580ece642" target="_top" xlink:title="this is run before the menu is drawn. ">
 <polygon fill="none" stroke="#000000" points="230,-38.5 230,-57.5 314,-57.5 314,-38.5 230,-38.5"/>
 <text text-anchor="middle" x="272" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">preMenuDraw</text>
 </a>
 </g>
 </g>
-<!-- Node607&#45;&gt;Node608 -->
+<!-- Node604&#45;&gt;Node605 -->
 <g id="edge1" class="edge">
-<title>Node607&#45;&gt;Node608</title>
+<title>Node604&#45;&gt;Node605</title>
 <path fill="none" stroke="#191970" d="M90.3726,-33.1253C132.1145,-36.5439 190.7533,-41.3462 229.9965,-44.5601"/>
 <polygon fill="#191970" stroke="#191970" points="90.3988,-29.6159 80.1465,-32.2879 89.8274,-36.5925 90.3988,-29.6159"/>
 </g>
-<!-- Node610 -->
+<!-- Node607 -->
 <g id="node4" class="node">
-<title>Node610</title>
+<title>Node607</title>
 <g id="a_node4"><a xlink:href="../../df/d9b/menu_2xonotic_2util_8qc.html#a48ddbc4143946234b2a42d4cf1112dc4" target="_top" xlink:title="you have to define this for pre&#45;menu initialization. ">
 <polygon fill="none" stroke="#000000" points="116,-.5 116,-19.5 190,-19.5 190,-.5 116,-.5"/>
 <text text-anchor="middle" x="153" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">preMenuInit</text>
 </a>
 </g>
 </g>
-<!-- Node607&#45;&gt;Node610 -->
+<!-- Node604&#45;&gt;Node607 -->
 <g id="edge3" class="edge">
-<title>Node607&#45;&gt;Node610</title>
+<title>Node604&#45;&gt;Node607</title>
 <path fill="none" stroke="#191970" d="M90.198,-20.5596C98.8718,-19.1012 107.7462,-17.609 115.9898,-16.223"/>
 <polygon fill="#191970" stroke="#191970" points="89.4389,-17.138 80.1577,-22.2478 90.5997,-24.0411 89.4389,-17.138"/>
 </g>
-<!-- Node609 -->
+<!-- Node606 -->
 <g id="node3" class="node">
-<title>Node609</title>
+<title>Node606</title>
 <g id="a_node3"><a xlink:href="../../df/dc2/menu_8qc.html#a844e5015c7d134d4dc7a682948215763" target="_top" xlink:title="m_draw">
 <polygon fill="none" stroke="#000000" points="354,-19.5 354,-38.5 410,-38.5 410,-19.5 354,-19.5"/>
 <text text-anchor="middle" x="382" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">m_draw</text>
 </a>
 </g>
 </g>
-<!-- Node608&#45;&gt;Node609 -->
+<!-- Node605&#45;&gt;Node606 -->
 <g id="edge2" class="edge">
-<title>Node608&#45;&gt;Node609</title>
+<title>Node605&#45;&gt;Node606</title>
 <path fill="none" stroke="#191970" d="M324.2643,-38.9725C334.407,-37.2206 344.6741,-35.4472 353.6812,-33.8914"/>
 <polygon fill="#191970" stroke="#191970" points="323.4726,-35.5574 314.2143,-40.7084 324.6641,-42.4552 323.4726,-35.5574"/>
 </g>
-<!-- Node611 -->
+<!-- Node608 -->
 <g id="node5" class="node">
-<title>Node611</title>
+<title>Node608</title>
 <g id="a_node5"><a xlink:href="../../df/dc2/menu_8qc.html#a417e4db3d0fe2387b648a1ed3326341f" target="_top" xlink:title="m_init_delayed">
 <polygon fill="none" stroke="#000000" points="226,-.5 226,-19.5 318,-19.5 318,-.5 226,-.5"/>
 <text text-anchor="middle" x="272" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">m_init_delayed</text>
 </a>
 </g>
 </g>
-<!-- Node610&#45;&gt;Node611 -->
+<!-- Node607&#45;&gt;Node608 -->
 <g id="edge4" class="edge">
-<title>Node610&#45;&gt;Node611</title>
+<title>Node607&#45;&gt;Node608</title>
 <path fill="none" stroke="#191970" d="M200.0927,-10C208.5491,-10 217.3553,-10 225.7866,-10"/>
 <polygon fill="#191970" stroke="#191970" points="200.0001,-6.5001 190,-10 200,-13.5001 200.0001,-6.5001"/>
 </g>
-<!-- Node611&#45;&gt;Node609 -->
+<!-- Node608&#45;&gt;Node606 -->
 <g id="edge5" class="edge">
-<title>Node611&#45;&gt;Node609</title>
+<title>Node608&#45;&gt;Node606</title>
 <path fill="none" stroke="#191970" d="M328.0455,-19.6806C336.9624,-21.2208 345.8426,-22.7546 353.7482,-24.1201"/>
 <polygon fill="#191970" stroke="#191970" points="328.4624,-16.2008 318.0125,-17.9476 327.2709,-23.0987 328.4624,-16.2008"/>
 </g>
