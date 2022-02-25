@@ -180,6 +180,8 @@ var NAVTREEINDEX94 =
 "d9/db1/cl__clanarena_8qc.html":[2,0,1,3,0,1,2],
 "d9/db1/cl__clanarena_8qc.html#a225e6f62e9ea905aa4be97711307b6d1":[2,0,1,3,0,1,2,2],
 "d9/db1/cl__clanarena_8qc.html#a2ef359c7f27b5e4f5deb34df765cf6b0":[2,0,1,3,0,1,2,0],
+"d9/db1/cl__clanarena_8qc.html#a6594b456072ba35701e511579dbe815a":[2,0,1,3,0,1,2,5],
+"d9/db1/cl__clanarena_8qc.html#a9108b5261d62a3644682bbd8ac452746":[2,0,1,3,0,1,2,4],
 "d9/db1/cl__clanarena_8qc.html#ad1d000d7f62640740c47ca71ff44ba95":[2,0,1,3,0,1,2,1],
 "d9/db1/cl__clanarena_8qc.html#ae84bd8b5522f6e5d5130dce29a805b78":[2,0,1,3,0,1,2,3],
 "d9/db1/cl__clanarena_8qc_source.html":[2,0,1,3,0,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "d9/db3/classXonoticGameModelSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,206,95],
 "d9/db3/classXonoticGameModelSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,206,88],
 "d9/db3/classXonoticGameModelSettingsTab.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,206,36],
-"d9/db3/classXonoticGameModelSettingsTab.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,206,18],
-"d9/db3/classXonoticGameModelSettingsTab.html#a8b78346a74df75772de387092d850f39":[1,0,206,62],
-"d9/db3/classXonoticGameModelSettingsTab.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,206,43]
+"d9/db3/classXonoticGameModelSettingsTab.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,206,18]
 };
