@@ -10,7 +10,7 @@ var bot_8qh =
     [ "bot_clientdisconnect", "d1/da9/bot_8qh.html#ab10bcd46b240e1fd8154de39ddd5c40e", null ],
     [ "bot_custom_weapon_priority_setup", "d1/da9/bot_8qh.html#a2106f3a69bfc83423ff921b8c7aa15a0", null ],
     [ "bot_endgame", "d1/da9/bot_8qh.html#ab31cf9d9b7d9ba690bed2e44648a403d", null ],
-    [ "bot_fixcount", "d1/da9/bot_8qh.html#a24b55d27684241fa9da5c23810d49f26", null ],
+    [ "bot_fixcount", "d1/da9/bot_8qh.html#a1aa0334c49393483902b579d63f513a7", null ],
     [ "bot_relinkplayerlist", "d1/da9/bot_8qh.html#afea81f6c762e4dd1232aba6bb0e5144e", null ],
     [ "bot_removefromlargestteam", "d1/da9/bot_8qh.html#aaecc23c5c2524bcea745aa6d2afa718a", null ],
     [ "bot_removenewest", "d1/da9/bot_8qh.html#afaeae8b4cc57aae2b5db95dbc5440464", null ],
