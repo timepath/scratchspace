@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"d9/df7/mathlib_8qh.html#a7015726879809083a920c0338dedbad9":[2,0,4,2,9,41],
 "d9/df7/mathlib_8qh.html#a7370c5a05d949b0842b35dcb96cba00d":[2,0,4,2,9,6],
 "d9/df7/mathlib_8qh.html#a78694f207dbd1c20883880487c2db48f":[2,0,4,2,9,33],
 "d9/df7/mathlib_8qh.html#a78b2dabdaeeec0788f39bc1ec4af8033":[2,0,4,2,9,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "da/d21/hudskinlist_8qc.html#af78d8f2fa7c50efbdd423f9c22dc872a":[2,0,5,4,178,11],
 "da/d21/hudskinlist_8qc.html#afd1a1de4d57e1d076b93fb341f07b6ec":[2,0,5,4,178,10],
 "da/d21/hudskinlist_8qc_source.html":[2,0,5,4,178],
-"da/d22/promise_8qh.html":[2,0,4,46],
-"da/d22/promise_8qh.html#a4a35c3bba29bd20d6e7d1fa9b8b1d3d8":[2,0,4,46,2]
+"da/d22/promise_8qh.html":[2,0,4,46]
 };

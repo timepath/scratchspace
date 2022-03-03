@@ -61,6 +61,7 @@ var searchData=
   ['last_5fenemycheck',['last_enemycheck',['../d8/dc1/sv__monsters_8qh.html#ae390f0411202437977d0c074774a3fb5',1,'sv_monsters.qh']]],
   ['last_5fforward_5fkey_5ftime',['last_FORWARD_KEY_time',['../d5/da6/sv__dodging_8qc.html#ab5f0538073a7569c752c13373e4a91de',1,'sv_dodging.qc']]],
   ['last_5fleft_5fkey_5ftime',['last_LEFT_KEY_time',['../d5/da6/sv__dodging_8qc.html#abbbb0affc8ab2477c4d3c906dce57da0',1,'sv_dodging.qc']]],
+  ['last_5fready',['last_ready',['../d7/d16/server_2command_2vote_8qh.html#a3a714bb73bc9d01f4c99d017ca018ebe',1,'vote.qh']]],
   ['last_5frespawn',['last_respawn',['../dd/d0c/sv__ctf_8qc.html#ad172da3a68520139c9f19ae947302039',1,'sv_ctf.qc']]],
   ['last_5fright_5fkey_5ftime',['last_RIGHT_KEY_time',['../d5/da6/sv__dodging_8qc.html#a62ee826ed38b4d8199deced643ee6dfa',1,'sv_dodging.qc']]],
   ['last_5fswitchweapon',['last_switchweapon',['../d3/d05/hud_8qh.html#a44e28a39776951eb09d2f8fad4a2ef3e',1,'hud.qh']]],

@@ -30,6 +30,7 @@ var server_2command_2vote_8qh =
     [ "autocvar_sv_vote_timeout", "d7/d16/server_2command_2vote_8qh.html#ad50db73faa69921eb567d8d7f997698a", null ],
     [ "autocvar_sv_vote_wait", "d7/d16/server_2command_2vote_8qh.html#adb8b8a64c0979da4eef0a0bf661abad4", null ],
     [ "g_saved_team", "d7/d16/server_2command_2vote_8qh.html#a3f48b5d42d9436789de6314586bf47cd", null ],
+    [ "last_ready", "d7/d16/server_2command_2vote_8qh.html#a3a714bb73bc9d01f4c99d017ca018ebe", null ],
     [ "nagger", "d7/d16/server_2command_2vote_8qh.html#a563ec6544164649c6a41190259018c1f", null ],
     [ "ready", "d7/d16/server_2command_2vote_8qh.html#a8f1a257495dcbeb0d62845e580d8d86d", null ],
     [ "readycount", "d7/d16/server_2command_2vote_8qh.html#a8442c6ca91b9a3dc5db23ef804b16e55", null ],
