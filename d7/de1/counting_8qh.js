@@ -1,5 +1,6 @@
 var counting_8qh =
 [
+    [ "APPEND_TIME", "d7/de1/counting_8qh.html#a40bbc518f01baf5f3fb6204d676cfb72", null ],
     [ "count_days", "d7/de1/counting_8qh.html#a779b2923e596fa177779224f56d3abbe", null ],
     [ "count_days_decs", "d7/de1/counting_8qh.html#a3fc61db00404d2736f6177aa09dee45a", null ],
     [ "count_hours", "d7/de1/counting_8qh.html#a523658f9ea031c3e7649a0a6f6049bfd", null ],
@@ -14,5 +15,5 @@ var counting_8qh =
     [ "count_years_decs", "d7/de1/counting_8qh.html#a6a4dd5a397c929c2a947914782b84758", null ],
     [ "count_fill", "d7/de1/counting_8qh.html#a8a3acb7cfa7023988bc90c4d28e778b6", null ],
     [ "count_ordinal", "d7/de1/counting_8qh.html#a841da1d1355590fd49a33a117016f0e9", null ],
-    [ "process_time", "d7/de1/counting_8qh.html#a9a738fde1e2d200519a49d1fa204333d", null ]
+    [ "process_time", "d7/de1/counting_8qh.html#ae3ffbea1d707c44f0ccd2b2af53eac19", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"dc/de5/classWeapon.html#ae13bbe0630016ff703be3bc0ef7c9dee":[1,0,169,19],
 "dc/de5/classWeapon.html#aef5bbecf4ae66d83e687082e1ae2eb29":[1,0,169,9],
 "dc/de5/classWeapon.html#afd6a5b617980337ce93befe0b4e741ff":[1,0,169,12],
 "dc/de7/bumblebee__weapons_8qc.html":[2,0,1,16,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "dc/df7/classXonoticCvarsDialog.html#aac11f0ee8546852c87e21c5365f1ca9b":[1,0,192,18],
 "dc/df7/classXonoticCvarsDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,192,100],
 "dc/df7/classXonoticCvarsDialog.html#aadf33056dcb2da0c6d706df8a5efbf1f":[1,0,192,13],
-"dc/df7/classXonoticCvarsDialog.html#ab33f8db8b809348fef35135c9c5e6490":[1,0,192,27],
-"dc/df7/classXonoticCvarsDialog.html#ab4a2357f49c688f5f40fa610c5a17b71":[1,0,192,35]
+"dc/df7/classXonoticCvarsDialog.html#ab33f8db8b809348fef35135c9c5e6490":[1,0,192,27]
 };
