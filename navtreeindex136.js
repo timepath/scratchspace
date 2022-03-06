@@ -1,5 +1,6 @@
 var NAVTREEINDEX136 =
 {
+"de/d30/classXonoticDisconnectDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,200,84],
 "de/d30/classXonoticDisconnectDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,200,96],
 "de/d30/classXonoticDisconnectDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,200,1],
 "de/d30/classXonoticDisconnectDialog.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,200,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX136 =
 "de/d42/classXonoticCheckBox.html#aaf66da058af5d081753410af28388d27":[1,0,181,31],
 "de/d42/classXonoticCheckBox.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,181,11],
 "de/d42/classXonoticCheckBox.html#ab4777aba9c2c3b06a70c7aad86569506":[1,0,181,52],
-"de/d42/classXonoticCheckBox.html#abc0b93c8fbf482137be2e6c79551ac7a":[1,0,181,25],
-"de/d42/classXonoticCheckBox.html#abf3bca8860e295af4d91f1eb9f9ccbcd":[1,0,181,93]
+"de/d42/classXonoticCheckBox.html#abc0b93c8fbf482137be2e6c79551ac7a":[1,0,181,25]
 };

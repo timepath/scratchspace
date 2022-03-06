@@ -1,5 +1,6 @@
 var NAVTREEINDEX149 =
 {
+"df/d92/classXonoticWinnerDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,296,44],
 "df/d92/classXonoticWinnerDialog.html#a1363f51d76bde5021f29a75dad41e706":[1,0,296,15],
 "df/d92/classXonoticWinnerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,296,94],
 "df/d92/classXonoticWinnerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,296,91],
@@ -201,8 +202,8 @@ var NAVTREEINDEX149 =
 "df/d9b/menu_2xonotic_2util_8qc.html#a8ef15205d6127cbc8982e7ba27203db1":[2,0,5,4,244,50],
 "df/d9b/menu_2xonotic_2util_8qc.html#a99bf8fc9169855784af2af3cb71c8998":[2,0,5,4,244,28],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9bc73e034ccab48e5cbcb3298481913a":[2,0,5,4,244,61],
-"df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,244,2],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,244,0],
+"df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,244,2],
 "df/d9b/menu_2xonotic_2util_8qc.html#aa514011c00a447f7603fb41c0cc43918":[2,0,5,4,244,81],
 "df/d9b/menu_2xonotic_2util_8qc.html#aabecb2186198cee293ff99e8806ea85e":[2,0,5,4,244,13],
 "df/d9b/menu_2xonotic_2util_8qc.html#aabf5cfb721ebb2ede5d88158911b0c15":[2,0,5,4,244,75],
@@ -219,8 +220,8 @@ var NAVTREEINDEX149 =
 "df/d9b/menu_2xonotic_2util_8qc.html#acec3f9953edac61d0ea8bb0c013539cc":[2,0,5,4,244,70],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad18fa120b3ff7def2f7c47a178855468":[2,0,5,4,244,5],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad1f36d07e4a66476224966394f1e24e5":[2,0,5,4,244,49],
-"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,244,3],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,244,1],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,244,3],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad481dfa3a9518c9669a0fcc1da77758f":[2,0,5,4,244,12],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556":[2,0,5,4,244,7],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad87ced1edd45c581dd684b4054fd8ea5":[2,0,5,4,244,78],
@@ -248,6 +249,5 @@ var NAVTREEINDEX149 =
 "df/d9e/relay__teamcheck_8qh_source.html":[2,0,1,6,3,39],
 "df/da0/ctf_8qc.html":[2,0,1,3,0,2,4],
 "df/da0/ctf_8qc_source.html":[2,0,1,3,0,2,4],
-"df/da0/server_2mutators_2__mod_8inc.html":[2,0,6,4,0],
-"df/da0/server_2mutators_2__mod_8inc_source.html":[2,0,6,4,0]
+"df/da0/server_2mutators_2__mod_8inc.html":[2,0,6,4,0]
 };

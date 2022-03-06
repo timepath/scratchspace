@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d6/de9/cheats_8qc.html#ae9d36814925a74febb4ea1d621c300a5":[2,0,6,17,36],
 "d6/de9/cheats_8qc.html#aecc34d4a00fe223b018b37bcd6f15b80":[2,0,6,17,16],
 "d6/de9/cheats_8qc_source.html":[2,0,6,17],
 "d6/dea/crosshairpicker_8qc.html":[2,0,5,4,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d7/d13/classXonoticHUDAmmoDialog.html#afd31a5a00f0cbf86e51ee61a8082a6c6":[1,0,211,80],
 "d7/d13/classXonoticHUDAmmoDialog.html#afdfc5587c68e067ba10bd7537aae08a8":[1,0,211,71],
 "d7/d13/dialog__quit_8qh.html":[2,0,5,4,123],
-"d7/d13/dialog__quit_8qh_source.html":[2,0,5,4,123],
-"d7/d15/hud_8qc.html":[2,0,0,1,5]
+"d7/d13/dialog__quit_8qh_source.html":[2,0,5,4,123]
 };

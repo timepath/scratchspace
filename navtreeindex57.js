@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"d5/da4/playermodel_8qh.html#aa959fa692eff32b9efbcf85799bf916c":[2,0,5,4,201,3],
 "d5/da4/playermodel_8qh_source.html":[2,0,5,4,201],
 "d5/da5/racer__weapon_8qc.html":[2,0,1,16,0,8],
 "d5/da5/racer__weapon_8qc_source.html":[2,0,1,16,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "d5/dd6/classXonoticServerToSTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,275,106],
 "d5/dd6/classXonoticServerToSTab.html#a77ce875fdf6970156c9aeb764915e6ca":[1,0,275,78],
 "d5/dd6/classXonoticServerToSTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,275,5],
-"d5/dd6/classXonoticServerToSTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,275,114],
-"d5/dd6/classXonoticServerToSTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,275,113]
+"d5/dd6/classXonoticServerToSTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,275,114]
 };

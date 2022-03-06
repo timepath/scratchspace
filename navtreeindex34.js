@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"d3/db7/dialog__settings__bindings__reset_8qc_source.html":[2,0,5,4,130],
 "d3/dba/classXonoticLanguageList.html":[1,0,238],
 "d3/dba/classXonoticLanguageList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,238,58],
 "d3/dba/classXonoticLanguageList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,238,61],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73":[2,0,4,32,5],
 "d3/dc9/macro_8qh.html#a7e6c97c88f776302c195e6728d6cb272":[2,0,4,32,8],
 "d3/dc9/macro_8qh.html#a9404439ed46dc67d489a7d4ec2853e8f":[2,0,4,32,2],
-"d3/dc9/macro_8qh.html#a96e57ca6a5bfae842e92e07dc14997dd":[2,0,4,32,7],
-"d3/dc9/macro_8qh.html#af65fab440cca3f4f31b60a9955b79c14":[2,0,4,32,0]
+"d3/dc9/macro_8qh.html#a96e57ca6a5bfae842e92e07dc14997dd":[2,0,4,32,7]
 };

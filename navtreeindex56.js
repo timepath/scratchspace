@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"d5/d95/classXonoticDialog.html#ac090de718883fe54a336391f7c4b5b88":[1,0,199,20],
 "d5/d95/classXonoticDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,199,71],
 "d5/d95/classXonoticDialog.html#ac2d305f3d52cd31a07ed7d66b97b2145":[1,0,199,37],
 "d5/d95/classXonoticDialog.html#ac48a55ee27825c21341d607260063b25":[1,0,199,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "d5/da4/classTeslaCoil.html#af0d1789cf260770caa9002a133a661d7":[1,0,156,0],
 "d5/da4/playermodel_8qh.html":[2,0,5,4,201],
 "d5/da4/playermodel_8qh.html#a042a8f0aca4055c7bfa3357393d92378":[2,0,5,4,201,1],
-"d5/da4/playermodel_8qh.html#a062459ab15bb1cbcd9be093053130e7d":[2,0,5,4,201,2],
-"d5/da4/playermodel_8qh.html#aa959fa692eff32b9efbcf85799bf916c":[2,0,5,4,201,3]
+"d5/da4/playermodel_8qh.html#a062459ab15bb1cbcd9be093053130e7d":[2,0,5,4,201,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d3/d07/scoreboard_8qc.html#a688eb9831da6cf8bd965645e3d417943":[2,0,0,1,0,34,20],
 "d3/d07/scoreboard_8qc.html#a6c99617f8d4adb4cd0de989583f36d2e":[2,0,0,1,0,34,67],
 "d3/d07/scoreboard_8qc.html#a7126ad7799dfc104042c7ec8baef7e04":[2,0,0,1,0,34,70],
 "d3/d07/scoreboard_8qc.html#a7262e50cb88203963359746e2b002362":[2,0,0,1,0,34,62],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d3/d1d/classOverkillNex.html#a693da712af4359ea5c45528ea19413bf":[1,0,108,6],
 "d3/d1d/classOverkillNex.html#a697bc5e5924656ea20646cdbfbe0c08a":[1,0,108,25],
 "d3/d1d/classOverkillNex.html#a720b0e34eaf3a18cf1bef7f2b89671e3":[1,0,108,26],
-"d3/d1d/classOverkillNex.html#a7388eaa85b4d9f9cdc9d9531941849e4":[1,0,108,14],
-"d3/d1d/classOverkillNex.html#a7515d4131829927372fd6583d4ae610a":[1,0,108,0]
+"d3/d1d/classOverkillNex.html#a7388eaa85b4d9f9cdc9d9531941849e4":[1,0,108,14]
 };

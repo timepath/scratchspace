@@ -103,6 +103,8 @@ Functions</h2></td></tr>
 <tr class="separator:a2dfebeb96e22dc940b54a6de71fd4f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a235205432c7814d668114aa9b01ade"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d03/sv__status__effects_8qc.html#a9a235205432c7814d668114aa9b01ade">MUTATOR_HOOKFUNCTION</a> (status_effects, PlayerDies)</td></tr>
 <tr class="separator:a9a235205432c7814d668114aa9b01ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62856b8b2334b28825624b2d07ef8e90"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d03/sv__status__effects_8qc.html#a62856b8b2334b28825624b2d07ef8e90">MUTATOR_HOOKFUNCTION</a> (status_effects, <a class="el" href="../../df/dd7/server_2client_8qc.html#a159c579f136a76f2364b031fd3246182">ClientDisconnect</a>)</td></tr>
+<tr class="separator:a62856b8b2334b28825624b2d07ef8e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a052af91c9206d6562f77470d71adf68e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d03/sv__status__effects_8qc.html#a052af91c9206d6562f77470d71adf68e">MUTATOR_HOOKFUNCTION</a> (status_effects, MakePlayerObserver)</td></tr>
 <tr class="separator:a052af91c9206d6562f77470d71adf68e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe5533620e51ad7f25aef50218a07a6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d03/sv__status__effects_8qc.html#abe5533620e51ad7f25aef50218a07a6f">MUTATOR_HOOKFUNCTION</a> (status_effects, reset_map_global)</td></tr>
@@ -114,7 +116,7 @@ Functions</h2></td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a2dfebeb96e22dc940b54a6de71fd4f1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dfebeb96e22dc940b54a6de71fd4f1f">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dfebeb96e22dc940b54a6de71fd4f1f">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,7 +150,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a9a235205432c7814d668114aa9b01ade"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a235205432c7814d668114aa9b01ade">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a235205432c7814d668114aa9b01ade">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,8 +192,51 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a62856b8b2334b28825624b2d07ef8e90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62856b8b2334b28825624b2d07ef8e90">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKFUNCTION </td>
+          <td>(</td>
+          <td class="paramtype">status_effects&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/dd7/server_2client_8qc.html#a159c579f136a76f2364b031fd3246182">ClientDisconnect</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html#l00073">73</a> of file <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html">sv_status_effects.qc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d7/dc3/mutators_2mutator_2status__effects_2all_8qh_source.html#l00025">STATUSEFFECT_REMOVE_NORMAL</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    StatusEffects_removeall(player, <a class="code" href="../../d7/dc3/mutators_2mutator_2status__effects_2all_8qh.html#adc29c2ff13d900c2f185ee95427fb06cad50bb0aa8497a1ec7c7f29ead3618974">STATUSEFFECT_REMOVE_NORMAL</a>); <span class="comment">// just to get rid of the pickup sound</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="mutators_2mutator_2status__effects_2all_8qh_html_adc29c2ff13d900c2f185ee95427fb06cad50bb0aa8497a1ec7c7f29ead3618974"><div class="ttname"><a href="../../d7/dc3/mutators_2mutator_2status__effects_2all_8qh.html#adc29c2ff13d900c2f185ee95427fb06cad50bb0aa8497a1ec7c7f29ead3618974">STATUSEFFECT_REMOVE_NORMAL</a></div><div class="ttdoc">Effect is being removed by a function, calls regular removal mechanics. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc3/mutators_2mutator_2status__effects_2all_8qh_source.html#l00025">all.qh:25</a></div></div>
+<div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
+</div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d03/sv__status__effects_8qc_a62856b8b2334b28825624b2d07ef8e90_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a052af91c9206d6562f77470d71adf68e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a052af91c9206d6562f77470d71adf68e">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a052af91c9206d6562f77470d71adf68e">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,16 +261,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html#l00073">73</a> of file <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html">sv_status_effects.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html#l00081">81</a> of file <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html">sv_status_effects.qc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// no need to network updates, as there is no statuseffects object attached</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    StatusEffects_clearall(player.statuseffects_store);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// don&#39;t delete spectatee&#39;s effects!</span></div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">if</span>(player.statuseffects &amp;&amp; player.statuseffects.owner == player)</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        StatusEffects_delete(player);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<p class="reference">References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d7/dc3/mutators_2mutator_2status__effects_2all_8qh_source.html#l00025">STATUSEFFECT_REMOVE_NORMAL</a>.</p>
+<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;{</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="comment">// no need to network updates, as there is no statuseffects object attached</span></div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    StatusEffects_removeall(player, <a class="code" href="../../d7/dc3/mutators_2mutator_2status__effects_2all_8qh.html#adc29c2ff13d900c2f185ee95427fb06cad50bb0aa8497a1ec7c7f29ead3618974">STATUSEFFECT_REMOVE_NORMAL</a>); <span class="comment">// just to get rid of the pickup sound</span></div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    StatusEffects_clearall(player.statuseffects_store);</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">// don&#39;t delete spectatee&#39;s effects!</span></div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span>(player.statuseffects &amp;&amp; player.statuseffects.owner == player)</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        StatusEffects_delete(player);</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="mutators_2mutator_2status__effects_2all_8qh_html_adc29c2ff13d900c2f185ee95427fb06cad50bb0aa8497a1ec7c7f29ead3618974"><div class="ttname"><a href="../../d7/dc3/mutators_2mutator_2status__effects_2all_8qh.html#adc29c2ff13d900c2f185ee95427fb06cad50bb0aa8497a1ec7c7f29ead3618974">STATUSEFFECT_REMOVE_NORMAL</a></div><div class="ttdoc">Effect is being removed by a function, calls regular removal mechanics. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc3/mutators_2mutator_2status__effects_2all_8qh_source.html#l00025">all.qh:25</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
-</div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d03/sv__status__effects_8qc_a052af91c9206d6562f77470d71adf68e_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -233,7 +279,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="abe5533620e51ad7f25aef50218a07a6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe5533620e51ad7f25aef50218a07a6f">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abe5533620e51ad7f25aef50218a07a6f">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,16 +304,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html#l00085">85</a> of file <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html">sv_status_effects.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html#l00094">94</a> of file <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html">sv_status_effects.qc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../db/d7a/utils_8qh_source.html#l00049">FOREACH_CLIENT</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>.</p>
-<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;{</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.statuseffects,</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    {</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        StatusEffects_clearall(it.statuseffects);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        StatusEffects_update(it);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    });</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div><div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00049">utils.qh:49</a></div></div>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.statuseffects,</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        StatusEffects_removeall(it, STATUSEFFECT_REMOVE_NORMAL); <span class="comment">// just to get rid of the pickup sound</span></div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        StatusEffects_clearall(it.statuseffects);</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        StatusEffects_update(it);</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    });</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;}</div><div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00049">utils.qh:49</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <a id="a1395bc59cd6a7a7521be85a73af742b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1395bc59cd6a7a7521be85a73af742b4">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1395bc59cd6a7a7521be85a73af742b4">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,16 +338,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html#l00095">95</a> of file <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html">sv_status_effects.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html#l00105">105</a> of file <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html">sv_status_effects.qc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spectatee = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    client.statuseffects = spectatee.statuseffects;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spectatee = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    client.statuseffects = spectatee.statuseffects;</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
-</div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d03/sv__status__effects_8qc_a1395bc59cd6a7a7521be85a73af742b4_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -309,7 +355,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a38245fcdd9b7dadc5c904224180d53c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38245fcdd9b7dadc5c904224180d53c9">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a38245fcdd9b7dadc5c904224180d53c9">&#9670;&nbsp;</a></span>MUTATOR_HOOKFUNCTION() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,17 +380,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html#l00103">103</a> of file <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html">sv_status_effects.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html#l00113">113</a> of file <a class="el" href="../../d3/d03/sv__status__effects_8qc_source.html">sv_status_effects.qc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
-<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span>(player.statuseffects &amp;&amp; player.statuseffects.owner == player)</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        StatusEffects_clearall(player.statuseffects);</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        StatusEffects_update(player);</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    {</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        StatusEffects_clearall(player.statuseffects_store);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        player.statuseffects = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;{</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">if</span>(player.statuseffects &amp;&amp; player.statuseffects.owner == player)</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    {</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        StatusEffects_clearall(player.statuseffects);</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        StatusEffects_update(player);</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    {</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        StatusEffects_clearall(player.statuseffects_store);</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        player.statuseffects = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
-</div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d03/sv__status__effects_8qc_a38245fcdd9b7dadc5c904224180d53c9_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -357,7 +403,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_bb1221eb42b963fbc5023191396e37aa.html">status_effects</a></li><li class="navelem"><a class="el" href="../../d3/d03/sv__status__effects_8qc.html">sv_status_effects.qc</a></li>
-    <li class="footer">Generated on Sun Mar 6 2022 01:55:54 for Xonotic by
+    <li class="footer">Generated on Sun Mar 6 2022 16:32:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

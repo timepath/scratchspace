@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"da/d3b/weapons_2weapon_2machinegun_8qc.html":[2,0,1,17,0,20],
 "da/d3b/weapons_2weapon_2machinegun_8qc_source.html":[2,0,1,17,0,20],
 "da/d3e/nades_8qh.html":[2,0,1,10,0,19,5],
 "da/d3e/nades_8qh.html#a0975ec4cf12ce7bc07a3b2fb5da68db4":[2,0,1,10,0,19,5,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "da/d6b/sv__superspec_8qc.html":[2,0,1,10,0,36,2],
 "da/d6b/sv__superspec_8qc.html#a0e09ade211672fbff42c37c935698ae6":[2,0,1,10,0,36,2,0],
 "da/d6b/sv__superspec_8qc.html#a1778e833c919fedc545a8b8d8eeaf8ba":[2,0,1,10,0,36,2,28],
-"da/d6b/sv__superspec_8qc.html#a1cd5501c8fc6141cc8b64e098366f099":[2,0,1,10,0,36,2,7],
-"da/d6b/sv__superspec_8qc.html#a2b322cccf41ebb9cd88c4c019403514f":[2,0,1,10,0,36,2,6]
+"da/d6b/sv__superspec_8qc.html#a1cd5501c8fc6141cc8b64e098366f099":[2,0,1,10,0,36,2,7]
 };
