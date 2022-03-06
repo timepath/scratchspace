@@ -1,6 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"d4/d12/racetimer_8qc.html#a1d97e861438f54908b0d60fc2c930c06":[2,0,0,1,0,28,1],
 "d4/d12/racetimer_8qc.html#a437eba1452c50ca9eeb085d1036974b4":[2,0,0,1,0,28,2],
 "d4/d12/racetimer_8qc.html#ab9a7c1bca2d8d5e98402f03d1997b9ca":[2,0,0,1,0,28,0],
 "d4/d12/racetimer_8qc_source.html":[2,0,0,1,0,28],
@@ -249,5 +248,6 @@ var NAVTREEINDEX41 =
 "d4/d3b/classXonoticBigButton.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,175,32],
 "d4/d3b/classXonoticBigButton.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,175,26],
 "d4/d3b/classXonoticBigButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,175,68],
-"d4/d3b/classXonoticBigButton.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,175,31]
+"d4/d3b/classXonoticBigButton.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,175,31],
+"d4/d3b/classXonoticBigButton.html#a476349ed1a0d044310253e867c496c16":[1,0,175,52]
 };

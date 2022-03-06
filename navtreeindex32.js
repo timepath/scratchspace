@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"d3/d78/classAnimHost.html#ad5de8602f83c8b5abb00786524681a48":[1,0,4,1],
 "d3/d78/classAnimHost.html#ad7466dbd9d52db0fd9423f8dcdc581bf":[1,0,4,11],
 "d3/d78/mlrs__weapon_8qh.html":[2,0,1,15,0,27],
 "d3/d78/mlrs__weapon_8qh.html#af9b071956bbf39470526c535695f01e5":[2,0,1,15,0,27,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "d3/d8f/cl__status__effects_8qh_source.html":[2,0,1,10,0,35,6],
 "d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
 "d3/d92/roles_8qh.html#a1cc24935994a1db67f5eadfc5007ac5c":[2,0,6,0,0,0,5,1],
-"d3/d92/roles_8qh.html#a6cc3933347729c799694be0ec3c641fc":[2,0,6,0,0,0,5,3]
+"d3/d92/roles_8qh.html#a6cc3933347729c799694be0ec3c641fc":[2,0,6,0,0,0,5,3],
+"d3/d92/roles_8qh.html#aa064a39de365d0244bd476bd9ce85833":[2,0,6,0,0,0,5,2]
 };

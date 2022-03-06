@@ -1,6 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"d3/dc9/macro_8qh.html#af65fab440cca3f4f31b60a9955b79c14":[2,0,4,32,0],
 "d3/dc9/macro_8qh_source.html":[2,0,4,32],
 "d3/dca/cheats_8qh.html":[2,0,6,18],
 "d3/dca/cheats_8qh.html#a04ede6834b82bb3efbfcd4961fbc6f54":[2,0,6,18,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX35 =
 "d3/dd5/bd_8qc.html#a546f15025600389b8d5bf38d01b1e9db":[2,0,1,7,0,3,22],
 "d3/dd5/bd_8qc.html#a55200b553f47a278e6eb5440333b2bab":[2,0,1,7,0,3,1],
 "d3/dd5/bd_8qc.html#a5b27f4c82a469bdb077f0042eabe38c7":[2,0,1,7,0,3,25],
-"d3/dd5/bd_8qc.html#a61b4517d0e8bab1bc860c2ce72d30e60":[2,0,1,7,0,3,58]
+"d3/dd5/bd_8qc.html#a61b4517d0e8bab1bc860c2ce72d30e60":[2,0,1,7,0,3,58],
+"d3/dd5/bd_8qc.html#a6662223bd539872a144532019c5ba1df":[2,0,1,7,0,3,41]
 };

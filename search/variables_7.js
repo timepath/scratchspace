@@ -72,6 +72,7 @@ var searchData=
   ['game_5fdelay_5flast',['game_delay_last',['../db/d95/server_2main_8qc.html#a46b4c44b76f39f2f4e113c1476572ec0',1,'main.qc']]],
   ['game_5fdeveloper',['GAME_DEVELOPER',['../d0/d41/menu_8qh.html#a3cd39adc5a015bbc00182b0adf0aea8a',1,'menu.qh']]],
   ['game_5fisserver',['GAME_ISSERVER',['../d0/d41/menu_8qh.html#a7e2625cbc212e674f279dcf3a1dc6312',1,'menu.qh']]],
+  ['game_5fstopped_5ftime',['game_stopped_time',['../d5/d8c/view_8qh.html#af405be91ee4dabcaa839d419cba622ea',1,'view.qh']]],
   ['gamemode_5fname',['gamemode_name',['../de/d2b/world_8qh.html#a28e18708dd262dd304c3371d071a5b18',1,'world.qh']]],
   ['gamerules_5flimit_5flead_5finitialized',['GameRules_limit_lead_initialized',['../d7/d39/sv__rules_8qc.html#a4a413fe66529183a04da2f25e9f25203',1,'sv_rules.qc']]],
   ['gamerules_5flimit_5fscore_5finitialized',['GameRules_limit_score_initialized',['../d7/d39/sv__rules_8qc.html#aa78de0e9236e832d1fb03d94eb8bd957',1,'sv_rules.qc']]],

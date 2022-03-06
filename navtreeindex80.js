@@ -1,5 +1,8 @@
 var NAVTREEINDEX80 =
 {
+"d8/d14/scripting_8qh.html#adf8d402df20e331ac23d66d43a49fd1d":[2,0,6,0,0,12,43],
+"d8/d14/scripting_8qh.html#aea61ad60d43b608c309d0db2bcad6959":[2,0,6,0,0,12,49],
+"d8/d14/scripting_8qh.html#aec2a8cdff476b27767c063416a079f2a":[2,0,6,0,0,12,54],
 "d8/d14/scripting_8qh.html#aed4180dd3d47ba8acd2e64498384683d":[2,0,6,0,0,12,48],
 "d8/d14/scripting_8qh.html#aee893b8c45acb57723bdf59ea42e8516":[2,0,6,0,0,12,57],
 "d8/d14/scripting_8qh.html#afd79aadaea43b1142440e6450affe0c9":[2,0,6,0,0,12,29],
@@ -90,10 +93,10 @@ var NAVTREEINDEX80 =
 "d8/d1c/sv__spawn_8qc.html#ac615a7363e15e870bec1301869b6db5b":[2,0,1,9,8,0],
 "d8/d1c/sv__spawn_8qc_source.html":[2,0,1,9,8],
 "d8/d1d/cmd_8qc.html":[2,0,6,1,4],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,1],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,0],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,1],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
 "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665":[2,0,6,1,4,27],
 "d8/d1d/cmd_8qc.html#a0c42ae5ee5b88c336b9cf1d7307c0ed5":[2,0,6,1,4,25],
 "d8/d1d/cmd_8qc.html#a2c64073337745d9409e5db6c36b5f5db":[2,0,6,1,4,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "d8/d35/classXonoticHUDChatDialog.html#ab8f24f4d1e84b931a71478a39a98f0be":[1,0,213,70],
 "d8/d35/classXonoticHUDChatDialog.html#aba8583e6bc930dad6807443f24a136dd":[1,0,213,34],
 "d8/d35/classXonoticHUDChatDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,213,0],
-"d8/d35/classXonoticHUDChatDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,213,111],
-"d8/d35/classXonoticHUDChatDialog.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,213,57],
-"d8/d35/classXonoticHUDChatDialog.html#abff3f0393de6f29e0361c748569ad8d6":[1,0,213,102],
-"d8/d35/classXonoticHUDChatDialog.html#ac090de718883fe54a336391f7c4b5b88":[1,0,213,20]
+"d8/d35/classXonoticHUDChatDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,213,111]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX101 =
 {
+"da/d94/classXonoticSettingsDialog.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,276,62],
+"da/d94/classXonoticSettingsDialog.html#a218a9c923f925977d93dd08698594573":[1,0,276,40],
+"da/d94/classXonoticSettingsDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,276,2],
+"da/d94/classXonoticSettingsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,276,91],
+"da/d94/classXonoticSettingsDialog.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,276,65],
+"da/d94/classXonoticSettingsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,276,73],
+"da/d94/classXonoticSettingsDialog.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,276,68],
 "da/d94/classXonoticSettingsDialog.html#a31049ac23a9b136a14bcbdac80d3f0eb":[1,0,276,88],
 "da/d94/classXonoticSettingsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,276,8],
 "da/d94/classXonoticSettingsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,276,80],
@@ -242,12 +249,5 @@ var NAVTREEINDEX101 =
 "da/d9c/classXonoticMonsterToolsDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,245,32],
 "da/d9c/classXonoticMonsterToolsDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,245,14],
 "da/d9c/classXonoticMonsterToolsDialog.html#a8a052545608ae966aefe0e9f320c2472":[1,0,245,80],
-"da/d9c/classXonoticMonsterToolsDialog.html#a8b78346a74df75772de387092d850f39":[1,0,245,58],
-"da/d9c/classXonoticMonsterToolsDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,245,39],
-"da/d9c/classXonoticMonsterToolsDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,245,69],
-"da/d9c/classXonoticMonsterToolsDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,245,19],
-"da/d9c/classXonoticMonsterToolsDialog.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,245,66],
-"da/d9c/classXonoticMonsterToolsDialog.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,245,21],
-"da/d9c/classXonoticMonsterToolsDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,245,94],
-"da/d9c/classXonoticMonsterToolsDialog.html#a9736b89b9560b63e42079ad8a40ee157":[1,0,245,104]
+"da/d9c/classXonoticMonsterToolsDialog.html#a8b78346a74df75772de387092d850f39":[1,0,245,58]
 };

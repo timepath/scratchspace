@@ -1,5 +1,12 @@
 var NAVTREEINDEX95 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,206,111],
+"d9/db3/classXonoticGameModelSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,206,102],
+"d9/db3/classXonoticGameModelSettingsTab.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,206,55],
+"d9/db3/classXonoticGameModelSettingsTab.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,206,21],
+"d9/db3/classXonoticGameModelSettingsTab.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,206,30],
+"d9/db3/classXonoticGameModelSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,206,95],
+"d9/db3/classXonoticGameModelSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,206,88],
 "d9/db3/classXonoticGameModelSettingsTab.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,206,36],
 "d9/db3/classXonoticGameModelSettingsTab.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,206,18],
 "d9/db3/classXonoticGameModelSettingsTab.html#a8b78346a74df75772de387092d850f39":[1,0,206,62],
@@ -242,12 +249,5 @@ var NAVTREEINDEX95 =
 "d9/ddb/pendulum_8qc.html":[2,0,1,6,0,20],
 "d9/ddb/pendulum_8qc_source.html":[2,0,1,6,0,20],
 "d9/ddd/damageeffects_8qc.html":[2,0,1,2,0,4],
-"d9/ddd/damageeffects_8qc_source.html":[2,0,1,2,0,4],
-"d9/de3/dialog__hudpanel__notification_8qh.html":[2,0,5,4,63],
-"d9/de3/dialog__hudpanel__notification_8qh_source.html":[2,0,5,4,63],
-"d9/de7/jumppads_8qh.html":[2,0,1,6,3,21],
-"d9/de7/jumppads_8qh.html#a095e6a987933d162e2b2d81bc2ec7ac9":[2,0,1,6,3,21,12],
-"d9/de7/jumppads_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4":[2,0,1,6,3,21,7],
-"d9/de7/jumppads_8qh.html#a66ad79d10244774bb2ebf5c354538d26":[2,0,1,6,3,21,2],
-"d9/de7/jumppads_8qh.html#a670dbbce52ae308428b66fd8c8813714":[2,0,1,6,3,21,10]
+"d9/ddd/damageeffects_8qc_source.html":[2,0,1,2,0,4]
 };

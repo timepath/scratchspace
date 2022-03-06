@@ -1,6 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"d3/d92/roles_8qh.html#aa064a39de365d0244bd476bd9ce85833":[2,0,6,0,0,0,5,2],
 "d3/d92/roles_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8":[2,0,6,0,0,0,5,4],
 "d3/d92/roles_8qh.html#acab64c2fe38b303fbe8907423b34fc04":[2,0,6,0,0,0,5,0],
 "d3/d92/roles_8qh_source.html":[2,0,6,0,0,0,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX33 =
 "d3/db6/projectile_8qc.html#afa735eeb763e03508cd4e27a1921b593":[2,0,0,4,2,7],
 "d3/db6/projectile_8qc_source.html":[2,0,0,4,2],
 "d3/db7/dialog__settings__bindings__reset_8qc.html":[2,0,5,4,130],
-"d3/db7/dialog__settings__bindings__reset_8qc.html#acce924b3ec8d10aaca50b175851e87b7":[2,0,5,4,130,0]
+"d3/db7/dialog__settings__bindings__reset_8qc.html#acce924b3ec8d10aaca50b175851e87b7":[2,0,5,4,130,0],
+"d3/db7/dialog__settings__bindings__reset_8qc_source.html":[2,0,5,4,130]
 };

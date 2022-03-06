@@ -185,7 +185,7 @@ var NAVTREEINDEX17 =
 "d2/d06/server_2command_2common_8qh.html#a2bc7164e655838f8ad0d6d1f258861a8":[2,0,6,1,7,69],
 "d2/d06/server_2command_2common_8qh.html#a2c413e2355ff8a8dd94c694fedf8cd21":[2,0,6,1,7,65],
 "d2/d06/server_2command_2common_8qh.html#a31c9eecd432f1aaee8637466cb8c1bea":[2,0,6,1,7,19],
-"d2/d06/server_2command_2common_8qh.html#a33a3318b1affa96aca5dacb5bea15db6":[2,0,6,1,7,71],
+"d2/d06/server_2command_2common_8qh.html#a33a3318b1affa96aca5dacb5bea15db6":[2,0,6,1,7,70],
 "d2/d06/server_2command_2common_8qh.html#a37f1c035bd3cc63c8ef7d58dd12958ee":[2,0,6,1,7,40],
 "d2/d06/server_2command_2common_8qh.html#a38b49a34c69e81ab4029ee2112ca9bd4":[2,0,6,1,7,48],
 "d2/d06/server_2command_2common_8qh.html#a38efff6806e0a8dda7e9daed9ef3debf":[2,0,6,1,7,42],
@@ -206,7 +206,6 @@ var NAVTREEINDEX17 =
 "d2/d06/server_2command_2common_8qh.html#a8070e25d85ec6f38a2817edfd8ae6398":[2,0,6,1,7,59],
 "d2/d06/server_2command_2common_8qh.html#a8a84d5fa25af5ead7edba7755a76ff84":[2,0,6,1,7,4],
 "d2/d06/server_2command_2common_8qh.html#a8d53bacf36d6e27c1f3fb22db402136b":[2,0,6,1,7,0],
-"d2/d06/server_2command_2common_8qh.html#a8dc0260aff8787b28b63236fe177f56d":[2,0,6,1,7,70],
 "d2/d06/server_2command_2common_8qh.html#a902a3bc18682209176de32cf22abb4b1":[2,0,6,1,7,21],
 "d2/d06/server_2command_2common_8qh.html#a92bbba45d6b68c1a7dab1eb1c04e330e":[2,0,6,1,7,63],
 "d2/d06/server_2command_2common_8qh.html#a956b5ba8554bf9d5ee67b984253edbb6":[2,0,6,1,7,58],
@@ -249,5 +248,6 @@ var NAVTREEINDEX17 =
 "d2/d08/sv__spawn__near__teammate_8qc.html#a582050a7f52aadc149b2810a95865f6c":[2,0,1,10,0,33,6,3],
 "d2/d08/sv__spawn__near__teammate_8qc.html#a719320626f92829677573c6e6714dbae":[2,0,1,10,0,33,6,11],
 "d2/d08/sv__spawn__near__teammate_8qc.html#a80ab02300025fa40fca0d8f24e8b1b4f":[2,0,1,10,0,33,6,10],
-"d2/d08/sv__spawn__near__teammate_8qc.html#a946c9152e1d2f58636ec5f7481980695":[2,0,1,10,0,33,6,9]
+"d2/d08/sv__spawn__near__teammate_8qc.html#a946c9152e1d2f58636ec5f7481980695":[2,0,1,10,0,33,6,9],
+"d2/d08/sv__spawn__near__teammate_8qc.html#a9e3ba6aa3a231c79aeed88b4460dc928":[2,0,1,10,0,33,6,8]
 };

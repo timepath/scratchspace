@@ -1,5 +1,12 @@
 var NAVTREEINDEX121 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,216,79],
+"dc/d37/classXonoticHUDExitDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,216,106],
+"dc/d37/classXonoticHUDExitDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,216,84],
+"dc/d37/classXonoticHUDExitDialog.html#ad27705a6a1dfa2b0fd29bd576855918a":[1,0,216,104],
+"dc/d37/classXonoticHUDExitDialog.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,216,56],
+"dc/d37/classXonoticHUDExitDialog.html#ad67727bded724210e1017635eed79c56":[1,0,216,36],
+"dc/d37/classXonoticHUDExitDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,216,109],
 "dc/d37/classXonoticHUDExitDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,216,83],
 "dc/d37/classXonoticHUDExitDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,216,76],
 "dc/d37/classXonoticHUDExitDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,216,112],
@@ -242,12 +249,5 @@ var NAVTREEINDEX121 =
 "dc/d52/dialog__multiplayer__create__mapinfo_8qh.html":[2,0,5,4,95],
 "dc/d52/dialog__multiplayer__create__mapinfo_8qh_source.html":[2,0,5,4,95],
 "dc/d53/sv__cloaked_8qh.html":[2,0,1,10,0,5,3],
-"dc/d53/sv__cloaked_8qh_source.html":[2,0,1,10,0,5,3],
-"dc/d54/sv__vampirehook_8qh.html":[2,0,1,10,0,39,3],
-"dc/d54/sv__vampirehook_8qh_source.html":[2,0,1,10,0,39,3],
-"dc/d55/clientkill_8qc.html":[2,0,6,21],
-"dc/d55/clientkill_8qc.html#a07ed282ad92406a801203975b2c36ad4":[2,0,6,21,5],
-"dc/d55/clientkill_8qc.html#a1f7075729b16c7fb29ac863d1a4c1725":[2,0,6,21,6],
-"dc/d55/clientkill_8qc.html#a482f54a20df32f498a4c3cca6f372fee":[2,0,6,21,7],
-"dc/d55/clientkill_8qc.html#a6d667edce7a9dc7b78542157f7f7dc46":[2,0,6,21,8]
+"dc/d53/sv__cloaked_8qh_source.html":[2,0,1,10,0,5,3]
 };

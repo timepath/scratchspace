@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"d2/d08/sv__spawn__near__teammate_8qc.html#a9e3ba6aa3a231c79aeed88b4460dc928":[2,0,1,10,0,33,6,8],
 "d2/d08/sv__spawn__near__teammate_8qc.html#aab0d7fdefb365e732ff2353c7d22421b":[2,0,1,10,0,33,6,5],
 "d2/d08/sv__spawn__near__teammate_8qc.html#ad23c797958622d4ed1b1e8ecedb0058f":[2,0,1,10,0,33,6,12],
 "d2/d08/sv__spawn__near__teammate_8qc.html#ad2d2a24803c926f92f844a777389fedf":[2,0,1,10,0,33,6,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a1d075bfcff7e8efe420695ddd203bb4d":[1,0,197,54],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a1d17df6e1367f9d3bfe263314fc6e046":[1,0,197,45],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,197,89],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,197,62]
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,197,62],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a20ccd58da0d9c7ed9c8a8c0472ea0c59":[1,0,197,102]
 };

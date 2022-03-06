@@ -1,5 +1,12 @@
 var NAVTREEINDEX117 =
 {
+"db/ddb/classXonoticCvarList.html#a94e738eb600c049a88a828395847ac54":[1,0,191,30],
+"db/ddb/classXonoticCvarList.html#a955acbbda432fb19399292cbac96e0af":[1,0,191,83],
+"db/ddb/classXonoticCvarList.html#a9f84f4ffde4600e714c309ecd874cb2b":[1,0,191,46],
+"db/ddb/classXonoticCvarList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,191,82],
+"db/ddb/classXonoticCvarList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,191,12],
+"db/ddb/classXonoticCvarList.html#aa2f59cfefa7be6d6cf1f978a647879b2":[1,0,191,8],
+"db/ddb/classXonoticCvarList.html#aa3209a44e34bb8deb897da574828b189":[1,0,191,17],
 "db/ddb/classXonoticCvarList.html#aa70c8d659a3bf3dad9125bd625984d6c":[1,0,191,11],
 "db/ddb/classXonoticCvarList.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,191,81],
 "db/ddb/classXonoticCvarList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,191,95],
@@ -242,12 +249,5 @@ var NAVTREEINDEX117 =
 "db/dee/projectiles_8qh.html#a96c84d2538f8730cfa662a49d1a8c75d":[2,0,1,17,12,14],
 "db/dee/projectiles_8qh.html#a9851650a32c6db104351222671303534":[2,0,1,17,12,15],
 "db/dee/projectiles_8qh.html#a9bdd4135a43d1fe82726ce9f680314ea":[2,0,1,17,12,2],
-"db/dee/projectiles_8qh.html#aa0cb51bfc924348aa0ca71e0d06a4baa":[2,0,1,17,12,24],
-"db/dee/projectiles_8qh.html#aa1a10886760e0a686f2e8d9ea01609b4":[2,0,1,17,12,18],
-"db/dee/projectiles_8qh.html#aae458c151a9d65460eec9f35a7578561":[2,0,1,17,12,29],
-"db/dee/projectiles_8qh.html#ab162bac6ee7484554c212603e07cff9a":[2,0,1,17,12,31],
-"db/dee/projectiles_8qh.html#ab634605b1071c443ed92a346527bc043":[2,0,1,17,12,22],
-"db/dee/projectiles_8qh.html#ac6ae2b2f62dcfbc71cf3421abd243e12":[2,0,1,17,12,20],
-"db/dee/projectiles_8qh.html#acbee41019c18bc7ef48d18f07e4ccc05":[2,0,1,17,12,7],
-"db/dee/projectiles_8qh.html#ad2d712051be965d2123a8433bbc45cb5":[2,0,1,17,12,21]
+"db/dee/projectiles_8qh.html#aa0cb51bfc924348aa0ca71e0d06a4baa":[2,0,1,17,12,24]
 };

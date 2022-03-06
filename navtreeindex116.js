@@ -1,5 +1,12 @@
 var NAVTREEINDEX116 =
 {
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,224,94],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a99fdddc4477054b7ce01e537c2824609":[1,0,224,28],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a9d0abebc8deb6bfe62f32b3a67767a90":[1,0,224,42],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,224,98],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a9e099ece31334a52a1b93305c8a368c3":[1,0,224,46],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a9f84f4ffde4600e714c309ecd874cb2b":[1,0,224,64],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,224,86],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,224,87],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,224,4],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aac11f0ee8546852c87e21c5365f1ca9b":[1,0,224,18],
@@ -242,12 +249,5 @@ var NAVTREEINDEX116 =
 "db/ddb/classXonoticCvarList.html#a905b47b262dc68eda970bc0afd24f243":[1,0,191,100],
 "db/ddb/classXonoticCvarList.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,191,51],
 "db/ddb/classXonoticCvarList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,191,70],
-"db/ddb/classXonoticCvarList.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,191,48],
-"db/ddb/classXonoticCvarList.html#a94e738eb600c049a88a828395847ac54":[1,0,191,30],
-"db/ddb/classXonoticCvarList.html#a955acbbda432fb19399292cbac96e0af":[1,0,191,83],
-"db/ddb/classXonoticCvarList.html#a9f84f4ffde4600e714c309ecd874cb2b":[1,0,191,46],
-"db/ddb/classXonoticCvarList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,191,82],
-"db/ddb/classXonoticCvarList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,191,12],
-"db/ddb/classXonoticCvarList.html#aa2f59cfefa7be6d6cf1f978a647879b2":[1,0,191,8],
-"db/ddb/classXonoticCvarList.html#aa3209a44e34bb8deb897da574828b189":[1,0,191,17]
+"db/ddb/classXonoticCvarList.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,191,48]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"d5/d30/sv__powerups_8qc_source.html":[2,0,1,10,0,26,7],
 "d5/d35/common_2__mod_8qh.html":[2,0,1,20],
 "d5/d35/common_2__mod_8qh_source.html":[2,0,1,20],
 "d5/d37/server_2matrix_8qh.html":[2,0,6,44],
@@ -249,5 +248,6 @@ var NAVTREEINDEX53 =
 "d5/d6c/classXonoticHUDSkinList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,229,65],
 "d5/d6c/classXonoticHUDSkinList.html#a1163cab9c0756081c1b9f59f020bb6b6":[1,0,229,51],
 "d5/d6c/classXonoticHUDSkinList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,229,69],
-"d5/d6c/classXonoticHUDSkinList.html#a15d3326ac2bb6d981ca9830931782a2e":[1,0,229,20]
+"d5/d6c/classXonoticHUDSkinList.html#a15d3326ac2bb6d981ca9830931782a2e":[1,0,229,20],
+"d5/d6c/classXonoticHUDSkinList.html#a16e41955c2d0633a301185749f320bf2":[1,0,229,1]
 };

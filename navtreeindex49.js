@@ -1,6 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"d4/da5/classXonoticBigCommandButton.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,176,73],
 "d4/da5/classXonoticBigCommandButton.html#ad8b9115dc1d65ac99e74ae1a36f56d05":[1,0,176,48],
 "d4/da5/classXonoticBigCommandButton.html#adbaf33cbe366a7722a334c9d7116ca1f":[1,0,176,44],
 "d4/da5/classXonoticBigCommandButton.html#aea98cb4e2ececfc3f89ebc39d10afb4c":[1,0,176,26],
@@ -249,5 +248,6 @@ var NAVTREEINDEX49 =
 "d4/db0/sv__instagib_8qc.html#a6e8bb838e669fe5e8e4ec744935b4368":[2,0,1,10,0,12,4,13],
 "d4/db0/sv__instagib_8qc.html#a70325d83f83a172194da6945baed5312":[2,0,1,10,0,12,4,19],
 "d4/db0/sv__instagib_8qc.html#a71e71b047b8790ff7a47a1bf91cafd9a":[2,0,1,10,0,12,4,9],
-"d4/db0/sv__instagib_8qc.html#a762db703a19bed054bfd5eb0411837c8":[2,0,1,10,0,12,4,35]
+"d4/db0/sv__instagib_8qc.html#a762db703a19bed054bfd5eb0411837c8":[2,0,1,10,0,12,4,35],
+"d4/db0/sv__instagib_8qc.html#a76ae79b41dba64f62cf2fa76c60eda6e":[2,0,1,10,0,12,4,39]
 };

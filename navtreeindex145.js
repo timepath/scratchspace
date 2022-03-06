@@ -1,5 +1,13 @@
 var NAVTREEINDEX145 =
 {
+"df/d26/classXonoticGameSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,207,110],
+"df/d26/classXonoticGameSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,207,81],
+"df/d26/classXonoticGameSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,207,87],
+"df/d26/classXonoticGameSettingsTab.html#ad2bbf58768380843ac337880b629bb17":[1,0,207,112],
+"df/d26/classXonoticGameSettingsTab.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,207,61],
+"df/d26/classXonoticGameSettingsTab.html#ad67727bded724210e1017635eed79c56":[1,0,207,41],
+"df/d26/classXonoticGameSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,207,100],
+"df/d26/classXonoticGameSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,207,85],
 "df/d26/classXonoticGameSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,207,118],
 "df/d26/classXonoticGameSettingsTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,207,113],
 "df/d26/classXonoticGameSettingsTab.html#ae4426a36e8331724eb95f243e6e1dc4c":[1,0,207,102],
@@ -241,13 +249,5 @@ var NAVTREEINDEX145 =
 "df/d35/common_2mapobjects_2trigger_2impulse_8qc.html#afca3e2db5e59817c0b1882f719fee2f1":[2,0,1,6,3,18,2],
 "df/d35/common_2mapobjects_2trigger_2impulse_8qc_source.html":[2,0,1,6,3,18],
 "df/d38/mathlib_8qc.html":[2,0,4,2,8],
-"df/d38/mathlib_8qc.html#a037789ddb4bd5a1a3e61d73c3de3ec0a":[2,0,4,2,8,50],
-"df/d38/mathlib_8qc.html#a0513512658c82d265b98e105c7285297":[2,0,4,2,8,6],
-"df/d38/mathlib_8qc.html#a0865f9ea1fd8a51fd45114cde298f710":[2,0,4,2,8,11],
-"df/d38/mathlib_8qc.html#a0fceef70d0108c16ecace534db48d7db":[2,0,4,2,8,46],
-"df/d38/mathlib_8qc.html#a139f746835216f57f1e806999b218879":[2,0,4,2,8,19],
-"df/d38/mathlib_8qc.html#a171dc5214a5ab4f34af050a2ba282658":[2,0,4,2,8,23],
-"df/d38/mathlib_8qc.html#a1773a44b229521bc3921582f6d39cbfd":[2,0,4,2,8,7],
-"df/d38/mathlib_8qc.html#a1c3ae3d6c057787060725cf472e7c8b2":[2,0,4,2,8,21],
-"df/d38/mathlib_8qc.html#a1e509e70b652f5baaa8d83bac7d0f97e":[2,0,4,2,8,34]
+"df/d38/mathlib_8qc.html#a037789ddb4bd5a1a3e61d73c3de3ec0a":[2,0,4,2,8,50]
 };

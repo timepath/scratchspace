@@ -1,5 +1,12 @@
 var NAVTREEINDEX115 =
 {
+"db/db1/classXonoticHUDRaceTimerDialog.html#a5a4756fc2a1458d279b2d8a4429c98c2":[1,0,226,41],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a5bcb9ee4b3f215314548fe24df5645c7":[1,0,226,25],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a5dbfe8a52dffe86aab520d8f79b8cd1e":[1,0,226,31],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a6060cec950f29ae4a3f32cec12484b4d":[1,0,226,49],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b":[1,0,226,73],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,226,85],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a69e94627ebdd9065483e0489eb39910b":[1,0,226,104],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,226,97],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,226,1],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,226,67],
@@ -242,12 +249,5 @@ var NAVTREEINDEX115 =
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,224,69],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,224,19],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,224,66],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,224,21],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,224,94],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a99fdddc4477054b7ce01e537c2824609":[1,0,224,28],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a9d0abebc8deb6bfe62f32b3a67767a90":[1,0,224,42],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,224,98],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a9e099ece31334a52a1b93305c8a368c3":[1,0,224,46],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a9f84f4ffde4600e714c309ecd874cb2b":[1,0,224,64],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,224,86]
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,224,21]
 };

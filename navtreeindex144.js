@@ -1,5 +1,13 @@
 var NAVTREEINDEX144 =
 {
+"de/de8/portals_8qc.html#a276352c74c587f8bb0dc9508b8dff108":[2,0,6,47,25],
+"de/de8/portals_8qc.html#a3412839c6340e04a3ce633755c509b73":[2,0,6,47,20],
+"de/de8/portals_8qc.html#a34693447c0fc0567d020e3ec42b2ae3e":[2,0,6,47,33],
+"de/de8/portals_8qc.html#a3a8558ea8588c386416d87c3a987d8a3":[2,0,6,47,5],
+"de/de8/portals_8qc.html#a5706c9ed48a9bc5cd11aab74d5a08b09":[2,0,6,47,22],
+"de/de8/portals_8qc.html#a609b1151ce1ef7aedb50a1c7e1cba5cf":[2,0,6,47,11],
+"de/de8/portals_8qc.html#a6413d755f424e9ccf26b7eda5693a3be":[2,0,6,47,15],
+"de/de8/portals_8qc.html#a701b865d8e05ebcc34d0e4bc2dbaf099":[2,0,6,47,24],
 "de/de8/portals_8qc.html#a70d3c5762b853cf70d6cdba04a545d1b":[2,0,6,47,12],
 "de/de8/portals_8qc.html#a7620840c6a2c2d6e4d5a0ceca8b7a840":[2,0,6,47,1],
 "de/de8/portals_8qc.html#a7b4d88aff21e56dfc333578ad2d2881a":[2,0,6,47,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX144 =
 "df/d26/classXonoticGameSettingsTab.html#ac2d305f3d52cd31a07ed7d66b97b2145":[1,0,207,42],
 "df/d26/classXonoticGameSettingsTab.html#ac48a55ee27825c21341d607260063b25":[1,0,207,16],
 "df/d26/classXonoticGameSettingsTab.html#ac796b6edd217daadfcc335ebd76bd92f":[1,0,207,86],
-"df/d26/classXonoticGameSettingsTab.html#ac93b2ee211898db4139802e6abbd8c4b":[1,0,207,93],
-"df/d26/classXonoticGameSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,207,110],
-"df/d26/classXonoticGameSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,207,81],
-"df/d26/classXonoticGameSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,207,87],
-"df/d26/classXonoticGameSettingsTab.html#ad2bbf58768380843ac337880b629bb17":[1,0,207,112],
-"df/d26/classXonoticGameSettingsTab.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,207,61],
-"df/d26/classXonoticGameSettingsTab.html#ad67727bded724210e1017635eed79c56":[1,0,207,41],
-"df/d26/classXonoticGameSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,207,100],
-"df/d26/classXonoticGameSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,207,85]
+"df/d26/classXonoticGameSettingsTab.html#ac93b2ee211898db4139802e6abbd8c4b":[1,0,207,93]
 };

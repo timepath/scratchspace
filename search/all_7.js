@@ -83,6 +83,7 @@ var searchData=
   ['game_5fdelay_5flast',['game_delay_last',['../db/d95/server_2main_8qc.html#a46b4c44b76f39f2f4e113c1476572ec0',1,'main.qc']]],
   ['game_5fdeveloper',['GAME_DEVELOPER',['../d0/d41/menu_8qh.html#a3cd39adc5a015bbc00182b0adf0aea8a',1,'menu.qh']]],
   ['game_5fisserver',['GAME_ISSERVER',['../d0/d41/menu_8qh.html#a7e2625cbc212e674f279dcf3a1dc6312',1,'menu.qh']]],
+  ['game_5fstopped_5ftime',['game_stopped_time',['../d5/d8c/view_8qh.html#af405be91ee4dabcaa839d419cba622ea',1,'view.qh']]],
   ['gamecommand',['GameCommand',['../df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc',1,'GameCommand(string command):&#160;cl_cmd.qc'],['../d7/d47/menu__cmd_8qc.html#aa1e892fd91152c2050e18d47f9ba872c',1,'GameCommand(string theCommand):&#160;menu_cmd.qc'],['../d5/df9/menu__cmd_8qh.html#ace6e22b7f453fe00f6629955c25e4fdc',1,'GameCommand(string command):&#160;cl_cmd.qc'],['../d3/df2/sv__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc',1,'GameCommand(string command):&#160;sv_cmd.qc']]],
   ['gamecommand_5fadminmsg',['GameCommand_adminmsg',['../d3/df2/sv__cmd_8qc.html#ab92199def0cfc9401c6c457b07d7e572',1,'sv_cmd.qc']]],
   ['gamecommand_5fallready',['GameCommand_allready',['../d3/df2/sv__cmd_8qc.html#a256edfec467dcad9f7307ab3f8bdf4e6',1,'sv_cmd.qc']]],

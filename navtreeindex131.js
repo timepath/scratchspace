@@ -1,5 +1,12 @@
 var NAVTREEINDEX131 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,263,87],
+"dd/d9a/classXonoticSandboxToolsDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,263,4],
+"dd/d9a/classXonoticSandboxToolsDialog.html#aac11f0ee8546852c87e21c5365f1ca9b":[1,0,263,18],
+"dd/d9a/classXonoticSandboxToolsDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,263,101],
+"dd/d9a/classXonoticSandboxToolsDialog.html#aadf33056dcb2da0c6d706df8a5efbf1f":[1,0,263,13],
+"dd/d9a/classXonoticSandboxToolsDialog.html#ab0aeb8440abc4bd78c0023e48aaf0393":[1,0,263,102],
+"dd/d9a/classXonoticSandboxToolsDialog.html#ab33f8db8b809348fef35135c9c5e6490":[1,0,263,27],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab4a2357f49c688f5f40fa610c5a17b71":[1,0,263,35],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,263,100],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab8f24f4d1e84b931a71478a39a98f0be":[1,0,263,70],
@@ -242,12 +249,5 @@ var NAVTREEINDEX131 =
 "dd/da6/classXonoticCreditsDialog.html#aadf33056dcb2da0c6d706df8a5efbf1f":[1,0,187,14],
 "dd/da6/classXonoticCreditsDialog.html#ab33f8db8b809348fef35135c9c5e6490":[1,0,187,28],
 "dd/da6/classXonoticCreditsDialog.html#ab4a2357f49c688f5f40fa610c5a17b71":[1,0,187,36],
-"dd/da6/classXonoticCreditsDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,187,100],
-"dd/da6/classXonoticCreditsDialog.html#ab75a5fd703882ad3bf97d01154b15406":[1,0,187,108],
-"dd/da6/classXonoticCreditsDialog.html#ab8f24f4d1e84b931a71478a39a98f0be":[1,0,187,73],
-"dd/da6/classXonoticCreditsDialog.html#aba8583e6bc930dad6807443f24a136dd":[1,0,187,35],
-"dd/da6/classXonoticCreditsDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,187,1],
-"dd/da6/classXonoticCreditsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,187,112],
-"dd/da6/classXonoticCreditsDialog.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,187,58],
-"dd/da6/classXonoticCreditsDialog.html#ac090de718883fe54a336391f7c4b5b88":[1,0,187,21]
+"dd/da6/classXonoticCreditsDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,187,100]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX151 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,225,109],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,225,83],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,225,76],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,225,112],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae94f2e7fb100a64d6fd1fbeb509d7e72":[1,0,225,33],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,225,24],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,225,38],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,225,3],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,225,89],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,225,63],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,225,22],
@@ -241,13 +249,5 @@ var NAVTREEINDEX151 =
 "df/dd7/server_2client_8qc.html#a97cf0c815bb1c93811d35628d62f751c":[2,0,6,19,3],
 "df/dd7/server_2client_8qc.html#a9892fecc7414ccaabfbcd27e4cd56692":[2,0,6,19,50],
 "df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3":[2,0,6,19,49],
-"df/dd7/server_2client_8qc.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,19,2],
-"df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80":[2,0,6,19,67],
-"df/dd7/server_2client_8qc.html#a9e59628b3f73816184b3bff22b8641b0":[2,0,6,19,1],
-"df/dd7/server_2client_8qc.html#a9f41c2e480a9f95e151c0716e5eb7de0":[2,0,6,19,12],
-"df/dd7/server_2client_8qc.html#aa07f86bdc6b9c9a812296f5c5ff48f95":[2,0,6,19,42],
-"df/dd7/server_2client_8qc.html#aa19dd7a06981d3a48d765fd7a0d08607":[2,0,6,19,14],
-"df/dd7/server_2client_8qc.html#aa3e6c71b0017507513736e75fa53b27b":[2,0,6,19,30],
-"df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a":[2,0,6,19,78],
-"df/dd7/server_2client_8qc.html#aa460e4cfe6422ab064012ebe689d7f79":[2,0,6,19,53]
+"df/dd7/server_2client_8qc.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,19,2]
 };

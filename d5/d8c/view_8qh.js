@@ -102,6 +102,7 @@ var view_8qh =
     [ "cursor_type", "d5/d8c/view_8qh.html#aa0b12cb39d4ab48808757ac079cacbdd", null ],
     [ "dmg_take", "d5/d8c/view_8qh.html#a4c6422b59ff09abc013889b5241ecc2f", null ],
     [ "drawtime", "d5/d8c/view_8qh.html#adcf7d2e33d673e2266aab8e6171f6d1a", null ],
+    [ "game_stopped_time", "d5/d8c/view_8qh.html#af405be91ee4dabcaa839d419cba622ea", null ],
     [ "intermission_time", "d5/d8c/view_8qh.html#ae03a0f51dcb3b084c99acfdd26bedf9c", null ],
     [ "unaccounted_damage", "d5/d8c/view_8qh.html#a1de1360295996dacb39d141955580aac", null ],
     [ "viewloc_mousepos", "d5/d8c/view_8qh.html#a366e783c509098b1464bbc84ba4d74f4", null ],
