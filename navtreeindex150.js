@@ -1,5 +1,6 @@
 var NAVTREEINDEX150 =
 {
+"df/da0/server_2mutators_2__mod_8inc.html":[2,0,6,4,0],
 "df/da0/server_2mutators_2__mod_8inc_source.html":[2,0,6,4,0],
 "df/da5/hk__weapon_8qh.html":[2,0,1,15,0,19],
 "df/da5/hk__weapon_8qh.html#a27198ad0c1cad8c8119ecefa9f52db07":[2,0,1,15,0,19,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX150 =
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ac8ff390cca131390f263bd3a63dffae0":[1,0,225,99],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,225,79],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,225,106],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,225,84],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,225,56]
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,225,84]
 };

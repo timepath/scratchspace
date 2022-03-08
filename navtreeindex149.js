@@ -1,5 +1,6 @@
 var NAVTREEINDEX149 =
 {
+"df/d92/classXonoticWinnerDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,296,53],
 "df/d92/classXonoticWinnerDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,296,44],
 "df/d92/classXonoticWinnerDialog.html#a1363f51d76bde5021f29a75dad41e706":[1,0,296,15],
 "df/d92/classXonoticWinnerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,296,94],
@@ -248,6 +249,5 @@ var NAVTREEINDEX149 =
 "df/d9e/relay__teamcheck_8qh.html#af1b5a2729e7c148e44f7a6b54ca81663":[2,0,1,6,3,39,0],
 "df/d9e/relay__teamcheck_8qh_source.html":[2,0,1,6,3,39],
 "df/da0/ctf_8qc.html":[2,0,1,3,0,2,4],
-"df/da0/ctf_8qc_source.html":[2,0,1,3,0,2,4],
-"df/da0/server_2mutators_2__mod_8inc.html":[2,0,6,4,0]
+"df/da0/ctf_8qc_source.html":[2,0,1,3,0,2,4]
 };

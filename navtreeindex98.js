@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"da/d21/hudskinlist_8qc.html#ae9bd097a01ecb1433fb23a85af3d12b3":[2,0,5,4,178,0],
 "da/d21/hudskinlist_8qc.html#aeaab4d43e6103230ba7bba726c81e01d":[2,0,5,4,178,15],
 "da/d21/hudskinlist_8qc.html#af0eb91f57f2676c2921dfbe15763735d":[2,0,5,4,178,23],
 "da/d21/hudskinlist_8qc.html#af6621274846460272cf8f5cdf082da5f":[2,0,5,4,178,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "da/d2d/common_2monsters_2__mod_8qh.html":[2,0,1,9,2],
 "da/d2d/common_2monsters_2__mod_8qh_source.html":[2,0,1,9,2],
 "da/d30/file_8qh.html":[2,0,4,20],
-"da/d30/file_8qh.html#aeff7dd5ab95e5e6de16402f61a1c851c":[2,0,4,20,0],
-"da/d30/file_8qh_source.html":[2,0,4,20]
+"da/d30/file_8qh.html#aeff7dd5ab95e5e6de16402f61a1c851c":[2,0,4,20,0]
 };
