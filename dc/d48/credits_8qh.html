@@ -134,23 +134,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00409">409</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00442">442</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d80/credits_8qc.html#abdeab3e539f87bfd5e98997d5b84911b">_CREDITS_PERSON</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00063">buf_create</a>, <a class="el" href="../../d0/d80/credits_8qc_source.html#l00003">CREDITS</a>, <a class="el" href="../../d0/d80/credits_8qc.html#aeece9de75586306dd54825972876f676">CREDITS_FUNCTION</a>, <a class="el" href="../../d0/d80/credits_8qc.html#a32480b87731fe49f3cbbdff15c597f7c">CREDITS_NL</a>, <a class="el" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>, and <a class="el" href="../../d0/d80/credits_8qc.html#af5d546005b1fa4e5880a459abe5b02c0">CREDITS_TITLE</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00063">buf_create</a>, and <a class="el" href="../../d0/d80/credits_8qc_source.html#l00427">credits_build()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d80/credits_8qc_source.html#l00435">XonoticCreditsList_configureXonoticCreditsList()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;{</div><div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    <span class="keywordtype">int</span> n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a>();</div><div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;<span class="preprocessor">    #define CREDITS_TITLE(t) bufstr_add(n, strcat(&quot;**&quot;, t), 0);</span></div><div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;<span class="preprocessor">    #define CREDITS_FUNCTION(f) bufstr_add(n, strcat(&quot;*&quot;, f), 0);</span></div><div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;<span class="preprocessor">    #define CREDITS_PERSON(p) bufstr_add(n, p, 0);</span></div><div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;<span class="preprocessor">    #define _CREDITS_PERSON(p) CREDITS_PERSON(#p)</span></div><div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;<span class="preprocessor">    #define CREDITS_NL() bufstr_add(n, &quot;&quot;, 0);</span></div><div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <a class="code" href="../../d0/d80/credits_8qc.html#a562b7ed176e0f1f11db809c27de0e9c7">CREDITS</a>(<a class="code" href="../../d0/d80/credits_8qc.html#af5d546005b1fa4e5880a459abe5b02c0">CREDITS_TITLE</a>, <a class="code" href="../../d0/d80/credits_8qc.html#aeece9de75586306dd54825972876f676">CREDITS_FUNCTION</a>, <a class="code" href="../../d0/d80/credits_8qc.html#abdeab3e539f87bfd5e98997d5b84911b">_CREDITS_PERSON</a>, <a class="code" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>, <a class="code" href="../../d0/d80/credits_8qc.html#a32480b87731fe49f3cbbdff15c597f7c">CREDITS_NL</a>)</div><div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="preprocessor">#undef CREDITS_TITLE</span></div><div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;<span class="preprocessor">    #undef CREDITS_FUNCTION</span></div><div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;<span class="preprocessor">    #undef CREDITS_PERSON</span></div><div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;<span class="preprocessor">    #undef _CREDITS_PERSON</span></div><div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;<span class="preprocessor">    #undef CREDITS_NL</span></div><div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">return</span> n;</div><div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;}</div><div class="ttc" id="credits_8qc_html_a562b7ed176e0f1f11db809c27de0e9c7"><div class="ttname"><a href="../../d0/d80/credits_8qc.html#a562b7ed176e0f1f11db809c27de0e9c7">CREDITS</a></div><div class="ttdeci">#define CREDITS(TITLE, FUNCTION, PERSON, PERSON_, NL)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d80/credits_8qc_source.html#l00003">credits.qc:3</a></div></div>
-<div class="ttc" id="credits_8qc_html_af5d546005b1fa4e5880a459abe5b02c0"><div class="ttname"><a href="../../d0/d80/credits_8qc.html#af5d546005b1fa4e5880a459abe5b02c0">CREDITS_TITLE</a></div><div class="ttdeci">#define CREDITS_TITLE(t)</div></div>
+<p class="reference">Referenced by <a class="el" href="../../d0/d80/credits_8qc_source.html#l00466">XonoticCreditsList_configureXonoticCreditsList()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;{</div><div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="keywordtype">int</span> n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a>();</div><div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <a class="code" href="../../d0/d80/credits_8qc.html#a65190a5b5b72bf4ae368c0ecf0f40723">credits_build</a>(-1, n);</div><div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keywordflow">return</span> n;</div><div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;}</div><div class="ttc" id="credits_8qc_html_a65190a5b5b72bf4ae368c0ecf0f40723"><div class="ttname"><a href="../../d0/d80/credits_8qc.html#a65190a5b5b72bf4ae368c0ecf0f40723">credits_build</a></div><div class="ttdeci">void credits_build(int fh, int n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d80/credits_8qc_source.html#l00427">credits.qc:427</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_a9b88d1543a84de9785952d34dedb754c"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a></div><div class="ttdeci">#define buf_create</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00063">dpextensions.qh:63</a></div></div>
-<div class="ttc" id="credits_8qc_html_abdeab3e539f87bfd5e98997d5b84911b"><div class="ttname"><a href="../../d0/d80/credits_8qc.html#abdeab3e539f87bfd5e98997d5b84911b">_CREDITS_PERSON</a></div><div class="ttdeci">#define _CREDITS_PERSON(p)</div></div>
-<div class="ttc" id="credits_8qc_html_a95171d96492bbd61e9bfbeecec5a3065"><div class="ttname"><a href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a></div><div class="ttdeci">#define CREDITS_PERSON(p)</div></div>
-<div class="ttc" id="credits_8qc_html_a32480b87731fe49f3cbbdff15c597f7c"><div class="ttname"><a href="../../d0/d80/credits_8qc.html#a32480b87731fe49f3cbbdff15c597f7c">CREDITS_NL</a></div><div class="ttdeci">#define CREDITS_NL()</div></div>
-<div class="ttc" id="credits_8qc_html_aeece9de75586306dd54825972876f676"><div class="ttname"><a href="../../d0/d80/credits_8qc.html#aeece9de75586306dd54825972876f676">CREDITS_FUNCTION</a></div><div class="ttdeci">#define CREDITS_FUNCTION(f)</div></div>
 </div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d48/credits_8qh_a62873c533cd0d519f7ddb479337e0e49_cgraph.svg" width="259" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d48/credits_8qh_a62873c533cd0d519f7ddb479337e0e49_icgraph.svg" width="360" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -172,27 +175,27 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00428">428</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00459">459</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00105">NEW</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d71/dialog__credits_8qc_source.html#l00007">XonoticCreditsDialog_fill()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;{</div><div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me;</div><div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    me = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d4/d55/classXonoticCreditsList.html">XonoticCreditsList</a>);</div><div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    me.configureXonoticCreditsList(me);</div><div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="keywordflow">return</span> me;</div><div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;}</div><div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00105">oo.qh:105</a></div></div>
+<div class="fragment"><div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;{</div><div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me;</div><div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    me = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d4/d55/classXonoticCreditsList.html">XonoticCreditsList</a>);</div><div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    me.configureXonoticCreditsList(me);</div><div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    <span class="keywordflow">return</span> me;</div><div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;}</div><div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00105">oo.qh:105</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="classXonoticCreditsList_html"><div class="ttname"><a href="../../d4/d55/classXonoticCreditsList.html">XonoticCreditsList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d48/credits_8qh_source.html#l00004">credits.qh:4</a></div></div>
-</div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d48/credits_8qh_a65b5891691eee6ac42d93ef3940dff6b_cgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+</div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d48/credits_8qh_a65b5891691eee6ac42d93ef3940dff6b_cgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d48/credits_8qh_a65b5891691eee6ac42d93ef3940dff6b_icgraph.svg" width="419" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -205,7 +208,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../dc/d48/credits_8qh.html">credits.qh</a></li>
-    <li class="footer">Generated on Tue Mar 8 2022 21:52:17 for Xonotic by
+    <li class="footer">Generated on Wed Mar 9 2022 16:42:27 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

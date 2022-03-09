@@ -1,5 +1,12 @@
 var NAVTREEINDEX102 =
 {
+"da/d9c/classXonoticMonsterToolsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,245,102],
+"da/d9c/classXonoticMonsterToolsDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,245,51],
+"da/d9c/classXonoticMonsterToolsDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,245,17],
+"da/d9c/classXonoticMonsterToolsDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,245,26],
+"da/d9c/classXonoticMonsterToolsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,245,88],
+"da/d9c/classXonoticMonsterToolsDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,245,32],
+"da/d9c/classXonoticMonsterToolsDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,245,14],
 "da/d9c/classXonoticMonsterToolsDialog.html#a8a052545608ae966aefe0e9f320c2472":[1,0,245,80],
 "da/d9c/classXonoticMonsterToolsDialog.html#a8b78346a74df75772de387092d850f39":[1,0,245,58],
 "da/d9c/classXonoticMonsterToolsDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,245,39],
@@ -242,12 +249,5 @@ var NAVTREEINDEX102 =
 "da/db7/classXonoticServerInfoDialog.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,271,55],
 "da/db7/classXonoticServerInfoDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,271,20],
 "da/db7/classXonoticServerInfoDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,271,105],
-"da/db7/classXonoticServerInfoDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,271,80],
-"da/db7/classXonoticServerInfoDialog.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,271,39],
-"da/db7/classXonoticServerInfoDialog.html#af10c24e0c87ac2ce7ff088f97ec02869":[1,0,271,1],
-"da/db7/classXonoticServerInfoDialog.html#af2d2eb39e2edb82eb624a6832cb28494":[1,0,271,11],
-"da/db7/classXonoticServerInfoDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,271,22],
-"da/db7/classXonoticServerInfoDialog.html#af58660224141c834141cddaf52de028f":[1,0,271,6],
-"da/db7/classXonoticServerInfoDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,271,27],
-"da/db7/classXonoticServerInfoDialog.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,271,67]
+"da/db7/classXonoticServerInfoDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,271,80]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX57 =
 {
+"d5/da4/classTeslaCoil.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,156,3],
+"d5/da4/classTeslaCoil.html#ae820e7b69d2a5fad893724a3828ca851":[1,0,156,19],
+"d5/da4/classTeslaCoil.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,156,4],
+"d5/da4/classTeslaCoil.html#af0d1789cf260770caa9002a133a661d7":[1,0,156,0],
+"d5/da4/playermodel_8qh.html":[2,0,5,4,201],
+"d5/da4/playermodel_8qh.html#a042a8f0aca4055c7bfa3357393d92378":[2,0,5,4,201,1],
+"d5/da4/playermodel_8qh.html#a062459ab15bb1cbcd9be093053130e7d":[2,0,5,4,201,2],
 "d5/da4/playermodel_8qh.html#aa959fa692eff32b9efbcf85799bf916c":[2,0,5,4,201,3],
 "d5/da4/playermodel_8qh_source.html":[2,0,5,4,201],
 "d5/da5/racer__weapon_8qc.html":[2,0,1,16,0,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX57 =
 "d5/dd6/classXonoticServerToSTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,275,87],
 "d5/dd6/classXonoticServerToSTab.html#a673cc6261f41304e39505643710edcfc":[1,0,275,77],
 "d5/dd6/classXonoticServerToSTab.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,275,7],
-"d5/dd6/classXonoticServerToSTab.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,275,73],
-"d5/dd6/classXonoticServerToSTab.html#a6faf7f0a4c7c2fa57824836864969c0f":[1,0,275,18],
-"d5/dd6/classXonoticServerToSTab.html#a7088631f328a53931a1cb6e1770e901b":[1,0,275,1],
-"d5/dd6/classXonoticServerToSTab.html#a72c0e76156762fbda152032add5f1630":[1,0,275,15],
-"d5/dd6/classXonoticServerToSTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,275,106],
-"d5/dd6/classXonoticServerToSTab.html#a77ce875fdf6970156c9aeb764915e6ca":[1,0,275,78],
-"d5/dd6/classXonoticServerToSTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,275,5],
-"d5/dd6/classXonoticServerToSTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,275,114]
+"d5/dd6/classXonoticServerToSTab.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,275,73]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX8 =
 {
+"d1/d1f/effectinfo__gentle_8inc.html#a1868fd8670b7bc8475e81e5a18441924":[2,0,1,2,12,1],
+"d1/d1f/effectinfo__gentle_8inc.html#a2dd9c9ab1ae00126e4e01f9b9450dc94":[2,0,1,2,12,3],
+"d1/d1f/effectinfo__gentle_8inc.html#a6bdb2713ef4ca7971293fa45005db623":[2,0,1,2,12,2],
+"d1/d1f/effectinfo__gentle_8inc.html#aa8f7bc139555532f372bf7e5783c1f8c":[2,0,1,2,12,0],
+"d1/d1f/effectinfo__gentle_8inc_source.html":[2,0,1,2,12],
+"d1/d20/csqcmodel__settings_8qh.html":[2,0,1,31],
+"d1/d20/csqcmodel__settings_8qh.html#a03b0269a96aa0bfc653592729d4e7212":[2,0,1,31,5],
 "d1/d20/csqcmodel__settings_8qh.html#a4d51648d080806031196f806ec59c803":[2,0,1,31,1],
 "d1/d20/csqcmodel__settings_8qh.html#a7e45169d39a4fbe54c9e7bef975dc858":[2,0,1,31,2],
 "d1/d20/csqcmodel__settings_8qh.html#a7f81ddb4db0b8eee639b4f80f40a1f3e":[2,0,1,31,9],
@@ -242,12 +249,5 @@ var NAVTREEINDEX8 =
 "d1/d2b/classFusionReactor.html#ac1a033fb2adfdc05a08b6d17d52e1f65":[1,0,49,5],
 "d1/d2b/classFusionReactor.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,49,3],
 "d1/d2b/classFusionReactor.html#ae70912ef55dc908ddbaefefa11c6b251":[1,0,49,17],
-"d1/d2b/classFusionReactor.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,49,4],
-"d1/d2b/classFusionReactor.html#af0d1789cf260770caa9002a133a661d7":[1,0,49,0],
-"d1/d2b/classFusionReactor.html#afaad3bd0ee22bdc2bad0d5ccd45bbf6e":[1,0,49,15],
-"d1/d31/machinegun__weapon_8qc.html":[2,0,1,15,0,22],
-"d1/d31/machinegun__weapon_8qc_source.html":[2,0,1,15,0,22],
-"d1/d33/classXonoticColorButton.html":[1,0,183],
-"d1/d33/classXonoticColorButton.html#a04e277e7c23ea4fca641013f3ed20ba7":[1,0,183,17],
-"d1/d33/classXonoticColorButton.html#a088e65b6a3bb73aca2b090d13491d8f2":[1,0,183,53]
+"d1/d2b/classFusionReactor.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,49,4]
 };

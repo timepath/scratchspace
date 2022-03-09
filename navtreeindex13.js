@@ -1,5 +1,12 @@
 var NAVTREEINDEX13 =
 {
+"d1/d70/classXonoticSoundList.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,281,31],
+"d1/d70/classXonoticSoundList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,281,82],
+"d1/d70/classXonoticSoundList.html#ac5aa1c191b6c09be8f9a700a3e91abac":[1,0,281,24],
+"d1/d70/classXonoticSoundList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,281,78],
+"d1/d70/classXonoticSoundList.html#aca01acfe02e493b03b11badc157c59f2":[1,0,281,79],
+"d1/d70/classXonoticSoundList.html#acb1dec17dd3a83d9523e7f99ad01e63f":[1,0,281,83],
+"d1/d70/classXonoticSoundList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,281,58],
 "d1/d70/classXonoticSoundList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,281,67],
 "d1/d70/classXonoticSoundList.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,281,30],
 "d1/d70/classXonoticSoundList.html#ad70d4988779cd57eaba448b7d2b087ae":[1,0,281,23],
@@ -242,12 +249,5 @@ var NAVTREEINDEX13 =
 "d1/d84/classXonoticLanguageWarningDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,239,86],
 "d1/d84/classXonoticLanguageWarningDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,239,32],
 "d1/d84/classXonoticLanguageWarningDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,239,14],
-"d1/d84/classXonoticLanguageWarningDialog.html#a89b5b16128fd62fda9a95fca7ba37f42":[1,0,239,78],
-"d1/d84/classXonoticLanguageWarningDialog.html#a8b78346a74df75772de387092d850f39":[1,0,239,58],
-"d1/d84/classXonoticLanguageWarningDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,239,39],
-"d1/d84/classXonoticLanguageWarningDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,239,69],
-"d1/d84/classXonoticLanguageWarningDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,239,19],
-"d1/d84/classXonoticLanguageWarningDialog.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,239,66],
-"d1/d84/classXonoticLanguageWarningDialog.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,239,21],
-"d1/d84/classXonoticLanguageWarningDialog.html#a9502764d43772c208fc8eed339f5b5bb":[1,0,239,106]
+"d1/d84/classXonoticLanguageWarningDialog.html#a89b5b16128fd62fda9a95fca7ba37f42":[1,0,239,78]
 };

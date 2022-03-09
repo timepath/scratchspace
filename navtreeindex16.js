@@ -1,5 +1,12 @@
 var NAVTREEINDEX16 =
 {
+"d1/dba/server_2weapons_2common_8qh.html#aa05c5052f6ef69d1f18a9760252503b3":[2,0,6,6,5,18],
+"d1/dba/server_2weapons_2common_8qh.html#aa5599f2e69131c491a841eae6bb77578":[2,0,6,6,5,11],
+"d1/dba/server_2weapons_2common_8qh.html#aab0305fede019d07be905cbea0f072d5":[2,0,6,6,5,20],
+"d1/dba/server_2weapons_2common_8qh.html#ab5df352ada1ad850a3d504fdc704c49f":[2,0,6,6,5,6],
+"d1/dba/server_2weapons_2common_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628":[2,0,6,6,5,0],
+"d1/dba/server_2weapons_2common_8qh.html#ad074b805790481ed3367d5308ad8ae38":[2,0,6,6,5,28],
+"d1/dba/server_2weapons_2common_8qh.html#aea5bd559848fd65ea307bcc9bed0ae8a":[2,0,6,6,5,10],
 "d1/dba/server_2weapons_2common_8qh.html#af0d4e2ff0c7ad3a7de2a055ef6bc787d":[2,0,6,6,5,23],
 "d1/dba/server_2weapons_2common_8qh.html#af695d661864cdf0f78273b0a8717a1e9":[2,0,6,6,5,2],
 "d1/dba/server_2weapons_2common_8qh.html#af7a217a45ded9e6d0af468fe18d2d65f":[2,0,6,6,5,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX16 =
 "d1/ddc/progname_8qh.html":[2,0,4,44],
 "d1/ddc/progname_8qh_source.html":[2,0,4,44],
 "d1/ddc/toss_8qh.html":[2,0,1,12,0,12],
-"d1/ddc/toss_8qh_source.html":[2,0,1,12,0,12],
-"d1/de2/classFreezeTag.html":[1,0,48],
-"d1/de2/classFreezeTag.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,48,0],
-"d1/de2/classFreezeTag.html#a353db82280437c3b38f0ad1934a7d666":[1,0,48,23],
-"d1/de2/classFreezeTag.html#a46c246bf24fc2c7f8b22dad9602addcc":[1,0,48,6],
-"d1/de2/classFreezeTag.html#a4d5852ddbf5284c2695c91c51bbbe12e":[1,0,48,17],
-"d1/de2/classFreezeTag.html#a598e09dbf2f6d3fc31e5c1e1af7d7366":[1,0,48,9],
-"d1/de2/classFreezeTag.html#a6029db0de09a0293986e7a082970775a":[1,0,48,22]
+"d1/ddc/toss_8qh_source.html":[2,0,1,12,0,12]
 };

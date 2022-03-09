@@ -1,5 +1,12 @@
 var NAVTREEINDEX76 =
 {
+"d7/dac/classXonoticMutatorsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,248,87],
+"d7/dac/classXonoticMutatorsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,248,99],
+"d7/dac/classXonoticMutatorsDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,248,2],
+"d7/dac/classXonoticMutatorsDialog.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,248,68],
+"d7/dac/classXonoticMutatorsDialog.html#a6faf7f0a4c7c2fa57824836864969c0f":[1,0,248,13],
+"d7/dac/classXonoticMutatorsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,248,10],
+"d7/dac/classXonoticMutatorsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,248,112],
 "d7/dac/classXonoticMutatorsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,248,104],
 "d7/dac/classXonoticMutatorsDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,248,52],
 "d7/dac/classXonoticMutatorsDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,248,18],
@@ -242,12 +249,5 @@ var NAVTREEINDEX76 =
 "d7/dc4/waypoints_8qc.html#a639e3964af580a5a3e7507684de9bcf4":[2,0,6,0,0,13,65],
 "d7/dc4/waypoints_8qc.html#a6805606231a9daaa02d082d33f3514df":[2,0,6,0,0,13,57],
 "d7/dc4/waypoints_8qc.html#a69801099f1662bc2611f9b1921fa521b":[2,0,6,0,0,13,43],
-"d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5":[2,0,6,0,0,13,1],
-"d7/dc4/waypoints_8qc.html#a71c65fa95801766d4248ba2799352c8a":[2,0,6,0,0,13,64],
-"d7/dc4/waypoints_8qc.html#a7570ae0118d7a60b6e9fb933ff5060e8":[2,0,6,0,0,13,22],
-"d7/dc4/waypoints_8qc.html#a78500a5fdfa2de7f46f627274085fe08":[2,0,6,0,0,13,13],
-"d7/dc4/waypoints_8qc.html#a79b00965eb5ff399107cb3c4cfc6e805":[2,0,6,0,0,13,6],
-"d7/dc4/waypoints_8qc.html#a7ab4015afd0d98a36207a9186a62d127":[2,0,6,0,0,13,62],
-"d7/dc4/waypoints_8qc.html#a7b0c20d01c7d531cfc611c5092ecac99":[2,0,6,0,0,13,51],
-"d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5":[2,0,6,0,0,13,47]
+"d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5":[2,0,6,0,0,13,1]
 };

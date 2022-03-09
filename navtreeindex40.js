@@ -1,5 +1,12 @@
 var NAVTREEINDEX40 =
 {
+"d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6":[2,0,2,0,0,137],
+"d4/d0c/csprogsdefs_8qc.html#aa2858c7156c6f550f6069cd2a0ba19e7":[2,0,2,0,0,300],
+"d4/d0c/csprogsdefs_8qc.html#aa3597e954efde6066405a6f48f584a92":[2,0,2,0,0,514],
+"d4/d0c/csprogsdefs_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c":[2,0,2,0,0,474],
+"d4/d0c/csprogsdefs_8qc.html#aa3b6d698988bb35e2d7cf39f1d57834d":[2,0,2,0,0,90],
+"d4/d0c/csprogsdefs_8qc.html#aa4196c3cbe55c27eb6470d93a3bc1997":[2,0,2,0,0,147],
+"d4/d0c/csprogsdefs_8qc.html#aa41a371eb314a88b5151ee694dda9587":[2,0,2,0,0,408],
 "d4/d0c/csprogsdefs_8qc.html#aa453d4810e73928e0245646d76cb6625":[2,0,2,0,0,237],
 "d4/d0c/csprogsdefs_8qc.html#aa570764877a56b885e2ba8425389b347":[2,0,2,0,0,101],
 "d4/d0c/csprogsdefs_8qc.html#aa59079d98811e29214cd8415533a69e3":[2,0,2,0,0,151],
@@ -242,12 +249,5 @@ var NAVTREEINDEX40 =
 "d4/d0d/client_2mapvoting_8qc.html#af980301f0a5f2a02ac8b0502d1a4951a":[2,0,0,17,20],
 "d4/d0d/client_2mapvoting_8qc.html#afad81141b0355a860158f3dc0ea66a59":[2,0,0,17,42],
 "d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162":[2,0,0,17,40],
-"d4/d0d/client_2mapvoting_8qc.html#afde464ed97af30f0fd8726e31527710f":[2,0,0,17,48],
-"d4/d0d/client_2mapvoting_8qc_source.html":[2,0,0,17],
-"d4/d0f/buffs_8qc.html":[2,0,1,10,0,2,3],
-"d4/d0f/buffs_8qc.html#a7c73e9ee5f2498f85e04b5adaafef6b3":[2,0,1,10,0,2,3,0],
-"d4/d0f/buffs_8qc_source.html":[2,0,1,10,0,2,3],
-"d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc.html":[2,0,1,3,0,14,0],
-"d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc_source.html":[2,0,1,3,0,14,0],
-"d4/d12/racetimer_8qc.html":[2,0,0,1,0,28]
+"d4/d0d/client_2mapvoting_8qc.html#afde464ed97af30f0fd8726e31527710f":[2,0,0,17,48]
 };

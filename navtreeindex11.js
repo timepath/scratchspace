@@ -1,5 +1,12 @@
 var NAVTREEINDEX11 =
 {
+"d1/d55/classXonoticGameHUDSettingsTab.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,204,65],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,204,59],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,204,33],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a4246fb4b7068aee87e47b2da375de905":[1,0,204,56],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,204,64],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,204,11],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,204,96],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a4ce700a3a0917cb5ebbc8edbe293630f":[1,0,204,34],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a516bef9a10dda163fb54dfd776c75ad1":[1,0,204,20],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,204,78],
@@ -242,12 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d5b/classRadioButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,126,0],
 "d1/d5b/classRadioButton.html#a820bf99c7d8669653df17eecb2c658c5":[1,0,126,24],
 "d1/d5b/classRadioButton.html#a886e4df91aff3f4b1bda33666f8174d6":[1,0,126,90],
-"d1/d5b/classRadioButton.html#a890b986ec7dcbcb15956bf7955c822f4":[1,0,126,30],
-"d1/d5b/classRadioButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,126,81],
-"d1/d5b/classRadioButton.html#a8b3010fc463034904b21d7d6da17a127":[1,0,126,80],
-"d1/d5b/classRadioButton.html#a8b78346a74df75772de387092d850f39":[1,0,126,35],
-"d1/d5b/classRadioButton.html#a8c568c803f49400fd0165b69f82d4161":[1,0,126,79],
-"d1/d5b/classRadioButton.html#a8e974d9359988445a4198a5b33da18fe":[1,0,126,52],
-"d1/d5b/classRadioButton.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,126,46],
-"d1/d5b/classRadioButton.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,126,43]
+"d1/d5b/classRadioButton.html#a890b986ec7dcbcb15956bf7955c822f4":[1,0,126,30]
 };

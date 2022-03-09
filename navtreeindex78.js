@@ -1,5 +1,12 @@
 var NAVTREEINDEX78 =
 {
+"d7/de6/classXonoticSkinList.html#a226c0bc88ce385696569aad0cadc1bcb":[1,0,278,26],
+"d7/de6/classXonoticSkinList.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,278,97],
+"d7/de6/classXonoticSkinList.html#a25c6abb0eac8b11d46cba2d842357264":[1,0,278,13],
+"d7/de6/classXonoticSkinList.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,278,37],
+"d7/de6/classXonoticSkinList.html#a2976526ce80a74f7269a4e7532b396da":[1,0,278,56],
+"d7/de6/classXonoticSkinList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,278,100],
+"d7/de6/classXonoticSkinList.html#a2b7d00a35d3f3b0662ecd494d225448a":[1,0,278,49],
 "d7/de6/classXonoticSkinList.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,278,40],
 "d7/de6/classXonoticSkinList.html#a3395c992a2d0bd1a65b2b3617b4f4a4e":[1,0,278,53],
 "d7/de6/classXonoticSkinList.html#a382a09f7c5068d0f7969a394178c444a":[1,0,278,31],
@@ -242,12 +249,5 @@ var NAVTREEINDEX78 =
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html":[2,0,5,4,96],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a16a3593e3ced6f0801bb7602f2b85953":[2,0,5,4,96,7],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a28cfcd11e48c3209044074ff69213cd2":[2,0,5,4,96,6],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a33c95a2074f184d391d6bd2cd3d969b3":[2,0,5,4,96,9],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a56efba3dee461a1038f29bee6cfe1369":[2,0,5,4,96,4],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a58536951459f0c2e11aa7166042754a0":[2,0,5,4,96,11],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a5f2f74238b73f04b830a5002e4fb1871":[2,0,5,4,96,0],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a6d11d3a5a76ed57ecbcac9602c8b507e":[2,0,5,4,96,3],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a88b4e0fbbc7d4a23ac65a74379f53e20":[2,0,5,4,96,1],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#aae505d4e1181d09c9a2b79bafcd9a7de":[2,0,5,4,96,10],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#acde935bede494b1af21664b6c8aaf6bd":[2,0,5,4,96,5]
+"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a33c95a2074f184d391d6bd2cd3d969b3":[2,0,5,4,96,9]
 };

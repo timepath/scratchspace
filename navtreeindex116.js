@@ -1,5 +1,12 @@
 var NAVTREEINDEX116 =
 {
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,224,88],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,224,32],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,224,14],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a8b78346a74df75772de387092d850f39":[1,0,224,58],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,224,39],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,224,69],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,224,19],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,224,66],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,224,21],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,224,94],
@@ -242,12 +249,5 @@ var NAVTREEINDEX116 =
 "db/ddb/classXonoticCvarList.html#a78eae3411511c09cbc27839945af0121":[1,0,191,58],
 "db/ddb/classXonoticCvarList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,191,96],
 "db/ddb/classXonoticCvarList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,191,105],
-"db/ddb/classXonoticCvarList.html#a7f3a1f5309df2d2bf8bf7502915adf57":[1,0,191,71],
-"db/ddb/classXonoticCvarList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,191,91],
-"db/ddb/classXonoticCvarList.html#a85505fa55d068c43d98d17eed6b3fe12":[1,0,191,73],
-"db/ddb/classXonoticCvarList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,191,68],
-"db/ddb/classXonoticCvarList.html#a86a11cd3d337aaa2a5355e5e04c469cd":[1,0,191,72],
-"db/ddb/classXonoticCvarList.html#a8b78346a74df75772de387092d850f39":[1,0,191,40],
-"db/ddb/classXonoticCvarList.html#a905b47b262dc68eda970bc0afd24f243":[1,0,191,100],
-"db/ddb/classXonoticCvarList.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,191,51]
+"db/ddb/classXonoticCvarList.html#a7f3a1f5309df2d2bf8bf7502915adf57":[1,0,191,71]
 };

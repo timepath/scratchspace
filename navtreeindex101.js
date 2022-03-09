@@ -1,5 +1,12 @@
 var NAVTREEINDEX101 =
 {
+"da/d94/classXonoticSettingsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,276,101],
+"da/d94/classXonoticSettingsDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,276,53],
+"da/d94/classXonoticSettingsDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,276,44],
+"da/d94/classXonoticSettingsDialog.html#a1363f51d76bde5021f29a75dad41e706":[1,0,276,15],
+"da/d94/classXonoticSettingsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,276,93],
+"da/d94/classXonoticSettingsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,276,90],
+"da/d94/classXonoticSettingsDialog.html#a1d075bfcff7e8efe420695ddd203bb4d":[1,0,276,54],
 "da/d94/classXonoticSettingsDialog.html#a1d17df6e1367f9d3bfe263314fc6e046":[1,0,276,45],
 "da/d94/classXonoticSettingsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,276,89],
 "da/d94/classXonoticSettingsDialog.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,276,62],
@@ -242,12 +249,5 @@ var NAVTREEINDEX101 =
 "da/d9c/classXonoticMonsterToolsDialog.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,245,67],
 "da/d9c/classXonoticMonsterToolsDialog.html#a6faf7f0a4c7c2fa57824836864969c0f":[1,0,245,12],
 "da/d9c/classXonoticMonsterToolsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,245,9],
-"da/d9c/classXonoticMonsterToolsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,245,110],
-"da/d9c/classXonoticMonsterToolsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,245,102],
-"da/d9c/classXonoticMonsterToolsDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,245,51],
-"da/d9c/classXonoticMonsterToolsDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,245,17],
-"da/d9c/classXonoticMonsterToolsDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,245,26],
-"da/d9c/classXonoticMonsterToolsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,245,88],
-"da/d9c/classXonoticMonsterToolsDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,245,32],
-"da/d9c/classXonoticMonsterToolsDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,245,14]
+"da/d9c/classXonoticMonsterToolsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,245,110]
 };
