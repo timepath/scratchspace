@@ -183,6 +183,7 @@ var searchData=
   ['snd_5fflag_5fpass',['snd_flag_pass',['../d6/db0/sv__ctf_8qh.html#ab27c8972c8950012314b0e2f1f1e6c4e',1,'sv_ctf.qh']]],
   ['snd_5fflag_5ftouch',['snd_flag_touch',['../d6/db0/sv__ctf_8qh.html#a64bb8fd70256a28eda6b990f4ed24803',1,'sv_ctf.qh']]],
   ['snd_5flooping',['snd_looping',['../dc/d3d/csqcmodel__hooks_8qc.html#af1f595b6858d99280b80dcd559ff4aff',1,'csqcmodel_hooks.qc']]],
+  ['snt_5fofs',['snt_ofs',['../d2/d08/sv__spawn__near__teammate_8qc.html#a51266dcf763167945f5d5a3e815d4bb4',1,'sv_spawn_near_teammate.qc']]],
   ['solid',['solid',['../d4/d0c/csprogsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d',1,'solid():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d',1,'solid():&#160;progsdefs.qc']]],
   ['solid_5fbbox',['SOLID_BBOX',['../d4/d0c/csprogsdefs_8qc.html#a749aab64abfe9da7807701d52c653e4c',1,'SOLID_BBOX():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a0b449cd53ef21be56147df4cf475fb5c',1,'SOLID_BBOX():&#160;progsdefs.qc']]],
   ['solid_5fbsp',['SOLID_BSP',['../d4/d0c/csprogsdefs_8qc.html#aefd78df4f28dd41b83583df37ba976c6',1,'SOLID_BSP():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a9a9b4694343f24d27685e886d16b423d',1,'SOLID_BSP():&#160;progsdefs.qc']]],

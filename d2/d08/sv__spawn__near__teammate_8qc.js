@@ -12,5 +12,6 @@ var sv__spawn__near__teammate_8qc =
     [ "autocvar_g_spawn_near_teammate_ignore_spawnpoint_delay_death", "d2/d08/sv__spawn__near__teammate_8qc.html#a946c9152e1d2f58636ec5f7481980695", null ],
     [ "autocvar_g_spawn_near_teammate_ignore_spawnpoint_max", "d2/d08/sv__spawn__near__teammate_8qc.html#a80ab02300025fa40fca0d8f24e8b1b4f", null ],
     [ "msnt_lookat", "d2/d08/sv__spawn__near__teammate_8qc.html#a719320626f92829677573c6e6714dbae", null ],
-    [ "msnt_timer", "d2/d08/sv__spawn__near__teammate_8qc.html#ad23c797958622d4ed1b1e8ecedb0058f", null ]
+    [ "msnt_timer", "d2/d08/sv__spawn__near__teammate_8qc.html#ad23c797958622d4ed1b1e8ecedb0058f", null ],
+    [ "snt_ofs", "d2/d08/sv__spawn__near__teammate_8qc.html#a51266dcf763167945f5d5a3e815d4bb4", null ]
 ];

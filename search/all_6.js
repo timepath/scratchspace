@@ -59,7 +59,6 @@ var searchData=
   ['finished',['finished',['../d0/d5d/classAnimation.html#ab0505df849ecb968a213407ff2046c94',1,'Animation']]],
   ['fire_5fadddamage',['Fire_AddDamage',['../da/ded/damage_8qc.html#a6fa1a68d8d18ee269438276ad351c0e9',1,'Fire_AddDamage(entity e, entity o, float d, float t, float dt):&#160;damage.qc'],['../d4/d62/damage_8qh.html#a6fa1a68d8d18ee269438276ad351c0e9',1,'Fire_AddDamage(entity e, entity o, float d, float t, float dt):&#160;damage.qc']]],
   ['fire_5fapplydamage',['Fire_ApplyDamage',['../da/ded/damage_8qc.html#abd4b4c82626ed46a05b72420db7257a1',1,'Fire_ApplyDamage(entity e):&#160;damage.qc'],['../d4/d62/damage_8qh.html#abd4b4c82626ed46a05b72420db7257a1',1,'Fire_ApplyDamage(entity e):&#160;damage.qc']]],
-  ['fire_5fburner',['fire_burner',['../d4/d62/damage_8qh.html#aca3165d09acb721d325db80b5e4ff642',1,'damage.qh']]],
   ['fire_5fdamagepersec',['fire_damagepersec',['../d4/d62/damage_8qh.html#ae8b4306212ed20679d59a512581309dd',1,'damage.qh']]],
   ['fire_5fdeathtype',['fire_deathtype',['../d4/d62/damage_8qh.html#a64738b481406cc272dd606819dae9523',1,'damage.qh']]],
   ['fire_5fhitsound',['fire_hitsound',['../d4/d62/damage_8qh.html#af8497f54dc2d95ad1364dc3996de30ee',1,'damage.qh']]],

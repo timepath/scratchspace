@@ -31,7 +31,6 @@ var searchData=
   ['findconnectedcomponent_5fprocessing',['FindConnectedComponent_processing',['../da/d44/common_2util_8qc.html#a660af060bf692b399b145963746ca2ff',1,'util.qc']]],
   ['findtrajectory_5fvelocity',['findtrajectory_velocity',['../d3/d5a/aim_8qh.html#aaf7a722addc40eae8b198337180f6ab1',1,'aim.qh']]],
   ['finished',['finished',['../d0/d5d/classAnimation.html#ab0505df849ecb968a213407ff2046c94',1,'Animation']]],
-  ['fire_5fburner',['fire_burner',['../d4/d62/damage_8qh.html#aca3165d09acb721d325db80b5e4ff642',1,'damage.qh']]],
   ['fire_5fdamagepersec',['fire_damagepersec',['../d4/d62/damage_8qh.html#ae8b4306212ed20679d59a512581309dd',1,'damage.qh']]],
   ['fire_5fdeathtype',['fire_deathtype',['../d4/d62/damage_8qh.html#a64738b481406cc272dd606819dae9523',1,'damage.qh']]],
   ['fire_5fhitsound',['fire_hitsound',['../d4/d62/damage_8qh.html#af8497f54dc2d95ad1364dc3996de30ee',1,'damage.qh']]],

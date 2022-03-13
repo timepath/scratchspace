@@ -64,7 +64,6 @@ var damage_8qh =
     [ "dmg_force", "d4/d62/damage_8qh.html#a006d9006c9dbfcddaab4e8379e581301", null ],
     [ "dmg_radius", "d4/d62/damage_8qh.html#ada84d02b9423a5be23cb1433ab3680e4", null ],
     [ "dmg_team", "d4/d62/damage_8qh.html#a20087508f7a406698c20adf80e55aeba", null ],
-    [ "fire_burner", "d4/d62/damage_8qh.html#aca3165d09acb721d325db80b5e4ff642", null ],
     [ "fire_damagepersec", "d4/d62/damage_8qh.html#ae8b4306212ed20679d59a512581309dd", null ],
     [ "fire_deathtype", "d4/d62/damage_8qh.html#a64738b481406cc272dd606819dae9523", null ],
     [ "fire_hitsound", "d4/d62/damage_8qh.html#af8497f54dc2d95ad1364dc3996de30ee", null ],

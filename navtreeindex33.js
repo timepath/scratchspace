@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2],
 "d3/d89/mutators_2mutator_2status__effects_2all_8qc.html":[2,0,1,10,0,35,3],
 "d3/d89/mutators_2mutator_2status__effects_2all_8qc_source.html":[2,0,1,10,0,35,3],
 "d3/d8f/cl__status__effects_8qh.html":[2,0,1,10,0,35,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "d3/db6/projectile_8qc.html#a80c34c3e86a9ef71dfcdff65bd795540":[2,0,0,4,2,3],
 "d3/db6/projectile_8qc.html#a9f8c39b72e4cac7db813d64f6b47da53":[2,0,0,4,2,2],
 "d3/db6/projectile_8qc.html#aa0569f1b060229bf8b6d0c13b4dff8f1":[2,0,0,4,2,1],
-"d3/db6/projectile_8qc.html#aa212ff44982cb3d66e1a0eff0bea547e":[2,0,0,4,2,0],
-"d3/db6/projectile_8qc.html#aafb6ab318b9d8923d5fb0d4e56242d87":[2,0,0,4,2,8]
+"d3/db6/projectile_8qc.html#aa212ff44982cb3d66e1a0eff0bea547e":[2,0,0,4,2,0]
 };
